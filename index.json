@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "generated": "2026-09-16T14:40:08.515371+00:00",
+  "packages": {
+    "curl": {
+      "version": "8.5.0-2ubuntu10",
+      "arch": "arm64",
+      "filename": "packages/curl-8.5.0-2ubuntu10-arm64.kpk",
+      "sha256": "13ed4226a8d64cc4f3aece3a8d26963c45ad349f2f38987da73a04cd1567ee1d",
+      "size": 370236,
+      "depends": [
+        "libc6 ",
+        "libcurl4t64 ",
+        "zlib1g"
+      ],
+      "description": "command line tool for transferring data with URL syntax",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "python3": {
+      "version": "3.12.3-0ubuntu1",
+      "arch": "arm64",
+      "filename": "packages/python3-3.12.3-0ubuntu1-arm64.kpk",
+      "sha256": "47f3a95373353208959d77eede61ea1af41a028f9381b7bfa05ff5dc5ba3e6a0",
+      "size": 36083,
+      "depends": [
+        "python3.12 ",
+        "libpython3-stdlib"
+      ],
+      "description": "interactive high-level object-oriented language (default python3 version)",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "wget": {
+      "version": "1.21.4-1ubuntu4",
+      "arch": "arm64",
+      "filename": "packages/wget-1.21.4-1ubuntu4-arm64.kpk",
+      "sha256": "5c708d08d7c56af06139abe7a6905cce581c73c548ef0ea463d646ccd7ab454c",
+      "size": 689704,
+      "depends": [
+        "libc6 ",
+        "libidn2-0 ",
+        "libpcre2-8-0 ",
+        "libpsl5t64 ",
+        "libssl3t64 ",
+        "libuuid1 ",
+        "zlib1g"
+      ],
+      "description": "retrieves files from the web",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "git": {
+      "version": "1:2.43.0-1ubuntu7",
+      "arch": "arm64",
+      "filename": "packages/git-1:2.43.0-1ubuntu7-arm64.kpk",
+      "sha256": "de3617458b88aed6e359ff3b6fbe22490027d8b777fc57bb1f4f089a3bf1dbcd",
+      "size": 11638835,
+      "depends": [
+        "libc6 ",
+        "libcurl3t64-gnutls ",
+        "libexpat1 ",
+        "libpcre2-8-0 ",
+        "zlib1g ",
+        "perl",
+        "liberror-perl",
+        "git-man ",
+        "git-man"
+      ],
+      "description": "fast, scalable, distributed revision control system",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "gcc": {
+      "version": "4:13.2.0-7ubuntu1",
+      "arch": "arm64",
+      "filename": "packages/gcc-4:13.2.0-7ubuntu1-arm64.kpk",
+      "sha256": "7e3af643753e305781ff2617d25ea186ad1c2aaa2d437139b9d9be1c8875b4f3",
+      "size": 6229,
+      "depends": [
+        "cpp ",
+        "cpp-aarch64-linux-gnu ",
+        "gcc-13 ",
+        "gcc-aarch64-linux-gnu"
+      ],
+      "description": "GNU C compiler",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "cmake": {
+      "version": "3.28.3-1build7",
+      "arch": "arm64",
+      "filename": "packages/cmake-3.28.3-1build7-arm64.kpk",
+      "sha256": "9dbe777bdbcb2c0d7532559d15e62939f9498d8cdb67e51a4e4b29fbbe876554",
+      "size": 23701765,
+      "depends": [
+        "libarchive13t64 ",
+        "libc6 ",
+        "libcurl4t64 ",
+        "libexpat1 ",
+        "libgcc-s1 ",
+        "libjsoncpp25 ",
+        "librhash0 ",
+        "libstdc++6 ",
+        "libuv1t64 ",
+        "zlib1g ",
+        "cmake-data ",
+        "procps"
+      ],
+      "description": "cross-platform, open-source make system",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "make": {
+      "version": "4.3-4.1build2",
+      "arch": "arm64",
+      "filename": "packages/make-4.3-4.1build2-arm64.kpk",
+      "sha256": "bcc0d4e4503d540b18240910b4b5a89ae11ac53c07e307cb10592d85038be0c5",
+      "size": 323303,
+      "depends": [
+        "libc6"
+      ],
+      "description": "utility for directing compilation",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "htop": {
+      "version": "3.3.0-4build1",
+      "arch": "arm64",
+      "filename": "packages/htop-3.3.0-4build1-arm64.kpk",
+      "sha256": "01b10438dcfaade7188d0d991ff6726ed00bf7843c6732e48bed87adf941b06f",
+      "size": 355014,
+      "depends": [
+        "libc6 ",
+        "libncursesw6 ",
+        "libnl-3-200 ",
+        "libnl-genl-3-200 ",
+        "libtinfo6"
+      ],
+      "description": "interactive processes viewer",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "nano": {
+      "version": "7.2-2build1",
+      "arch": "arm64",
+      "filename": "packages/nano-7.2-2build1-arm64.kpk",
+      "sha256": "5d70d739a1f75fc554f2f94977604deeaa1069a85e0c132b213dd2bd8f22df22",
+      "size": 519443,
+      "depends": [
+        "libc6 ",
+        "libncursesw6 ",
+        "libtinfo6"
+      ],
+      "description": "small, friendly text editor inspired by Pico",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "vim": {
+      "version": "2:9.1.0016-1ubuntu7",
+      "arch": "arm64",
+      "filename": "packages/vim-2:9.1.0016-1ubuntu7-arm64.kpk",
+      "sha256": "799e882099a6995a5c0b405de30570c215185a816dfb62e8c2c3d679f69ae9e6",
+      "size": 4012127,
+      "depends": [
+        "vim-common ",
+        "vim-runtime ",
+        "libacl1 ",
+        "libc6 ",
+        "libgpm2 ",
+        "libpython3.12t64 ",
+        "libselinux1 ",
+        "libsodium23 ",
+        "libtinfo6"
+      ],
+      "description": "Vi IMproved - enhanced vi editor",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "zip": {
+      "version": "3.0-13build1",
+      "arch": "arm64",
+      "filename": "packages/zip-3.0-13build1-arm64.kpk",
+      "sha256": "a02774ac062fd79ca64922519a8cb7f71559506f3debb2ac5c817db32799c641",
+      "size": 344103,
+      "depends": [
+        "libbz2-1.0",
+        "libc6"
+      ],
+      "description": "Archiver for .zip files",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "unzip": {
+      "version": "6.0-28ubuntu4",
+      "arch": "arm64",
+      "filename": "packages/unzip-6.0-28ubuntu4-arm64.kpk",
+      "sha256": "cfb5af702517578b176c815be205f056b3e2f9c796d3d00354af280fa171d7bb",
+      "size": 316545,
+      "depends": [
+        "libbz2-1.0",
+        "libc6"
+      ],
+      "description": "De-archiver for .zip files",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    },
+    "tree": {
+      "version": "2.1.1-2ubuntu3",
+      "arch": "arm64",
+      "filename": "packages/tree-2.1.1-2ubuntu3-arm64.kpk",
+      "sha256": "12b4b1fb7c57835a0af6994ece503094d677c62ab4a57519d44a4864d1d2b621",
+      "size": 86502,
+      "depends": [
+        "libc6"
+      ],
+      "description": "displays an indented directory tree, in color",
+      "date_added": "2026-09-16",
+      "reboot_required": false
+    }
+  }
+}
