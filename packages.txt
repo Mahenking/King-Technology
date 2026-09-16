@@ -1,0 +1,21 @@
+# King OS Master Package List
+# Just list package names, one per line
+
+# ============ BASE SYSTEM ============
+python3
+curl
+wget
+git
+
+# ============ DEVELOPMENT ============
+gcc
+cmake
+make
+
+# ============ TOOLS ============
+htop
+nano
+vim
+zip
+unzip
+tree

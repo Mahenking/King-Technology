@@ -1,0 +1,4 @@
+# King OS Package Sources
+# Just paste URLs below, one per line
+
+http://ports.ubuntu.com/ubuntu-ports/pool/main/c/curl/curl_8.5.0-2ubuntu10_arm64.deb
