@@ -1,0 +1,25 @@
+# ============================================================
+# 👑 King OS — Engine Files (NOT for the public repo)
+# ============================================================
+# This repo is public and serves ONLY the package data
+# that KPM reads: index.json + packages/
+#
+# Engine files live locally (and in a private repo if needed).
+# ============================================================
+
+# Build engine
+king-repo-build.sh
+setup.sh
+
+# Inputs
+packages.txt
+sources.txt
+
+# Scraper code
+scraper/
+
+# Config
+config/
+
+# Backups
+*.bak
