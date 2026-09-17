@@ -23,3 +23,15 @@ config/
 
 # Backups
 *.bak
+
+# ============================================================
+# Backups and temp files
+# ============================================================
+*.bak
+*.prefix
+*.old
+*.tmp
+*.log
+build.log
+sources.txt.bak
+packages.txt.bak
