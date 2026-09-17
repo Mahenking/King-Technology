@@ -19,3 +19,10 @@ vim
 zip
 unzip
 tree
+gedit
+cat
+
+# ============ nano dependencies ============
+libncursesw6
+libtinfo6
+libc6
