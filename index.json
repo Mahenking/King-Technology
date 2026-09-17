@@ -1,285 +1,1529 @@
 {
   "version": "1.0",
-  "generated": "2026-09-17T16:14:18.773922+00:00",
+  "generated": "2026-09-17T17:03:06.922321+00:00",
   "packages": {
-    "curl": {
-      "current": "8.5.0-2ubuntu10",
+    "bash": {
+      "current": "5.2.21-2ubuntu4",
       "arch": "arm64",
-      "depends": [
-        "libc6 ",
-        "libcurl4t64 ",
-        "zlib1g"
-      ],
-      "description": "command line tool for transferring data with URL syntax",
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
-          "version": "8.5.0-2ubuntu10",
-          "filename": "packages/curl/curl-8.5.0-2ubuntu10-arm64.kpk",
-          "sha256": "fa393a86d0c8c8852d6e192c5a962910300b54f454f927cc84dfec832443a572",
-          "size": 370236,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "5.2.21-2ubuntu4",
+          "arch": "arm64",
+          "filename": "packages/bash/bash-5.2.21-2ubuntu4-arm64.kpk",
+          "sha256": "d670b53603ae99ba13808cdb3cfe69ac449b6925da7edadc6246c8e1dcc889ca",
+          "size": 1685464,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "5.1-6ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/bash/bash-5.1-6ubuntu1-arm64.kpk",
+          "sha256": "1eb5e73f9a739a917b4063e689d9070f3a5a0b3f597e95479352e9d1fc93f2d0",
+          "size": 1512060,
+          "date_added": "2026-09-17"
         }
       ]
     },
-    "python3": {
-      "current": "3.12.3-0ubuntu1",
-      "arch": "arm64",
-      "depends": [
-        "python3.12 ",
-        "libpython3-stdlib"
-      ],
-      "description": "interactive high-level object-oriented language (default python3 version)",
+    "ca-certificates": {
+      "current": "20240203",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
-          "version": "3.12.3-0ubuntu1",
-          "filename": "packages/python3/python3-3.12.3-0ubuntu1-arm64.kpk",
-          "sha256": "7a6f8f48ecb45d50101a502032b0bf66af76be6f9316d3494cb587198e3e6479",
-          "size": 36094,
-          "date_added": "2026-09-16",
-          "stable": true
-        }
-      ]
-    },
-    "wget": {
-      "current": "1.21.4-1ubuntu4",
-      "arch": "arm64",
-      "depends": [
-        "libc6 ",
-        "libidn2-0 ",
-        "libpcre2-8-0 ",
-        "libpsl5t64 ",
-        "libssl3t64 ",
-        "libuuid1 ",
-        "zlib1g"
-      ],
-      "description": "retrieves files from the web",
-      "available_versions": [
-        {
-          "version": "1.21.4-1ubuntu4",
-          "filename": "packages/wget/wget-1.21.4-1ubuntu4-arm64.kpk",
-          "sha256": "7c39ddef0c914098cb4e2559a06762186fdc683fafa0e1f04d50ae196ec38431",
-          "size": 689703,
-          "date_added": "2026-09-16",
-          "stable": true
-        }
-      ]
-    },
-    "git": {
-      "current": "1:2.43.0-1ubuntu7",
-      "arch": "arm64",
-      "depends": [
-        "libc6 ",
-        "libcurl3t64-gnutls ",
-        "libexpat1 ",
-        "libpcre2-8-0 ",
-        "zlib1g ",
-        "perl",
-        "liberror-perl",
-        "git-man ",
-        "git-man"
-      ],
-      "description": "fast, scalable, distributed revision control system",
-      "available_versions": [
-        {
-          "version": "1:2.43.0-1ubuntu7",
-          "filename": "packages/git/git-1:2.43.0-1ubuntu7-arm64.kpk",
-          "sha256": "bc7874b244e3c9eca47149fccf3fd2df76ab5bc76014cbdaff9d895e5021a5bf",
-          "size": 11638837,
-          "date_added": "2026-09-16",
-          "stable": true
-        }
-      ]
-    },
-    "gcc": {
-      "current": "4:13.2.0-7ubuntu1",
-      "arch": "arm64",
-      "depends": [
-        "cpp ",
-        "cpp-aarch64-linux-gnu ",
-        "gcc-13 ",
-        "gcc-aarch64-linux-gnu"
-      ],
-      "description": "GNU C compiler",
-      "available_versions": [
-        {
-          "version": "4:13.2.0-7ubuntu1",
-          "filename": "packages/gcc/gcc-4:13.2.0-7ubuntu1-arm64.kpk",
-          "sha256": "69c66b530eba0d1efe6774725c229baf083ccac7190ab50159ebf371bd33dcc3",
-          "size": 6229,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "20240203",
+          "arch": "all",
+          "filename": "packages/ca-certificates/ca-certificates-20240203-all.kpk",
+          "sha256": "f48486532532efca69f2956cc054183881731d6aa0178c037d4c84f7dc354b70",
+          "size": 148913,
+          "date_added": "2026-09-17"
         }
       ]
     },
     "cmake": {
       "current": "3.28.3-1build7",
       "arch": "arm64",
-      "depends": [
-        "libarchive13t64 ",
-        "libc6 ",
-        "libcurl4t64 ",
-        "libexpat1 ",
-        "libgcc-s1 ",
-        "libjsoncpp25 ",
-        "librhash0 ",
-        "libstdc++6 ",
-        "libuv1t64 ",
-        "zlib1g ",
-        "cmake-data ",
-        "procps"
-      ],
-      "description": "cross-platform, open-source make system",
+      "description": "",
+      "depends": [],
+      "explicit": true,
       "available_versions": [
         {
           "version": "3.28.3-1build7",
+          "arch": "arm64",
           "filename": "packages/cmake/cmake-3.28.3-1build7-arm64.kpk",
           "sha256": "dc4199e6bf721483dc874c5a9cf25e648b7445d9cf50dd726102b989564cb166",
           "size": 23701768,
-          "date_added": "2026-09-16",
-          "stable": true
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.22.1-1ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/cmake/cmake-3.22.1-1ubuntu1-arm64.kpk",
+          "sha256": "cf1a370a967e7e752573b1a230d8fce020cd17f66fde67c4839ea01bc870463e",
+          "size": 12907475,
+          "date_added": "2026-09-17"
         }
       ]
     },
-    "make": {
-      "current": "4.3-4.1build2",
+    "coreutils": {
+      "current": "9.4-3ubuntu6",
       "arch": "arm64",
-      "depends": [
-        "libc6"
-      ],
-      "description": "utility for directing compilation",
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
-          "version": "4.3-4.1build2",
-          "filename": "packages/make/make-4.3-4.1build2-arm64.kpk",
-          "sha256": "5738690a5654cfbe0904de44bf1c6c9963bf29507c4a76b9cad5a9b028f6bbe8",
-          "size": 323308,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "9.4-3ubuntu6",
+          "arch": "arm64",
+          "filename": "packages/coreutils/coreutils-9.4-3ubuntu6-arm64.kpk",
+          "sha256": "8f25ab2ac72e74aeb245045320f194e316855d96df29861b2c30d73be8874ffa",
+          "size": 3059953,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "8.32-4.1ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/coreutils/coreutils-8.32-4.1ubuntu1-arm64.kpk",
+          "sha256": "3c6c2aa61cd0a3f42da7594aa7a6516fcacbaef8a85995191775adb7594bd8f1",
+          "size": 3094767,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "curl": {
+      "current": "8.5.0-2ubuntu10",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "8.5.0-2ubuntu10",
+          "arch": "arm64",
+          "filename": "packages/curl/curl-8.5.0-2ubuntu10-arm64.kpk",
+          "sha256": "fa393a86d0c8c8852d6e192c5a962910300b54f454f927cc84dfec832443a572",
+          "size": 370236,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "7.81.0-1",
+          "arch": "arm64",
+          "filename": "packages/curl/curl-7.81.0-1-arm64.kpk",
+          "sha256": "68422386bb32af0ee29458671afb33f7fb93bb93a0324d11ddf97a24a7fe8dc1",
+          "size": 322061,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "debconf": {
+      "current": "1.5.86ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.5.86ubuntu1",
+          "arch": "all",
+          "filename": "packages/debconf/debconf-1.5.86ubuntu1-all.kpk",
+          "sha256": "746ff8cc4c4e88f094fb9db8505aac7d726e1a7e63c37b4024e3e85abf7745db",
+          "size": 82748,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "gawk": {
+      "current": "1_5.2.1-2build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "1_5.2.1-2build3",
+          "arch": "arm64",
+          "filename": "packages/gawk/gawk-1_5.2.1-2build3-arm64.kpk",
+          "sha256": "518bd49adb4fc9fd400cb7db8f7d54950d2f90369b0f4d58c229489d83c3cd53",
+          "size": 965544,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "1_5.1.0-1build3",
+          "arch": "arm64",
+          "filename": "packages/gawk/gawk-1_5.1.0-1build3-arm64.kpk",
+          "sha256": "257563ef6bb12d115512cdacd01670c56e59278a8d63d2f9a7b25ba0fdf4d6d3",
+          "size": 909290,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "gcc": {
+      "current": "4_13.2.0-7ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "4_13.2.0-7ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/gcc/gcc-4_13.2.0-7ubuntu1-arm64.kpk",
+          "sha256": "69c66b530eba0d1efe6774725c229baf083ccac7190ab50159ebf371bd33dcc3",
+          "size": 6229,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "4_11.2.0-1ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/gcc/gcc-4_11.2.0-1ubuntu1-arm64.kpk",
+          "sha256": "0e50df8369395e84a136c9f5805a896103c0c0fd713dc86fbb39ca7bdd1dd180",
+          "size": 6497,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "gedit": {
+      "current": "46.2-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "46.2-2",
+          "arch": "arm64",
+          "filename": "packages/gedit/gedit-46.2-2-arm64.kpk",
+          "sha256": "97ecc1f38d7a8039069d2c247792d06241375a3f3318ca3920b0609f41dc9bd4",
+          "size": 789754,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "41.0-3",
+          "arch": "arm64",
+          "filename": "packages/gedit/gedit-41.0-3-arm64.kpk",
+          "sha256": "6be45895323f359c68ac56b17abfd8517dc8f32a64c18a0815804d2a7ae898a5",
+          "size": 929972,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "git": {
+      "current": "1_2.43.0-1ubuntu7",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "1_2.43.0-1ubuntu7",
+          "arch": "arm64",
+          "filename": "packages/git/git-1_2.43.0-1ubuntu7-arm64.kpk",
+          "sha256": "bc7874b244e3c9eca47149fccf3fd2df76ab5bc76014cbdaff9d895e5021a5bf",
+          "size": 11638837,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "1_2.34.1-1ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/git/git-1_2.34.1-1ubuntu1-arm64.kpk",
+          "sha256": "c504f193be39f5a12c7dffce40d90da2bb695ce2be2498565e04dfcead8ab7d2",
+          "size": 9596148,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "grep": {
+      "current": "3.11-4build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.11-4build1",
+          "arch": "arm64",
+          "filename": "packages/grep/grep-3.11-4build1-arm64.kpk",
+          "sha256": "8175dace72684eb11dfb74d223be0e3fe2802b66d50338cbe9b3dc7481e9ac67",
+          "size": 263031,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.7-1build1",
+          "arch": "arm64",
+          "filename": "packages/grep/grep-3.7-1build1-arm64.kpk",
+          "sha256": "75866d18c88f71fe06854c75def4ec308586130b2d21c9b6da01810ea79db366",
+          "size": 247966,
+          "date_added": "2026-09-17"
         }
       ]
     },
     "htop": {
       "current": "3.3.0-4build1",
       "arch": "arm64",
-      "depends": [
-        "libc6 ",
-        "libncursesw6 ",
-        "libnl-3-200 ",
-        "libnl-genl-3-200 ",
-        "libtinfo6"
-      ],
-      "description": "interactive processes viewer",
+      "description": "",
+      "depends": [],
+      "explicit": true,
       "available_versions": [
         {
           "version": "3.3.0-4build1",
+          "arch": "arm64",
           "filename": "packages/htop/htop-3.3.0-4build1-arm64.kpk",
           "sha256": "f706bc5882cfc9bc687fae84a6cf78efd10b2db79408ef0baec69e9f52ac855e",
           "size": 355013,
-          "date_added": "2026-09-16",
-          "stable": true
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.0.5-7build2",
+          "arch": "arm64",
+          "filename": "packages/htop/htop-3.0.5-7build2-arm64.kpk",
+          "sha256": "9f9ef23c23bffa414dbacf170869fce944d535bddd45ff38606a4a75d46feb04",
+          "size": 263206,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libbrotli1": {
+      "current": "1.1.0-2build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.1.0-2build2",
+          "arch": "arm64",
+          "filename": "packages/libbrotli1/libbrotli1-1.1.0-2build2-arm64.kpk",
+          "sha256": "bf93ec5d86c5b112ff8de09fd5824b03776ac9ddd06e2f2c6eb10b349ae8a336",
+          "size": 395917,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libc6": {
+      "current": "2.39-0ubuntu8",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.39-0ubuntu8",
+          "arch": "arm64",
+          "filename": "packages/libc6/libc6-2.39-0ubuntu8-arm64.kpk",
+          "sha256": "1ef0cc9a0a4b737aa5fbf1460cf5d9f40886b0fbad5e7eeaf3aa1039e67b2f5c",
+          "size": 6589452,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "2.35-0ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libc6/libc6-2.35-0ubuntu3-arm64.kpk",
+          "sha256": "2ddf76775fa475f9a8177e32f50e49dcf691fb9c2cd7ebf2d1bcf4d05741ebe1",
+          "size": 6137288,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libcom-err2": {
+      "current": "1.47.0-2.4~exp1ubuntu4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.47.0-2.4~exp1ubuntu4",
+          "arch": "arm64",
+          "filename": "packages/libcom-err2/libcom-err2-1.47.0-2.4~exp1ubuntu4-arm64.kpk",
+          "sha256": "3fa6e2358163ce145b19eaea06c5172e99f9e0d290d4d6388f69da408d5518f3",
+          "size": 23374,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libcurl4t64": {
+      "current": "8.5.0-2ubuntu10",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "8.5.0-2ubuntu10",
+          "arch": "arm64",
+          "filename": "packages/libcurl4t64/libcurl4t64-8.5.0-2ubuntu10-arm64.kpk",
+          "sha256": "329fa16eb82c533d73b6a3aa64e1874d74b8dc8b20db8abdf4ca14c6b48c4e20",
+          "size": 391772,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libexpat1-dev": {
+      "current": "2.6.1-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.6.1-2build1",
+          "arch": "arm64",
+          "filename": "packages/libexpat1-dev/libexpat1-dev-2.6.1-2build1-arm64.kpk",
+          "sha256": "e10fe2a8c71e3386ce0774545d4c6884cb95a5d815f0b600fc45b3d00cd0cba4",
+          "size": 151552,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libexpat1": {
+      "current": "2.6.1-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.6.1-2build1",
+          "arch": "arm64",
+          "filename": "packages/libexpat1/libexpat1-2.6.1-2build1-arm64.kpk",
+          "sha256": "674c58431a6b21ffcf301b25c632c514e8ea3698eda5a25ac5d581aa67296095",
+          "size": 87651,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libgmp10": {
+      "current": "2_6.3.0+dfsg-2ubuntu6",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2_6.3.0+dfsg-2ubuntu6",
+          "arch": "arm64",
+          "filename": "packages/libgmp10/libgmp10-2_6.3.0+dfsg-2ubuntu6-arm64.kpk",
+          "sha256": "5f18e34a2ec9516d71bbdf50792160adc3729b5cb40252051b9e1eb9d73d724e",
+          "size": 281751,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libgnutls30t64": {
+      "current": "3.8.3-1.1ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.8.3-1.1ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libgnutls30t64/libgnutls30t64-3.8.3-1.1ubuntu3-arm64.kpk",
+          "sha256": "9692e4b7e76b2e9cda182eb53db93f0b1eb7937dde464c99ec1c587afb35aa76",
+          "size": 1069902,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libgssapi-krb5-2": {
+      "current": "1.20.1-6ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-6ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libgssapi-krb5-2/libgssapi-krb5-2-1.20.1-6ubuntu2-arm64.kpk",
+          "sha256": "b4ab00c825d85a32b608f9c7ee076c3801d837285ecb2e78c58af255c564b887",
+          "size": 166546,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libhogweed6t64": {
+      "current": "3.9.1-2.2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.9.1-2.2build1",
+          "arch": "arm64",
+          "filename": "packages/libhogweed6t64/libhogweed6t64-3.9.1-2.2build1-arm64.kpk",
+          "sha256": "8e8ec62881207129a3d45e1728ee5aa9c3a512419e78bb90e52944e106fc2c2c",
+          "size": 211016,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libidn2-0": {
+      "current": "2.3.7-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.3.7-2build1",
+          "arch": "arm64",
+          "filename": "packages/libidn2-0/libidn2-0-2.3.7-2build1-arm64.kpk",
+          "sha256": "f91dc8f7903a03cc4421a196bac872ec1ddb94873a6e4d3da1d55c636cde38e1",
+          "size": 84798,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libjs-jquery": {
+      "current": "3.6.1+dfsg+~3.5.14-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.6.1+dfsg+~3.5.14-1",
+          "arch": "all",
+          "filename": "packages/libjs-jquery/libjs-jquery-3.6.1+dfsg+~3.5.14-1-all.kpk",
+          "sha256": "cc120fccc54a5ce59512d5af3b722729cfca582a6f5625330dfb50973b3ab744",
+          "size": 360405,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libjs-sphinxdoc": {
+      "current": "7.2.6-6",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "7.2.6-6",
+          "arch": "all",
+          "filename": "packages/libjs-sphinxdoc/libjs-sphinxdoc-7.2.6-6-all.kpk",
+          "sha256": "40d111d6133a1b00a86275131b1e2539d32c8d131718f18d7b50e655ddfbc133",
+          "size": 151676,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libjs-underscore": {
+      "current": "1.13.4~dfsg+~1.11.4-3",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.13.4~dfsg+~1.11.4-3",
+          "arch": "all",
+          "filename": "packages/libjs-underscore/libjs-underscore-1.13.4~dfsg+~1.11.4-3-all.kpk",
+          "sha256": "fdaca958ca583e616fc44c706b112bcffa6f393b0a3cc8049f7b09d42987276f",
+          "size": 130326,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libk5crypto3": {
+      "current": "1.20.1-6ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-6ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libk5crypto3/libk5crypto3-1.20.1-6ubuntu2-arm64.kpk",
+          "sha256": "10d2913c16d3e2248f61cde9ef44dd48175482b4385d39efc2b5ecf7b94b78d5",
+          "size": 109856,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libkeyutils1": {
+      "current": "1.6.3-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.3-3build1",
+          "arch": "arm64",
+          "filename": "packages/libkeyutils1/libkeyutils1-1.6.3-3build1-arm64.kpk",
+          "sha256": "200417236cc9e9d2d0bde43513d7cf4797d4d8ca1e7928264125b86c7ed51176",
+          "size": 9364,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libkrb5-3": {
+      "current": "1.20.1-6ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-6ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libkrb5-3/libkrb5-3-1.20.1-6ubuntu2-arm64.kpk",
+          "sha256": "07bc8487db55872625f46a58e2671957fb237af24bf81a1596d378585d53378d",
+          "size": 426613,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libkrb5support0": {
+      "current": "1.20.1-6ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-6ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libkrb5support0/libkrb5support0-1.20.1-6ubuntu2-arm64.kpk",
+          "sha256": "b8ce2da703af64d0624b44fd2d439dbc4a4aeb4a260c76b4653ec8997cfe9265",
+          "size": 38545,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libldap2": {
+      "current": "2.6.7+dfsg-1~exp1ubuntu8",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.6.7+dfsg-1~exp1ubuntu8",
+          "arch": "arm64",
+          "filename": "packages/libldap2/libldap2-2.6.7+dfsg-1~exp1ubuntu8-arm64.kpk",
+          "sha256": "f91517c4eb33ec09453545efca8a9382a5001ad016454939d77188b2f5e47e65",
+          "size": 224420,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libncursesw6": {
+      "current": "6.4+20240113-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "6.4+20240113-1ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libncursesw6/libncursesw6-6.4+20240113-1ubuntu2-arm64.kpk",
+          "sha256": "6e4cb07d977f0eb5a466a1a3a8ed5722378af9c49190a56cf22998726f05ba6a",
+          "size": 314247,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "6.3-2",
+          "arch": "arm64",
+          "filename": "packages/libncursesw6/libncursesw6-6.3-2-arm64.kpk",
+          "sha256": "63d2d3726b7b194d0e11eee52d6edecc3c846221c5be42c1748fc760eb27b210",
+          "size": 307932,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libnettle8t64": {
+      "current": "3.9.1-2.2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.9.1-2.2build1",
+          "arch": "arm64",
+          "filename": "packages/libnettle8t64/libnettle8t64-3.9.1-2.2build1-arm64.kpk",
+          "sha256": "890ca9d91edefb481ca0180c99734e698ea4edda74dc343fef835998ca7022b5",
+          "size": 222230,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libnghttp2-14": {
+      "current": "1.59.0-1build4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.59.0-1build4",
+          "arch": "arm64",
+          "filename": "packages/libnghttp2-14/libnghttp2-14-1.59.0-1build4-arm64.kpk",
+          "sha256": "178efb2c2e0d60ff6138dcbfc5bb1e42442df437381711ae5134f36c03577ead",
+          "size": 90053,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libp11-kit0": {
+      "current": "0.25.3-4ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.25.3-4ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libp11-kit0/libp11-kit0-0.25.3-4ubuntu2-arm64.kpk",
+          "sha256": "b5735491fcc360402487d485e0ea7da105f9cb91f8b91db8d13c03432de80ec1",
+          "size": 358009,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpsl5t64": {
+      "current": "0.21.2-1.1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.21.2-1.1build1",
+          "arch": "arm64",
+          "filename": "packages/libpsl5t64/libpsl5t64-0.21.2-1.1build1-arm64.kpk",
+          "sha256": "8ee082090c4975a20b0869230c35c48a87fc272f3a5a1b951cd7abade9def272",
+          "size": 60443,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3-dev": {
+      "current": "3.12.3-0ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/libpython3-dev/libpython3-dev-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "cac6231d6d83207dd23d59239a8d46ad245f8b8545ef628a68fa070a74cbf790",
+          "size": 10119,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3-stdlib": {
+      "current": "3.12.3-0ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/libpython3-stdlib/libpython3-stdlib-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "18bc06c4141a5053fd34e4cc55153c09f81102717285fb4f5355ccab9a6e755a",
+          "size": 9868,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3.12-dev": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/libpython3.12-dev/libpython3.12-dev-3.12.3-1-arm64.kpk",
+          "sha256": "d6f5a8c42cbe06635e566aa584bf8daacc3fe470c5c48d970a63aa2ab9f31d35",
+          "size": 7419013,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3.12-minimal": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/libpython3.12-minimal/libpython3.12-minimal-3.12.3-1-arm64.kpk",
+          "sha256": "f713197a02961682880b55c5476592a5d6105037a7205ea8d8ee22780d7ec0f7",
+          "size": 1076840,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3.12-stdlib": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/libpython3.12-stdlib/libpython3.12-stdlib-3.12.3-1-arm64.kpk",
+          "sha256": "e3aebfc2407fc50601230d8948e77ea112d3e499bc35e1a5d0b1106890a7c8c5",
+          "size": 2575722,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libpython3.12t64": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/libpython3.12t64/libpython3.12t64-3.12.3-1-arm64.kpk",
+          "sha256": "23dc42cecaf9bb5b9032adc0173f25cafe4bccd27fd737ecfc77e7bc251e855b",
+          "size": 2949500,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "librtmp1": {
+      "current": "2.4+20151223.gitfa8646d.1-2build7",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.4+20151223.gitfa8646d.1-2build7",
+          "arch": "arm64",
+          "filename": "packages/librtmp1/librtmp1-2.4+20151223.gitfa8646d.1-2build7-arm64.kpk",
+          "sha256": "5bb76a88d5890bd8308f8a177bb4ca0b662a613c7f9ec1a3bf3f19b2aa90860f",
+          "size": 65907,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libsasl2-2": {
+      "current": "2.1.28+dfsg1-5ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.28+dfsg1-5ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libsasl2-2/libsasl2-2-2.1.28+dfsg1-5ubuntu3-arm64.kpk",
+          "sha256": "4d7a40f06cbe0890fb0c7365f9ddd3821f04204bbaed489ef4cca385de60d9b3",
+          "size": 63384,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libsasl2-modules-db": {
+      "current": "2.1.28+dfsg1-5ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.28+dfsg1-5ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libsasl2-modules-db/libsasl2-modules-db-2.1.28+dfsg1-5ubuntu3-arm64.kpk",
+          "sha256": "8f8361eb8e00511c909d273766a00c151e42c0a91a2fcdf00707e6dcc0a880aa",
+          "size": 24164,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libssh-4": {
+      "current": "0.10.6-2build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.10.6-2build2",
+          "arch": "arm64",
+          "filename": "packages/libssh-4/libssh-4-0.10.6-2build2-arm64.kpk",
+          "sha256": "cb74ca5a0f355f4b1fb7e051692393965a6648ca6b0410938dafb44648d5944b",
+          "size": 222168,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libssl3t64": {
+      "current": "3.0.13-0ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.0.13-0ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libssl3t64/libssl3t64-3.0.13-0ubuntu3-arm64.kpk",
+          "sha256": "df8bba5c36af8abf77ada9b4919d03849036cf238cd779cb8e7a094436186744",
+          "size": 2179852,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libtasn1-6": {
+      "current": "4.19.0-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.19.0-3build1",
+          "arch": "arm64",
+          "filename": "packages/libtasn1-6/libtasn1-6-4.19.0-3build1-arm64.kpk",
+          "sha256": "3af85b97f2b5e9f16da47360e5735d09892ba3e6d75fe8c18e0d4bae0104ff3c",
+          "size": 48559,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libtinfo6": {
+      "current": "6.4+20240113-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "6.4+20240113-1ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/libtinfo6/libtinfo6-6.4+20240113-1ubuntu2-arm64.kpk",
+          "sha256": "f00d0e0e1e085c9577b852c4a3ce0d5ebd943e43eb8873592f85766bed40a5c9",
+          "size": 221306,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "6.3-2",
+          "arch": "arm64",
+          "filename": "packages/libtinfo6/libtinfo6-6.3-2-arm64.kpk",
+          "sha256": "9afd0b0bf7c07ae0c8bc97ae0ea07c42731093001370e76e92045794f8e8015c",
+          "size": 219684,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "libunistring5": {
+      "current": "1.1-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.1-2build1",
+          "arch": "arm64",
+          "filename": "packages/libunistring5/libunistring5-1.1-2build1-arm64.kpk",
+          "sha256": "2f5e13de9b8ea8950a242f2e237be520c604e5e7217a3c7020c5f1b326aabef4",
+          "size": 701544,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "make": {
+      "current": "4.3-4.1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "4.3-4.1build2",
+          "arch": "arm64",
+          "filename": "packages/make/make-4.3-4.1build2-arm64.kpk",
+          "sha256": "5738690a5654cfbe0904de44bf1c6c9963bf29507c4a76b9cad5a9b028f6bbe8",
+          "size": 323308,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "4.3-4.1build1",
+          "arch": "arm64",
+          "filename": "packages/make/make-4.3-4.1build1-arm64.kpk",
+          "sha256": "95082a4964ed6836db7a0281891908b6ca0902875c5f2b555ae9e674eaed8438",
+          "size": 323991,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "media-types": {
+      "current": "10.1.0",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "10.1.0",
+          "arch": "all",
+          "filename": "packages/media-types/media-types-10.1.0-all.kpk",
+          "sha256": "230fb3af305cd62d0e4b935af8483110290991cdee53318341476aa2046ee21c",
+          "size": 30993,
+          "date_added": "2026-09-17"
         }
       ]
     },
     "nano": {
       "current": "7.2-2build1",
       "arch": "arm64",
-      "depends": [
-        "libc6 ",
-        "libncursesw6 ",
-        "libtinfo6"
-      ],
-      "description": "small, friendly text editor inspired by Pico",
+      "description": "",
+      "depends": [],
+      "explicit": true,
       "available_versions": [
         {
           "version": "7.2-2build1",
+          "arch": "arm64",
           "filename": "packages/nano/nano-7.2-2build1-arm64.kpk",
           "sha256": "5e1e0369fc5613dfb3e607bcbfee4a39d81bc054af5ad79d84b5055ab12c29cd",
           "size": 519449,
-          "date_added": "2026-09-16",
-          "stable": true
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "6.2-1",
+          "arch": "arm64",
+          "filename": "packages/nano/nano-6.2-1-arm64.kpk",
+          "sha256": "925c631fef0136f9b0c2a06da77644d97c898909725d6296cf4d9162a12c9157",
+          "size": 514202,
+          "date_added": "2026-09-17"
         }
       ]
     },
-    "vim": {
-      "current": "2:9.1.0016-1ubuntu7",
+    "openssl": {
+      "current": "3.0.13-0ubuntu3",
       "arch": "arm64",
-      "depends": [
-        "vim-common ",
-        "vim-runtime ",
-        "libacl1 ",
-        "libc6 ",
-        "libgpm2 ",
-        "libpython3.12t64 ",
-        "libselinux1 ",
-        "libsodium23 ",
-        "libtinfo6"
-      ],
-      "description": "Vi IMproved - enhanced vi editor",
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
-          "version": "2:9.1.0016-1ubuntu7",
-          "filename": "packages/vim/vim-2:9.1.0016-1ubuntu7-arm64.kpk",
-          "sha256": "8b3fc3a04511781a192ab199e36cfa817f5d093a7e6fa33d83839e9d9a0681bf",
-          "size": 4012129,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "3.0.13-0ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/openssl/openssl-3.0.13-0ubuntu3-arm64.kpk",
+          "sha256": "06e97b625a3986928c6c4cec6d800f08d009071805af3e236b5bb58e9b620434",
+          "size": 1044661,
+          "date_added": "2026-09-17"
         }
       ]
     },
-    "zip": {
-      "current": "3.0-13build1",
+    "python3-dev": {
+      "current": "3.12.3-0ubuntu1",
       "arch": "arm64",
-      "depends": [
-        "libbz2-1.0",
-        "libc6"
-      ],
-      "description": "Archiver for .zip files",
+      "description": "",
+      "depends": [],
+      "explicit": true,
       "available_versions": [
         {
-          "version": "3.0-13build1",
-          "filename": "packages/zip/zip-3.0-13build1-arm64.kpk",
-          "sha256": "63e409de00904df4082a7adcf428ce427ba5fd3766b24ea01d09f1d714c3f14e",
-          "size": 344086,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/python3-dev/python3-dev-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "87e2ada8bdd70c04b01b0994e488fba63a6d190064fe666cf67807b9557c996f",
+          "size": 30173,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.10.4-0ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/python3-dev/python3-dev-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "bb75b656970704f77d02e6f2a89f15c59bf5243f30f06c99b34e84e5597bf95b",
+          "size": 29163,
+          "date_added": "2026-09-17"
         }
       ]
     },
-    "unzip": {
-      "current": "6.0-28ubuntu4",
+    "python3-minimal": {
+      "current": "3.12.3-0ubuntu1",
       "arch": "arm64",
-      "depends": [
-        "libbz2-1.0",
-        "libc6"
-      ],
-      "description": "De-archiver for .zip files",
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
-          "version": "6.0-28ubuntu4",
-          "filename": "packages/unzip/unzip-6.0-28ubuntu4-arm64.kpk",
-          "sha256": "6e37597f9dbe1c38001a1c6f254c02c7eff59cb43e878bd141e7bf661b5cbbf0",
-          "size": 316539,
-          "date_added": "2026-09-16",
-          "stable": true
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/python3-minimal/python3-minimal-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "53e68abc6e96e0646f49bbaec9ff1b44f1a86933321550c0cca4cda2ad55f5e0",
+          "size": 29638,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-pip-whl": {
+      "current": "24.0+dfsg-1ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "24.0+dfsg-1ubuntu1",
+          "arch": "all",
+          "filename": "packages/python3-pip-whl/python3-pip-whl-24.0+dfsg-1ubuntu1-all.kpk",
+          "sha256": "4157af116ae3d69c4e5039399c622ee00ea7a6792cb7804c2b8565b5381c8397",
+          "size": 1728107,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-pip": {
+      "current": "24.0+dfsg-1ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "24.0+dfsg-1ubuntu1",
+          "arch": "all",
+          "filename": "packages/python3-pip/python3-pip-24.0+dfsg-1ubuntu1-all.kpk",
+          "sha256": "db8290bd042f4bfb2e23d55f36a499c10fd87d683b0d5c2f8b711797253de4a1",
+          "size": 1662841,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "22.0.2+dfsg-1",
+          "arch": "all",
+          "filename": "packages/python3-pip/python3-pip-22.0.2+dfsg-1-all.kpk",
+          "sha256": "4f4b69d89807463a6ae71fb2b4e44eb475232ccf810ad412fd934488c670f258",
+          "size": 1630697,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-pkg-resources": {
+      "current": "68.1.2-2ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "68.1.2-2ubuntu1",
+          "arch": "all",
+          "filename": "packages/python3-pkg-resources/python3-pkg-resources-68.1.2-2ubuntu1-all.kpk",
+          "sha256": "522a98c986621631d608017e99d1829a57dc4dcd26a33f2942695a8df6e192f0",
+          "size": 197150,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-setuptools-whl": {
+      "current": "68.1.2-2ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "68.1.2-2ubuntu1",
+          "arch": "all",
+          "filename": "packages/python3-setuptools-whl/python3-setuptools-whl-68.1.2-2ubuntu1-all.kpk",
+          "sha256": "1e218de9f90207e8187f7f5d934c999d7d0337319e4541fb6dab0820d6070ee1",
+          "size": 722305,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-setuptools": {
+      "current": "68.1.2-2ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "68.1.2-2ubuntu1",
+          "arch": "all",
+          "filename": "packages/python3-setuptools/python3-setuptools-68.1.2-2ubuntu1-all.kpk",
+          "sha256": "1ae6758b2dbd7b622beccca7a329dd1378fd14886bb2de8ec50595161b1f2af3",
+          "size": 500457,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-venv": {
+      "current": "3.12.3-0ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/python3-venv/python3-venv-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "90334eea27fd42c5ae6c8cbe3b71f21ceeb77c3c84b83b13de64250656e66d13",
+          "size": 279,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.10.4-0ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/python3-venv/python3-venv-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "c68782e627162ec9f6b50f74a869625ebb1cbfb064f1586ca5e92ff1c51b064d",
+          "size": 277,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3-wheel": {
+      "current": "0.42.0-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.42.0-2",
+          "arch": "all",
+          "filename": "packages/python3-wheel/python3-wheel-0.42.0-2-all.kpk",
+          "sha256": "7978089d73f492e126bc73ef010ae77b264e857b8d0f5b9395e09dda8fa7a58a",
+          "size": 60280,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3.12-dev": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/python3.12-dev/python3.12-dev-3.12.3-1-arm64.kpk",
+          "sha256": "2e530756e397a6737b7bc7a5f2fd37a36d198d670cf4076c76e2280ae5a2ceb4",
+          "size": 497777,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3.12-minimal": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/python3.12-minimal/python3.12-minimal-3.12.3-1-arm64.kpk",
+          "sha256": "a2c98517d3a8baac234a599ab32b688dd5d457325e857bd76a2194d9be0e6ff3",
+          "size": 2857592,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3.12-venv": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/python3.12-venv/python3.12-venv-3.12.3-1-arm64.kpk",
+          "sha256": "91206bef9017751809b19f9bfbe2da1bd3b54e83a64619f7a335c0a77c18c616",
+          "size": 4497,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3.12": {
+      "current": "3.12.3-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.12.3-1",
+          "arch": "arm64",
+          "filename": "packages/python3.12/python3.12-3.12.3-1-arm64.kpk",
+          "sha256": "8ef2352d1c8df55296973f7cb0aa5b6a58f916374107abf1772298971ba698f0",
+          "size": 655814,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "python3": {
+      "current": "3.12.3-0ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "3.12.3-0ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/python3/python3-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "7a6f8f48ecb45d50101a502032b0bf66af76be6f9316d3494cb587198e3e6479",
+          "size": 36094,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.10.4-0ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/python3/python3-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "2fa0d263ec053480e57326a1096e12be1d8393141564e98b0cbeca571829faee",
+          "size": 45868,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "sed": {
+      "current": "4.9-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.9-2build1",
+          "arch": "arm64",
+          "filename": "packages/sed/sed-4.9-2build1-arm64.kpk",
+          "sha256": "f56d9ec0c64cacaac5b6791f87c858cc2aae947450dba29c2ec075ba703ca149",
+          "size": 281451,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "4.8-1ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/sed/sed-4.8-1ubuntu2-arm64.kpk",
+          "sha256": "250b687cfe23abf4106735fe26ffd49c0e6526c7e3415c466cbca330fdee994d",
+          "size": 268809,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "tar": {
+      "current": "1.35+dfsg-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.35+dfsg-3build1",
+          "arch": "arm64",
+          "filename": "packages/tar/tar-1.35+dfsg-3build1-arm64.kpk",
+          "sha256": "0ea015d8c9c4c15d326759a91af8161314a577b77c5f126f03f1539419492f09",
+          "size": 494781,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "1.34+dfsg-1build3",
+          "arch": "arm64",
+          "filename": "packages/tar/tar-1.34+dfsg-1build3-arm64.kpk",
+          "sha256": "71422e56b0f140c0cd8425eb0b073271d33be6c2cca78cbc9f1770703e2d874c",
+          "size": 567620,
+          "date_added": "2026-09-17"
         }
       ]
     },
     "tree": {
       "current": "2.1.1-2ubuntu3",
       "arch": "arm64",
-      "depends": [
-        "libc6"
-      ],
-      "description": "displays an indented directory tree, in color",
+      "description": "",
+      "depends": [],
+      "explicit": true,
       "available_versions": [
         {
           "version": "2.1.1-2ubuntu3",
+          "arch": "arm64",
           "filename": "packages/tree/tree-2.1.1-2ubuntu3-arm64.kpk",
           "sha256": "ef1d9f70c5c45cfe140f9a68f8372dafcc297d0bf495165182572d56c379115d",
           "size": 86505,
-          "date_added": "2026-09-16",
-          "stable": true
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "2.0.2-1",
+          "arch": "arm64",
+          "filename": "packages/tree/tree-2.0.2-1-arm64.kpk",
+          "sha256": "a1bd4033a12f9afd510dfe67d1e4a385f2d14465d7faed83f876d0015db44462",
+          "size": 100228,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "unzip": {
+      "current": "6.0-28ubuntu4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "6.0-28ubuntu4",
+          "arch": "arm64",
+          "filename": "packages/unzip/unzip-6.0-28ubuntu4-arm64.kpk",
+          "sha256": "6e37597f9dbe1c38001a1c6f254c02c7eff59cb43e878bd141e7bf661b5cbbf0",
+          "size": 316539,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "6.0-26ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/unzip/unzip-6.0-26ubuntu3-arm64.kpk",
+          "sha256": "41e5636de5fbdb9706e1a1e757de75dd50ff070bbfbcccd2fd4df18c5d65392a",
+          "size": 314649,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "vim": {
+      "current": "2_9.1.0016-1ubuntu7",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "2_9.1.0016-1ubuntu7",
+          "arch": "arm64",
+          "filename": "packages/vim/vim-2_9.1.0016-1ubuntu7-arm64.kpk",
+          "sha256": "8b3fc3a04511781a192ab199e36cfa817f5d093a7e6fa33d83839e9d9a0681bf",
+          "size": 4012129,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "2_8.2.3995-1ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/vim/vim-2_8.2.3995-1ubuntu2-arm64.kpk",
+          "sha256": "35681d19024fc9a18db138bfd06a30af9df6204d638e8b6fb783d9a42d75ed31",
+          "size": 3660103,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "wget": {
+      "current": "1.21.4-1ubuntu4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "1.21.4-1ubuntu4",
+          "arch": "arm64",
+          "filename": "packages/wget/wget-1.21.4-1ubuntu4-arm64.kpk",
+          "sha256": "7c39ddef0c914098cb4e2559a06762186fdc683fafa0e1f04d50ae196ec38431",
+          "size": 689703,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "1.21.2-2ubuntu1",
+          "arch": "arm64",
+          "filename": "packages/wget/wget-1.21.2-2ubuntu1-arm64.kpk",
+          "sha256": "f3328b5b576f53c7159becd37961f13576abc7db1f2aceeccb6da704c93f8e12",
+          "size": 751925,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "zip": {
+      "current": "3.0-13build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "3.0-13build1",
+          "arch": "arm64",
+          "filename": "packages/zip/zip-3.0-13build1-arm64.kpk",
+          "sha256": "63e409de00904df4082a7adcf428ce427ba5fd3766b24ea01d09f1d714c3f14e",
+          "size": 344086,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "3.0-12build2",
+          "arch": "arm64",
+          "filename": "packages/zip/zip-3.0-12build2-arm64.kpk",
+          "sha256": "6fb3a15470290b2c4c0145186499f80b84951f9dad02e44ab3eba7d90a2b9778",
+          "size": 344595,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "zlib1g-dev": {
+      "current": "1_1.3.dfsg-3.1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1_1.3.dfsg-3.1ubuntu2",
+          "arch": "arm64",
+          "filename": "packages/zlib1g-dev/zlib1g-dev-1_1.3.dfsg-3.1ubuntu2-arm64.kpk",
+          "sha256": "fe90e5addd8b7fd71688c4837f4fcb099559c39e19d2ea5b7d8f23b66cf5b741",
+          "size": 925574,
+          "date_added": "2026-09-17"
+        }
+      ]
+    },
+    "zstd": {
+      "current": "1.5.5+dfsg2-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "1.5.5+dfsg2-2build1",
+          "arch": "arm64",
+          "filename": "packages/zstd/zstd-1.5.5+dfsg2-2build1-arm64.kpk",
+          "sha256": "a946769d13769a294c2b0f61708593533da58326148ebc4d5b6c20b0a4bfdcb5",
+          "size": 1260486,
+          "date_added": "2026-09-17"
+        },
+        {
+          "version": "1.4.8+dfsg-3build1",
+          "arch": "arm64",
+          "filename": "packages/zstd/zstd-1.4.8+dfsg-3build1-arm64.kpk",
+          "sha256": "b071d923de71b8a909c8d5daf8fdc8411c01952263c1ae66ecd1ddac84b95abf",
+          "size": 1284313,
+          "date_added": "2026-09-17"
         }
       ]
     }
