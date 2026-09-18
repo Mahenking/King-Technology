@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-09-18T03:55:39.941905+00:00",
+  "generated": "2026-09-18T17:24:16.143282+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -1344,6 +1344,33 @@
           "filename": "packages/libbrotli1/libbrotli1-1.1.0-2build2-arm64.kpk",
           "sha256": "4c3ebe288c3973bb1221900a324c658353d5bdd5b826dd183e96c8a7eba2849d",
           "size": 395986,
+          "date_added": "2026-09-18"
+        }
+      ]
+    },
+    "libc6": {
+      "current": "2.39-0ubuntu8",
+      "arch": "arm64",
+      "description": "GNU C Library: Shared libraries",
+      "depends": [
+        "libgcc-s1"
+      ],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "2.39-0ubuntu8",
+          "arch": "arm64",
+          "filename": "packages/libc6/libc6-2.39-0ubuntu8-arm64.kpk",
+          "sha256": "1352e0f4cae03d7ffcb9c6e196c0a5d79574a863595936b2f299ac4e472ab9e4",
+          "size": 3823530,
+          "date_added": "2026-09-18"
+        },
+        {
+          "version": "2.35-0ubuntu3",
+          "arch": "arm64",
+          "filename": "packages/libc6/libc6-2.35-0ubuntu3-arm64.kpk",
+          "sha256": "ef2db07b6191671769843ca65a65bd9900b9134b9f086855563fbb80f0d16800",
+          "size": 3438194,
           "date_added": "2026-09-18"
         }
       ]
