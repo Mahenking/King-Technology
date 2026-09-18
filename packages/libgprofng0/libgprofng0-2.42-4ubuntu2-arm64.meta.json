@@ -1,0 +1,4 @@
+{
+  "depends": ["libbinutils","libc6","libgcc-s1","libstdc++6","zlib1g"],
+  "description": "GNU Next Generation profiler (runtime library)"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Linux Key Management Utilities (library)"
+}

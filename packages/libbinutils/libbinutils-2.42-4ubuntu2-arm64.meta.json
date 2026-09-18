@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libsframe1","libzstd1","zlib1g","binutils-common"],
+  "description": "GNU binary utilities (private shared library)"
+}

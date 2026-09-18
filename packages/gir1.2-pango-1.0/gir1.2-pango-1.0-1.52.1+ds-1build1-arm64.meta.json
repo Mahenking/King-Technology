@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-cairo-1.0","gir1.2-fontconfig-2.0","gir1.2-freetype2-2.0","gir1.2-gio-2.0","gir1.2-gobject-2.0","gir1.2-harfbuzz-0.0","gir1.2-xft-2.0","gir1.2-xlib-2.0","libpango-1.0-0","libpangocairo-1.0-0","libpangoft2-1.0-0","libpangoxft-1.0-0"],
+  "description": "Layout and rendering of internationalized text - gir bindings"
+}

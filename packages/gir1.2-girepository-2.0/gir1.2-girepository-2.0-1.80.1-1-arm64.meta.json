@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-gobject-2.0","libgirepository-1.0-1"],
+  "description": "Introspection data for GIRepository library"
+}

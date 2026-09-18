@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libssl3t64"],
+  "description": "Secure Sockets Layer toolkit - cryptographic utility"
+}

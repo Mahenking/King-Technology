@@ -1,0 +1,4 @@
+{
+  "depends": ["libkrb5support0","libc6","libcom-err2","libk5crypto3","libkeyutils1","libssl3t64"],
+  "description": "MIT Kerberos runtime libraries"
+}

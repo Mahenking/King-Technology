@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libglib2.0-0t64","libharfbuzz0b"],
+  "description": "OpenType text shaping engine ICU backend (GObject library)"
+}

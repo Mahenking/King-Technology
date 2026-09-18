@@ -1,0 +1,4 @@
+{
+  "depends": ["ca-certificates"],
+  "description": "Python package installer (pip wheel)"
+}

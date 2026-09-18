@@ -1,0 +1,4 @@
+{
+  "depends": ["ca-certificates","python3-setuptools","python3-wheel","python3:any"],
+  "description": "Python package installer"
+}

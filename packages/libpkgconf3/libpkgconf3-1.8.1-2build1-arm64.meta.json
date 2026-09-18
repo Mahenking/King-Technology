@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "shared library for pkgconf"
+}

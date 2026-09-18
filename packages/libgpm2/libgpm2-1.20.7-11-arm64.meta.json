@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "General Purpose Mouse - shared library"
+}

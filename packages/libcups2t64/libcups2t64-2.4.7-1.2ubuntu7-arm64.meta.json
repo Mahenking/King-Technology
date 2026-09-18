@@ -1,0 +1,4 @@
+{
+  "depends": ["libavahi-client3","libavahi-common3","libc6","libgnutls30t64","libgssapi-krb5-2","zlib1g"],
+  "description": "Common UNIX Printing System(tm) - Core library"
+}

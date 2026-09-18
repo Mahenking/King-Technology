@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Secure Sockets Layer toolkit - shared libraries"
+}

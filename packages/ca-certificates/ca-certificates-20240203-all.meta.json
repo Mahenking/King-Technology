@@ -1,0 +1,4 @@
+{
+  "depends": ["openssl","debconf"],
+  "description": "Common CA certificates"
+}

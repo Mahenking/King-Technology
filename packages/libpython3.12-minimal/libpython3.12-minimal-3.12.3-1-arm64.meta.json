@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libssl3t64"],
+  "description": "Minimal subset of the Python language (version 3.12)"
+}

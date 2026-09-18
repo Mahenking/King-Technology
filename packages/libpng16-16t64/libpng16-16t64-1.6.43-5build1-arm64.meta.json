@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","zlib1g"],
+  "description": "PNG library - runtime (version 1.6)"
+}

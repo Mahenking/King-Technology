@@ -1,0 +1,4 @@
+{
+  "depends": ["dconf-gsettings-backend"],
+  "description": "common files for the GTK graphical user interface library"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Library for handling page faults in a portable way"
+}

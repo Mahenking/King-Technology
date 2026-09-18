@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Library to handle the SFrame format (runtime library)"
+}

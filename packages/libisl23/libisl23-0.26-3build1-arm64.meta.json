@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgmp10"],
+  "description": "manipulating sets and relations of integer points bounded by linear constraints"
+}

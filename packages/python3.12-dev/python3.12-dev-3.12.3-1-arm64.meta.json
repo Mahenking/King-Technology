@@ -1,0 +1,4 @@
+{
+  "depends": ["python3.12","libpython3.12-dev","libpython3.12t64"],
+  "description": "Header files and a static library for Python (v3.12)"
+}

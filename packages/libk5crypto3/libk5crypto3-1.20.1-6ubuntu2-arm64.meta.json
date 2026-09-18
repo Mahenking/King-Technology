@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libkrb5support0"],
+  "description": "MIT Kerberos runtime libraries - Crypto Library"
+}

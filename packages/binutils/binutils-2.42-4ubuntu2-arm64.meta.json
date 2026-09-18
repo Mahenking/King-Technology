@@ -1,0 +1,4 @@
+{
+  "depends": ["binutils-common","libbinutils","binutils-aarch64-linux-gnu"],
+  "description": "GNU assembler, linker and binary utilities"
+}

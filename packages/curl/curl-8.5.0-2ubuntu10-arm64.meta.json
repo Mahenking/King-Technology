@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libcurl4t64","zlib1g"],
+  "description": "command line tool for transferring data with URL syntax"
+}

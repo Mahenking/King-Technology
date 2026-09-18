@@ -1,0 +1,4 @@
+{
+  "depends": ["dpkg"],
+  "description": "minimal subset of the Python language (default python3 version)"
+}

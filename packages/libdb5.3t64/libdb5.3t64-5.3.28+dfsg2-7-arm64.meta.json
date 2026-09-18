@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Berkeley v5.3 Database Libraries [runtime]"
+}

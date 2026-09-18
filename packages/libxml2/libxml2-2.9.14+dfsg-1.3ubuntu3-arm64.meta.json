@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libicu74","liblzma5","zlib1g"],
+  "description": "GNOME XML library"
+}

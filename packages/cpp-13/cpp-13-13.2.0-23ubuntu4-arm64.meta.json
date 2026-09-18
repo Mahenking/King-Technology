@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-13-base","cpp-13-aarch64-linux-gnu"],
+  "description": "GNU C preprocessor"
+}

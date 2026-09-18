@@ -1,0 +1,4 @@
+{
+  "depends": ["default-dbus-session-bus"],
+  "description": "simple configuration storage system - D-Bus service"
+}

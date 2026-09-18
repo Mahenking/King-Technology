@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libunistring5"],
+  "description": "Internationalized domain names (IDNA2008/TR46) library"
+}

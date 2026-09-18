@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libncursesw6","libnl-3-200","libnl-genl-3-200","libtinfo6"],
+  "description": "interactive processes viewer"
+}

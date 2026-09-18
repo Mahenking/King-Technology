@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgcc-s1","liblz4-1","liblzma5","libstdc++6","zlib1g"],
+  "description": "fast lossless compression algorithm -- CLI tool"
+}

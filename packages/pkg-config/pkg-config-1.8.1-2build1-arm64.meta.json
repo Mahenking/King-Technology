@@ -1,0 +1,4 @@
+{
+  "depends": ["pkgconf"],
+  "description": "manage compile and link flags for libraries (transitional package)"
+}

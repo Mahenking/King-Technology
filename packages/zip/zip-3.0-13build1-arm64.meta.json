@@ -1,0 +1,4 @@
+{
+  "depends": ["libbz2-1.0","libc6"],
+  "description": "Archiver for .zip files"
+}

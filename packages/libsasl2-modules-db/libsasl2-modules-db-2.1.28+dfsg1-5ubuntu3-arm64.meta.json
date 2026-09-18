@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libdb5.3t64"],
+  "description": "Cyrus SASL - pluggable authentication modules (DB)"
+}

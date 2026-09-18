@@ -1,0 +1,4 @@
+{
+  "depends": ["libarchive13t64","libc6","libcurl4t64","libexpat1","libgcc-s1","libjsoncpp25","librhash0","libstdc++6","libuv1t64","zlib1g","cmake-data","procps"],
+  "description": "cross-platform, open-source make system"
+}

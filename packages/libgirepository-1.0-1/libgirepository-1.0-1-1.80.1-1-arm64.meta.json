@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libffi8","libglib2.0-0t64"],
+  "description": "Library for handling GObject introspection data (runtime library)"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "common error description library"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-14-base","libc6","libgcc-s1","libstdc++6"],
+  "description": "GCC cc1 plugin for GDB"
+}

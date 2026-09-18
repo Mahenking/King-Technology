@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Little CMS 2 color management library"
+}

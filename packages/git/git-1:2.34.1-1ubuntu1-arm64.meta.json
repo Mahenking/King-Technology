@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libcurl3-gnutls","libexpat1","libpcre2-8-0","zlib1g","perl","liberror-perl","git-man","git-man"],
+  "description": "fast, scalable, distributed revision control system"
+}

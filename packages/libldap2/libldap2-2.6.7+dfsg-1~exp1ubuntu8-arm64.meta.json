@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgnutls30t64","libsasl2-2"],
+  "description": "OpenLDAP libraries"
+}

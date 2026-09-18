@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libglib2.0-0t64","at-spi2-common"],
+  "description": "ATK accessibility toolkit"
+}

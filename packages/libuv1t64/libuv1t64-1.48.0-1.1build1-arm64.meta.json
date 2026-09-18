@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "asynchronous event notification library - runtime library"
+}

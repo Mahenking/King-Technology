@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libx11-6","libxfixes3","libxrender1"],
+  "description": "X cursor management library"
+}

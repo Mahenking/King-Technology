@@ -1,0 +1,4 @@
+{
+  "depends": ["g++-13-aarch64-linux-gnu","gcc-13-base","gcc-13"],
+  "description": "GNU C++ compiler"
+}

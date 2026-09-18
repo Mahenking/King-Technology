@@ -1,0 +1,4 @@
+{
+  "depends": ["debconf"],
+  "description": "spelling dictionaries - common utilities"
+}

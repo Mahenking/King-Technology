@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgmp10","libgnutls30t64","libhogweed6t64","libnettle8t64","zlib1g"],
+  "description": "toolkit for RTMP streams (shared library)"
+}

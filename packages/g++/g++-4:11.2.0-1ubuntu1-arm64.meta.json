@@ -1,0 +1,4 @@
+{
+  "depends": ["cpp","gcc","g++-11","gcc-11"],
+  "description": "GNU C++ compiler"
+}

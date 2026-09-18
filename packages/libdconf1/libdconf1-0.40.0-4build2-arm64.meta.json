@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libglib2.0-0t64"],
+  "description": "simple configuration storage system - runtime library"
+}

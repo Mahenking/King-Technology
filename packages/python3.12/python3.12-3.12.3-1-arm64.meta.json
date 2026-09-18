@@ -1,0 +1,4 @@
+{
+  "depends": ["python3.12-minimal","libpython3.12-stdlib","media-types"],
+  "description": "Interactive high-level object-oriented language (version 3.12)"
+}

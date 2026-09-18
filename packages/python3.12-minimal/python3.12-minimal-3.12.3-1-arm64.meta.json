@@ -1,0 +1,4 @@
+{
+  "depends": ["libpython3.12-minimal","libexpat1","zlib1g"],
+  "description": "Minimal subset of the Python language (version 3.12)"
+}

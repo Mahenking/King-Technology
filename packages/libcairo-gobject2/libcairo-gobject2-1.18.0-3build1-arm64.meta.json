@@ -1,0 +1,4 @@
+{
+  "depends": ["libcairo2","libglib2.0-0t64"],
+  "description": "Cairo 2D vector graphics library (GObject library)"
+}

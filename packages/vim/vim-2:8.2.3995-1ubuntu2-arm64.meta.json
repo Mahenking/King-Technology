@@ -1,0 +1,4 @@
+{
+  "depends": ["vim-common","vim-runtime","libacl1","libc6","libgpm2","libpython3.10","libselinux1","libsodium23","libtinfo6"],
+  "description": "Vi IMproved - enhanced vi editor"
+}

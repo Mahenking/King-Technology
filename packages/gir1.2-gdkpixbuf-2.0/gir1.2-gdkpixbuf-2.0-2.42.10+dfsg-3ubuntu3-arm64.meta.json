@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-gio-2.0","gir1.2-gmodule-2.0","libgdk-pixbuf-2.0-0"],
+  "description": "GDK Pixbuf library - GObject-Introspection"
+}

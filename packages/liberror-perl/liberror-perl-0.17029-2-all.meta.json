@@ -1,0 +1,4 @@
+{
+  "depends": ["perl:any"],
+  "description": "Perl module for error/exception handling in an OO-ish way"
+}

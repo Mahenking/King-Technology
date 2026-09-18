@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libglib2.0-0t64","liblcms2-2","libudev1"],
+  "description": "system service to manage device colour profiles -- runtime"
+}

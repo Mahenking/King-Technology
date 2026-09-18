@@ -1,0 +1,4 @@
+{
+  "depends": ["libatk1.0-0t64","libatspi2.0-0t64","libc6","libdbus-1-3","libglib2.0-0t64"],
+  "description": "AT-SPI 2 toolkit bridge - shared library"
+}

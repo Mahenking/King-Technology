@@ -1,0 +1,4 @@
+{
+  "depends": ["dictionaries-common"],
+  "description": "English_american dictionary for hunspell"
+}

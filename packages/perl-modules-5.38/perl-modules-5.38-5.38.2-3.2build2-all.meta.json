@@ -1,0 +1,4 @@
+{
+  "depends": ["perl-base"],
+  "description": "Core Perl modules"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libffi8"],
+  "description": "library for loading and coordinating access to PKCS#11 modules - runtime"
+}

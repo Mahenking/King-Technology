@@ -1,0 +1,4 @@
+{
+  "depends": ["fontconfig","libc6","libfribidi0","libglib2.0-0t64","libharfbuzz0b","libthai0"],
+  "description": "Layout and rendering of internationalized text"
+}

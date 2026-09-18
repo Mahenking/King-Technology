@@ -1,0 +1,4 @@
+{
+  "depends": ["dconf-gsettings-backend"],
+  "description": "GSettings desktop-wide schemas"
+}

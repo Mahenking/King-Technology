@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libffi8","libmount1","libpcre2-8-0","libselinux1","zlib1g"],
+  "description": "GLib library of C routines"
+}

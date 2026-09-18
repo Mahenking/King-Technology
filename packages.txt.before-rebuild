@@ -1,0 +1,32 @@
+# King OS Master Package List
+# Just list package names, one per line.
+# Engine auto-pulls dependencies.
+
+# ============ BASE SYSTEM ============
+python3
+python3-pip
+python3-venv
+python3-dev
+curl
+wget
+git
+
+# ============ DEVELOPMENT ============
+gcc
+g++
+cmake
+make
+pkg-config
+
+# ============ TOOLS ============
+htop
+nano
+vim
+zip
+unzip
+tree
+zstd
+gawk
+
+# ============ OPTIONAL GUI TOOLS ============
+gedit

@@ -1,0 +1,4 @@
+{
+  "depends": ["libtinfo6","libc6"],
+  "description": "shared libraries for terminal handling (wide character support)"
+}

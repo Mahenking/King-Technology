@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-13-base","libc6","libgmp10","libisl23","libmpc3","libmpfr6","libzstd1","zlib1g"],
+  "description": "GNU C preprocessor for aarch64-linux-gnu"
+}

@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgmp10","libnettle8t64"],
+  "description": "low level cryptographic library (public-key cryptos)"
+}

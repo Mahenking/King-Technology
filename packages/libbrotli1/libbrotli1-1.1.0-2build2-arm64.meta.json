@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "library implementing brotli encoder and decoder (shared libraries)"
+}
