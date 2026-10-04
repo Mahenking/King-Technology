@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-04T11:59:34.005510+00:00",
+  "generated": "2026-10-04T15:23:02.773391+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -146,39 +146,26 @@
       ]
     },
     "cmake": {
-      "current": "3.28.3-1build7",
+      "current": "3.22.1-1ubuntu1",
       "arch": "arm64",
-      "description": "cross-platform, open-source make system",
-      "depends": [
-        "libarchive13t64",
-        "libc6",
-        "libcurl4t64",
-        "libexpat1",
-        "libgcc-s1",
-        "libjsoncpp25",
-        "librhash0",
-        "libstdc++6",
-        "libuv1t64",
-        "zlib1g",
-        "cmake-data",
-        "procps"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.28.3-1build7",
+          "version": "3.22.1-1ubuntu1",
           "arch": "arm64",
-          "filename": "packages/cmake/cmake-3.28.3-1build7-arm64.kpk",
-          "sha256": "6bd02e3de3d6759d8091ddc5067354f224a03ac2af80ff589708b7dc25afcdb7",
-          "size": 13395873,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/cmake-v3.22.1-1ubuntu1/cmake-3.22.1-1ubuntu1-arm64.kpk",
+          "sha256": "88c1341eda7ec2f7ea099914ec2e6ed6b86d0ba716b6b1891a31fdff84e852ed",
+          "size": 8256123,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.22.1-1ubuntu1",
+          "version": "3.28.3-1build7",
           "arch": "arm64",
-          "filename": "packages/cmake/cmake-3.22.1-1ubuntu1-arm64.kpk",
-          "sha256": "b076de1d9c5c2fde27750972aa7c2164eff6d954427b9b2d856274069c600e7e",
-          "size": 8256266,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/cmake-v3.28.3-1build7/cmake-3.28.3-1build7-arm64.kpk",
+          "sha256": "9ff17b80be08f55f6c782e8b933ab39de5352aff006f453393d908965e1c92a9",
+          "size": 13395725,
           "date_added": "2026-10-04"
         }
       ]
@@ -269,30 +256,26 @@
       ]
     },
     "curl": {
-      "current": "8.5.0-2ubuntu10",
+      "current": "7.81.0-1",
       "arch": "arm64",
-      "description": "command line tool for transferring data with URL syntax",
-      "depends": [
-        "libc6",
-        "libcurl4t64",
-        "zlib1g"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "8.5.0-2ubuntu10",
+          "version": "7.81.0-1",
           "arch": "arm64",
-          "filename": "packages/curl/curl-8.5.0-2ubuntu10-arm64.kpk",
-          "sha256": "475a4126f77130b397d1a5ff21609d04bd9025bbc0893dd1ace0207720710608",
-          "size": 245891,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/curl-v7.81.0-1/curl-7.81.0-1-arm64.kpk",
+          "sha256": "9bc4dd79164edf45fe545fde7e306f08cffd56eebad1bcd09871979cd2581495",
+          "size": 204224,
           "date_added": "2026-10-04"
         },
         {
-          "version": "7.81.0-1",
+          "version": "8.5.0-2ubuntu10",
           "arch": "arm64",
-          "filename": "packages/curl/curl-7.81.0-1-arm64.kpk",
-          "sha256": "d090e85df90529dd417a23888a3bd637f4730bceb62abeedd3bfa00ccd4038aa",
-          "size": 204278,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/curl-v8.5.0-2ubuntu10/curl-8.5.0-2ubuntu10-arm64.kpk",
+          "sha256": "bae1b6fe689af6e9c387b28be3a931c2f5153bb38ebd783eb6feb9947f4103a5",
+          "size": 245832,
           "date_added": "2026-10-04"
         }
       ]
@@ -468,58 +451,51 @@
       ]
     },
     "g++": {
-      "current": "4:13.2.0-7ubuntu1",
+      "current": "4:11.2.0-1ubuntu1",
       "arch": "arm64",
-      "description": "GNU C++ compiler",
-      "depends": [
-        "cpp",
-        "cpp-aarch64-linux-gnu",
-        "gcc",
-        "g++-13",
-        "g++-aarch64-linux-gnu",
-        "gcc-13"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "4:13.2.0-7ubuntu1",
+          "version": "4:11.2.0-1ubuntu1",
           "arch": "arm64",
-          "filename": "packages/g++/g++-4:13.2.0-7ubuntu1-arm64.kpk",
-          "sha256": "5e47e318e4fc8aa4d9eaee938a35874826e61b4500df7455214f0457002c7d6c",
-          "size": 441,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/g%2B%2B-v11.2.0-1ubuntu1/g.-11.2.0-1ubuntu1-arm64.kpk",
+          "sha256": "20ab1ebda64a7be5f373192db0f888763ad82c40f789349706db3196ed07cff9",
+          "size": 429,
           "date_added": "2026-10-04"
         },
         {
-          "version": "4:11.2.0-1ubuntu1",
+          "version": "4:13.2.0-7ubuntu1",
           "arch": "arm64",
-          "filename": "packages/g++/g++-4:11.2.0-1ubuntu1-arm64.kpk",
-          "sha256": "d920d05043bdd91c67aac931dea205464e22b343bb3ccbede69f11b2615b9a2f",
-          "size": 463,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/g%2B%2B-v13.2.0-7ubuntu1/g.-13.2.0-7ubuntu1-arm64.kpk",
+          "sha256": "d6f8d08f9e52e77484a33712c04ddc47fb5e1409459cc9a4ec0f1fea440c1ea2",
+          "size": 396,
           "date_added": "2026-10-04"
         }
       ]
     },
     "gawk": {
-      "current": "1:5.2.1-2build3",
+      "current": "1:5.1.0-1build3",
       "arch": "arm64",
-      "description": "GNU awk, a pattern scanning and processing language",
+      "description": "",
       "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "1:5.2.1-2build3",
+          "version": "1:5.1.0-1build3",
           "arch": "arm64",
-          "filename": "packages/gawk/gawk-1:5.2.1-2build3-arm64.kpk",
-          "sha256": "1e98d3351a1b77f6e2dbad633e97682fa9a4d23574f315dfc4a7d4639014dd7c",
-          "size": 518634,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gawk-v5.1.0-1build3/gawk-5.1.0-1build3-arm64.kpk",
+          "sha256": "a8b1345f6a64552b4633678c9cc5da5fa0ec5019b0e0db6ba8739b0e61e55c2e",
+          "size": 490693,
           "date_added": "2026-10-04"
         },
         {
-          "version": "1:5.1.0-1build3",
+          "version": "1:5.2.1-2build3",
           "arch": "arm64",
-          "filename": "packages/gawk/gawk-1:5.1.0-1build3-arm64.kpk",
-          "sha256": "0f524fe4359bb81167c2c9eb00950360ecea648c7b80fae93cf0740b0c343c86",
-          "size": 490699,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gawk-v5.2.1-2build3/gawk-5.2.1-2build3-arm64.kpk",
+          "sha256": "10442c01bf19d688272916f7770eef71e114a374d7f6569e5a5be54a13bf6125",
+          "size": 518617,
           "date_added": "2026-10-04"
         }
       ]
@@ -632,31 +608,26 @@
       ]
     },
     "gcc": {
-      "current": "4:13.2.0-7ubuntu1",
+      "current": "4:11.2.0-1ubuntu1",
       "arch": "arm64",
-      "description": "GNU C compiler",
-      "depends": [
-        "cpp",
-        "cpp-aarch64-linux-gnu",
-        "gcc-13",
-        "gcc-aarch64-linux-gnu"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "4:13.2.0-7ubuntu1",
+          "version": "4:11.2.0-1ubuntu1",
           "arch": "arm64",
-          "filename": "packages/gcc/gcc-4:13.2.0-7ubuntu1-arm64.kpk",
-          "sha256": "3c77b401c5ce13bd4d69149e23917ae2e3fe5c62cfc1cd5134c2c1a0c4dc8a3a",
-          "size": 4231,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gcc-v11.2.0-1ubuntu1/gcc-11.2.0-1ubuntu1-arm64.kpk",
+          "sha256": "d1cc4e15d74fd8c7dda7b4e04cdbe2f8fdacb6c41eb932e2977748ce1a3a077a",
+          "size": 4369,
           "date_added": "2026-10-04"
         },
         {
-          "version": "4:11.2.0-1ubuntu1",
+          "version": "4:13.2.0-7ubuntu1",
           "arch": "arm64",
-          "filename": "packages/gcc/gcc-4:11.2.0-1ubuntu1-arm64.kpk",
-          "sha256": "d3df7ac7decfe54c13487e86b0ea05d0e6666d312dfe3e3908e9a44a9e58b874",
-          "size": 4384,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gcc-v13.2.0-7ubuntu1/gcc-13.2.0-7ubuntu1-arm64.kpk",
+          "sha256": "91e5682af5232e9c41c2e837c4983f32eda997824a4124942b0dc1d2ea7a69b5",
+          "size": 4196,
           "date_added": "2026-10-04"
         }
       ]
@@ -682,53 +653,26 @@
       ]
     },
     "gedit": {
-      "current": "46.2-2",
+      "current": "41.0-3",
       "arch": "arm64",
-      "description": "popular text editor for the GNOME desktop environment",
-      "depends": [
-        "gedit-common",
-        "gedit-common",
-        "gir1.2-glib-2.0",
-        "gir1.2-gtk-3.0",
-        "gir1.2-gtksource-300",
-        "gir1.2-pango-1.0",
-        "gir1.2-peas-1.0",
-        "gsettings-desktop-schemas",
-        "iso-codes",
-        "python3-gi",
-        "python3-gi-cairo",
-        "gir1.2-tepl-6",
-        "python3:any",
-        "python3.12",
-        "libc6",
-        "libcairo2",
-        "libgdk-pixbuf-2.0-0",
-        "libgedit-amtk-5-0",
-        "libgedit-gtksourceview-300-0",
-        "libgirepository-1.0-1",
-        "libglib2.0-0t64",
-        "libgspell-1-2",
-        "libgtk-3-0t64",
-        "libpango-1.0-0",
-        "libpeas-1.0-0",
-        "libtepl-6-4"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "46.2-2",
+          "version": "41.0-3",
           "arch": "arm64",
-          "filename": "packages/gedit/gedit-46.2-2-arm64.kpk",
-          "sha256": "771a1abaedb7f97610e6760de7b1b22d0fd6a6584d2b1b7f7b21a890df1a1959",
-          "size": 435554,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gedit-v41.0-3/gedit-41.0-3-arm64.kpk",
+          "sha256": "b599ef4d34ff95c3ba47d979a31cf68e7b331eb57ef2e607aafaf13674259b6e",
+          "size": 510356,
           "date_added": "2026-10-04"
         },
         {
-          "version": "41.0-3",
+          "version": "46.2-2",
           "arch": "arm64",
-          "filename": "packages/gedit/gedit-41.0-3-arm64.kpk",
-          "sha256": "1af53c1709b54c1ef70d09fa72bdd5085c520b5cef03399525fd7f62e8b23e6d",
-          "size": 510566,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gedit-v46.2-2/gedit-46.2-2-arm64.kpk",
+          "sha256": "65d76a283afa4a3c178f606b643f80c09e02b93d92ff86b5ccf6003a8a40f8ee",
+          "size": 435301,
           "date_added": "2026-10-04"
         }
       ]
@@ -996,36 +940,26 @@
       ]
     },
     "git": {
-      "current": "1:2.43.0-1ubuntu7",
+      "current": "1:2.34.1-1ubuntu1",
       "arch": "arm64",
-      "description": "fast, scalable, distributed revision control system",
-      "depends": [
-        "libc6",
-        "libcurl3t64-gnutls",
-        "libexpat1",
-        "libpcre2-8-0",
-        "zlib1g",
-        "perl",
-        "liberror-perl",
-        "git-man",
-        "git-man"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "1:2.43.0-1ubuntu7",
+          "version": "1:2.34.1-1ubuntu1",
           "arch": "arm64",
-          "filename": "packages/git/git-1:2.43.0-1ubuntu7-arm64.kpk",
-          "sha256": "d7d2e4bb9c9436c7c08a707673a97d2340e9c30f4dbf6fbc15ec9c9b173189f2",
-          "size": 7873543,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/git-v2.34.1-1ubuntu1/git-2.34.1-1ubuntu1-arm64.kpk",
+          "sha256": "daacdd2b5c15728f3ca6df156dcd3dc948e9d15a80505bd1bd37ac3b81bd3fd7",
+          "size": 6428471,
           "date_added": "2026-10-04"
         },
         {
-          "version": "1:2.34.1-1ubuntu1",
+          "version": "1:2.43.0-1ubuntu7",
           "arch": "arm64",
-          "filename": "packages/git/git-1:2.34.1-1ubuntu1-arm64.kpk",
-          "sha256": "8172d755ae9335d622c4c2df1dbe89083bcdfb918f5ccec638b09ba1b2930a5c",
-          "size": 6428588,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/git-v2.43.0-1ubuntu7/git-2.43.0-1ubuntu7-arm64.kpk",
+          "sha256": "75fc6d9c6115a3b316c0a7384b807f217502fefbd5c6790198ab68b961a78f5e",
+          "size": 7873445,
           "date_added": "2026-10-04"
         }
       ]
@@ -1088,32 +1022,26 @@
       ]
     },
     "htop": {
-      "current": "3.3.0-4build1",
+      "current": "3.0.5-7build2",
       "arch": "arm64",
-      "description": "interactive processes viewer",
-      "depends": [
-        "libc6",
-        "libncursesw6",
-        "libnl-3-200",
-        "libnl-genl-3-200",
-        "libtinfo6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.3.0-4build1",
+          "version": "3.0.5-7build2",
           "arch": "arm64",
-          "filename": "packages/htop/htop-3.3.0-4build1-arm64.kpk",
-          "sha256": "7e1ea2a945546948b4eb6f708677c831e1b4cdc4f5f2528ea8a9361b9b709405",
-          "size": 196295,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/htop-v3.0.5-7build2/htop-3.0.5-7build2-arm64.kpk",
+          "sha256": "a04b52695ef39e5217a18c6cfe9491e316f27baaa68bc97c9751410d1a8b4fe6",
+          "size": 144781,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.0.5-7build2",
+          "version": "3.3.0-4build1",
           "arch": "arm64",
-          "filename": "packages/htop/htop-3.0.5-7build2-arm64.kpk",
-          "sha256": "640bd0a78531a15ecb6e5e626cd2cbc5ba7f69aaf885b22fe54e7710afc26c9c",
-          "size": 144834,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/htop-v3.3.0-4build1/htop-3.3.0-4build1-arm64.kpk",
+          "sha256": "fcf9cf3fcf1b2aa4720d926fd3eb017c6eeaee616a0b221ea083eaccd323260b",
+          "size": 196240,
           "date_added": "2026-10-04"
         }
       ]
@@ -1174,26 +1102,16 @@
     "king-ide": {
       "current": "1.0.5",
       "arch": "arm64",
-      "description": "King IDE \u2014 Theia-based robotics IDE",
-      "depends": [
-        "libgtk-3-0",
-        "libnotify4",
-        "libnss3",
-        "libxss1",
-        "libxtst6",
-        "xdg-utils",
-        "libatspi2.0-0",
-        "libuuid1",
-        "libsecret-1-0"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
           "version": "1.0.5",
           "arch": "arm64",
-          "filename": "packages/king-ide/king-ide-1.0.5-arm64.kpk",
-          "sha256": "81d442e9df4f594233cc454fb73eee0f7a2576b8fd39fb8d0a639c366166ad50",
-          "size": 324036620,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.5/king-ide-1.0.5-arm64.kpk",
+          "sha256": "5a20807b7c11b76dae1317e454c7bcfa833a65fcff701fb8432a6872624f74b4",
+          "size": 198607080,
           "date_added": "2026-10-04"
         }
       ]
@@ -1376,28 +1294,26 @@
       ]
     },
     "libc6": {
-      "current": "2.39-0ubuntu8",
+      "current": "2.35-0ubuntu3",
       "arch": "arm64",
-      "description": "GNU C Library: Shared libraries",
-      "depends": [
-        "libgcc-s1"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "2.39-0ubuntu8",
+          "version": "2.35-0ubuntu3",
           "arch": "arm64",
-          "filename": "packages/libc6/libc6-2.39-0ubuntu8-arm64.kpk",
-          "sha256": "1352e0f4cae03d7ffcb9c6e196c0a5d79574a863595936b2f299ac4e472ab9e4",
-          "size": 3823530,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libc6-v2.35-0ubuntu3/libc6-2.35-0ubuntu3-arm64.kpk",
+          "sha256": "c4228b35a861c65b1e01ab55184e97df54f373929ca5581a9a5209a552e829b4",
+          "size": 3438161,
           "date_added": "2026-10-04"
         },
         {
-          "version": "2.35-0ubuntu3",
+          "version": "2.39-0ubuntu8",
           "arch": "arm64",
-          "filename": "packages/libc6/libc6-2.35-0ubuntu3-arm64.kpk",
-          "sha256": "ef2db07b6191671769843ca65a65bd9900b9134b9f086855563fbb80f0d16800",
-          "size": 3438194,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libc6-v2.39-0ubuntu8/libc6-2.39-0ubuntu8-arm64.kpk",
+          "sha256": "5c887c97b33bd42aecf4131b5f7920240f96e4c42b5cf5bbdc595739e794ec3e",
+          "size": 3823501,
           "date_added": "2026-10-04"
         }
       ]
@@ -3925,28 +3841,26 @@
       ]
     },
     "make": {
-      "current": "4.3-4.1build2",
+      "current": "4.3-4.1build1",
       "arch": "arm64",
-      "description": "utility for directing compilation",
-      "depends": [
-        "libc6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "4.3-4.1build2",
+          "version": "4.3-4.1build1",
           "arch": "arm64",
-          "filename": "packages/make/make-4.3-4.1build2-arm64.kpk",
-          "sha256": "d0fcc72a121c7bad2d7f0041f61dda0d1c94d4f2f89f4e0dc9130909826d0a30",
-          "size": 199447,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/make-v4.3-4.1build1/make-4.3-4.1build1-arm64.kpk",
+          "sha256": "71338b7d970bdf471629a52c29275a712383250a0953e8085317459e9378c7d4",
+          "size": 194818,
           "date_added": "2026-10-04"
         },
         {
-          "version": "4.3-4.1build1",
+          "version": "4.3-4.1build2",
           "arch": "arm64",
-          "filename": "packages/make/make-4.3-4.1build1-arm64.kpk",
-          "sha256": "05c034b56b12c52d0dc8053669fe568144854138a42a6c40d39cf3d9d538b90e",
-          "size": 194844,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/make-v4.3-4.1build2/make-4.3-4.1build2-arm64.kpk",
+          "sha256": "c9c707aa9898466a5c79b9f95f06fc905f3587a81ffd5d5415ceb7b33d9027a3",
+          "size": 199421,
           "date_added": "2026-10-04"
         }
       ]
@@ -3969,30 +3883,26 @@
       ]
     },
     "nano": {
-      "current": "7.2-2build1",
+      "current": "6.2-1",
       "arch": "arm64",
-      "description": "small, friendly text editor inspired by Pico",
-      "depends": [
-        "libc6",
-        "libncursesw6",
-        "libtinfo6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "7.2-2build1",
+          "version": "6.2-1",
           "arch": "arm64",
-          "filename": "packages/nano/nano-7.2-2build1-arm64.kpk",
-          "sha256": "efb330e72306a6cd2ad34753afcbbe1466d8b82a87802d247f1e7ad5179d1827",
-          "size": 313467,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nano-v6.2-1/nano-6.2-1-arm64.kpk",
+          "sha256": "5d9dd5a3fb3b8db866f7d244315857e92cf2cb5e5cec112395686fc6261d82d6",
+          "size": 307400,
           "date_added": "2026-10-04"
         },
         {
-          "version": "6.2-1",
+          "version": "7.2-2build1",
           "arch": "arm64",
-          "filename": "packages/nano/nano-6.2-1-arm64.kpk",
-          "sha256": "8ea40e9ca4069df2e1f1bffa3e8571318129abe9faca7af51c2beb98720a752a",
-          "size": 307420,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nano-v7.2-2build1/nano-7.2-2build1-arm64.kpk",
+          "sha256": "b11d72a3d842d9176aac917c73c7c4674532fbbe9a3547b1fc840625e7ac479e",
+          "size": 313420,
           "date_added": "2026-10-04"
         }
       ]
@@ -4075,28 +3985,26 @@
       ]
     },
     "pkg-config": {
-      "current": "1.8.1-2build1",
+      "current": "0.29.2-1ubuntu3",
       "arch": "arm64",
-      "description": "manage compile and link flags for libraries (transitional package)",
-      "depends": [
-        "pkgconf"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "1.8.1-2build1",
+          "version": "0.29.2-1ubuntu3",
           "arch": "arm64",
-          "filename": "packages/pkg-config/pkg-config-1.8.1-2build1-arm64.kpk",
-          "sha256": "efbf8e00ff0f5f00da8fde76da044d4d9a49091f8e33b6e123f8fba3a3251954",
-          "size": 6609,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/pkg-config-v0.29.2-1ubuntu3/pkg-config-0.29.2-1ubuntu3-arm64.kpk",
+          "sha256": "ab08dc9a097ee59fd46eae5d076baf8e7be6e7ed4b95c85e2f324728c34640d6",
+          "size": 51964,
           "date_added": "2026-10-04"
         },
         {
-          "version": "0.29.2-1ubuntu3",
+          "version": "1.8.1-2build1",
           "arch": "arm64",
-          "filename": "packages/pkg-config/pkg-config-0.29.2-1ubuntu3-arm64.kpk",
-          "sha256": "537453b21c46b68a6f15c6a36c2d84eb6785c90c75b3d1617b0882980093a0e1",
-          "size": 52008,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/pkg-config-v1.8.1-2build1/pkg-config-1.8.1-2build1-arm64.kpk",
+          "sha256": "b1fffc7d5f56dc070590a49e65f0f50b8faffbefa4001db619bf0d4d5040e0bb",
+          "size": 6559,
           "date_added": "2026-10-04"
         }
       ]
@@ -4188,31 +4096,26 @@
       ]
     },
     "python3-dev": {
-      "current": "3.12.3-0ubuntu1",
+      "current": "3.10.4-0ubuntu2",
       "arch": "arm64",
-      "description": "header files and a static library for Python (default)",
-      "depends": [
-        "python3",
-        "libpython3-dev",
-        "python3.12-dev",
-        "libjs-sphinxdoc"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.12.3-0ubuntu1",
+          "version": "3.10.4-0ubuntu2",
           "arch": "arm64",
-          "filename": "packages/python3-dev/python3-dev-3.12.3-0ubuntu1-arm64.kpk",
-          "sha256": "f1bd74078feb6ee40ad8e22a793596038bcb0e4157be04feab94d28061d231b7",
-          "size": 30243,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-dev-v3.10.4-0ubuntu2/python3-dev-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "1855a539fc64d385c12cb7cc786d615b5cc20f775b9a6e30795003c25921e6f1",
+          "size": 29181,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.10.4-0ubuntu2",
+          "version": "3.12.3-0ubuntu1",
           "arch": "arm64",
-          "filename": "packages/python3-dev/python3-dev-3.10.4-0ubuntu2-arm64.kpk",
-          "sha256": "e391b331edf64d6e5e94a978411bf0ec11dde3753a86f4e563a2b5895d931909",
-          "size": 29233,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-dev-v3.12.3-0ubuntu1/python3-dev-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "54df7fb24ce357556969728847f9d1167367e44adcac1df33fd31795cae5fa8c",
+          "size": 30188,
           "date_added": "2026-10-04"
         }
       ]
@@ -4310,31 +4213,26 @@
       ]
     },
     "python3-pip": {
-      "current": "24.0+dfsg-1ubuntu1",
+      "current": "22.0.2+dfsg-1",
       "arch": "all",
-      "description": "Python package installer",
-      "depends": [
-        "ca-certificates",
-        "python3-setuptools",
-        "python3-wheel",
-        "python3:any"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "24.0+dfsg-1ubuntu1",
+          "version": "22.0.2+dfsg-1",
           "arch": "all",
-          "filename": "packages/python3-pip/python3-pip-24.0+dfsg-1ubuntu1-all.kpk",
-          "sha256": "087230b29814f86aa26ee7247eb3b646cf5a6f3fd250f2df610bc78d35f0273f",
-          "size": 1662889,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-pip-v22.0.2%2Bdfsg-1/python3-pip-22.0.2.dfsg-1-all.kpk",
+          "sha256": "a150d7435688b3e9420db64a8d8ff44fb442e2c471e45d926ed122c4c109e6f5",
+          "size": 1630717,
           "date_added": "2026-10-04"
         },
         {
-          "version": "22.0.2+dfsg-1",
+          "version": "24.0+dfsg-1ubuntu1",
           "arch": "all",
-          "filename": "packages/python3-pip/python3-pip-22.0.2+dfsg-1-all.kpk",
-          "sha256": "22e301df7db81f49ce56c66250f2b1b5601e6bef3b7de7f998405a31332fe4c1",
-          "size": 1630759,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-pip-v24.0%2Bdfsg-1ubuntu1/python3-pip-24.0.dfsg-1ubuntu1-all.kpk",
+          "sha256": "1aef856e62a2c725031ecf2d0b72ab3843a04fc90c80c0c50325ce49b27a01e4",
+          "size": 1662859,
           "date_added": "2026-10-04"
         }
       ]
@@ -4396,29 +4294,26 @@
       ]
     },
     "python3-venv": {
-      "current": "3.12.3-0ubuntu1",
+      "current": "3.10.4-0ubuntu2",
       "arch": "arm64",
-      "description": "venv module for python3 (default python3 version)",
-      "depends": [
-        "python3.12-venv",
-        "python3"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.12.3-0ubuntu1",
+          "version": "3.10.4-0ubuntu2",
           "arch": "arm64",
-          "filename": "packages/python3-venv/python3-venv-3.12.3-0ubuntu1-arm64.kpk",
-          "sha256": "9a4cdcfeea878920005363147693bc3dafd7fe1c2b2094f92736621e3f28aa85",
-          "size": 345,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-venv-v3.10.4-0ubuntu2/python3-venv-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "90778ffc86a95d1f5e4b1f0652666ce29aa45c0c605e8fb7c99f366203347b74",
+          "size": 308,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.10.4-0ubuntu2",
+          "version": "3.12.3-0ubuntu1",
           "arch": "arm64",
-          "filename": "packages/python3-venv/python3-venv-3.10.4-0ubuntu2-arm64.kpk",
-          "sha256": "0febf451ea9a25cac1531cbde21f94738aeb9ac4c8f0d0886d6dfeac4a603fee",
-          "size": 354,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-venv-v3.12.3-0ubuntu1/python3-venv-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "ac2b79eab5dd26875735ab2f90e45bc02dd41999cba84b8f8148e6732fe960d7",
+          "size": 293,
           "date_added": "2026-10-04"
         }
       ]
@@ -4527,29 +4422,26 @@
       ]
     },
     "python3": {
-      "current": "3.12.3-0ubuntu1",
+      "current": "3.10.4-0ubuntu2",
       "arch": "arm64",
-      "description": "interactive high-level object-oriented language (default python3 version)",
-      "depends": [
-        "python3.12",
-        "libpython3-stdlib"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.12.3-0ubuntu1",
+          "version": "3.10.4-0ubuntu2",
           "arch": "arm64",
-          "filename": "packages/python3/python3-3.12.3-0ubuntu1-arm64.kpk",
-          "sha256": "f551552fa0bda7c934e611c0c7589543a8e4d4af40cdc67a9605c7456f6f4543",
-          "size": 24324,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-v3.10.4-0ubuntu2/python3-3.10.4-0ubuntu2-arm64.kpk",
+          "sha256": "afa7287c75fb89d3ae802a2975d454fc568f41d234f418ee5b5f705d11dae8a5",
+          "size": 22419,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.10.4-0ubuntu2",
+          "version": "3.12.3-0ubuntu1",
           "arch": "arm64",
-          "filename": "packages/python3/python3-3.10.4-0ubuntu2-arm64.kpk",
-          "sha256": "17a87cbf1c4ea951af03274906cf8e5f38990352e2670d7366028932db34934a",
-          "size": 22477,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-v3.12.3-0ubuntu1/python3-3.12.3-0ubuntu1-arm64.kpk",
+          "sha256": "d9cc4b57232601b2d8d0c582cfc4c0d48fc557fa57511637feb61b4cd947d01b",
+          "size": 24277,
           "date_added": "2026-10-04"
         }
       ]
@@ -4595,28 +4487,26 @@
       ]
     },
     "tree": {
-      "current": "2.1.1-2ubuntu3",
+      "current": "2.0.2-1",
       "arch": "arm64",
-      "description": "displays an indented directory tree, in color",
-      "depends": [
-        "libc6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "2.1.1-2ubuntu3",
+          "version": "2.0.2-1",
           "arch": "arm64",
-          "filename": "packages/tree/tree-2.1.1-2ubuntu3-arm64.kpk",
-          "sha256": "60476db9107ba94d08097f1e495d871427c7fba59a6368fcdc58ac321404a991",
-          "size": 52667,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tree-v2.0.2-1/tree-2.0.2-1-arm64.kpk",
+          "sha256": "000f90620ca18389fa1235cace074c69c32ae521280d9b8b59532300c7311c2a",
+          "size": 52143,
           "date_added": "2026-10-04"
         },
         {
-          "version": "2.0.2-1",
+          "version": "2.1.1-2ubuntu3",
           "arch": "arm64",
-          "filename": "packages/tree/tree-2.0.2-1-arm64.kpk",
-          "sha256": "e10eb7f86d6b0ec37c4aaceec8643d0b7310145daf8d7af4e789556c8d0ed00a",
-          "size": 52178,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tree-v2.1.1-2ubuntu3/tree-2.1.1-2ubuntu3-arm64.kpk",
+          "sha256": "473f63acc0ad191784d0a86028593d0d21341341ae4c8443bb1131c06dc4533b",
+          "size": 52631,
           "date_added": "2026-10-04"
         }
       ]
@@ -4643,29 +4533,26 @@
       ]
     },
     "unzip": {
-      "current": "6.0-28ubuntu4",
+      "current": "6.0-26ubuntu3",
       "arch": "arm64",
-      "description": "De-archiver for .zip files",
-      "depends": [
-        "libbz2-1.0",
-        "libc6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "6.0-28ubuntu4",
+          "version": "6.0-26ubuntu3",
           "arch": "arm64",
-          "filename": "packages/unzip/unzip-6.0-28ubuntu4-arm64.kpk",
-          "sha256": "8810d7c04b65d6c00b63e1286e662394e4e2f4356d56f7bc3b0e5a0bc8fa7942",
-          "size": 192397,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/unzip-v6.0-26ubuntu3/unzip-6.0-26ubuntu3-arm64.kpk",
+          "sha256": "4077e47f427ef79aee10906b61438ffb73b9765d7424717ff737bade75aa5ebb",
+          "size": 191470,
           "date_added": "2026-10-04"
         },
         {
-          "version": "6.0-26ubuntu3",
+          "version": "6.0-28ubuntu4",
           "arch": "arm64",
-          "filename": "packages/unzip/unzip-6.0-26ubuntu3-arm64.kpk",
-          "sha256": "00d6d1219920ca1ade9a2ba231090b85a730fd5de6fe138ed856b376d912fea3",
-          "size": 191502,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/unzip-v6.0-28ubuntu4/unzip-6.0-28ubuntu4-arm64.kpk",
+          "sha256": "49fa002783d6467ca6cd08460a4d0286533b9f9a556a0eb94e9a9b2bac1f4729",
+          "size": 192360,
           "date_added": "2026-10-04"
         }
       ]
@@ -4705,69 +4592,51 @@
       ]
     },
     "vim": {
-      "current": "2:9.1.0016-1ubuntu7",
+      "current": "2:8.2.3995-1ubuntu2",
       "arch": "arm64",
-      "description": "Vi IMproved - enhanced vi editor",
-      "depends": [
-        "vim-common",
-        "vim-runtime",
-        "libacl1",
-        "libc6",
-        "libgpm2",
-        "libpython3.12t64",
-        "libselinux1",
-        "libsodium23",
-        "libtinfo6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "2:9.1.0016-1ubuntu7",
+          "version": "2:8.2.3995-1ubuntu2",
           "arch": "arm64",
-          "filename": "packages/vim/vim-2:9.1.0016-1ubuntu7-arm64.kpk",
-          "sha256": "0432adbd3ab6143815ad35c3e43ca4b3a954917f2cfa1287fc247795ac9f4c3e",
-          "size": 2203217,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/vim-v8.2.3995-1ubuntu2/vim-8.2.3995-1ubuntu2-arm64.kpk",
+          "sha256": "71635ef26f08089db9705efa374ed4d3c736a8d44e76b5008a9d70202d0e2b86",
+          "size": 1999295,
           "date_added": "2026-10-04"
         },
         {
-          "version": "2:8.2.3995-1ubuntu2",
+          "version": "2:9.1.0016-1ubuntu7",
           "arch": "arm64",
-          "filename": "packages/vim/vim-2:8.2.3995-1ubuntu2-arm64.kpk",
-          "sha256": "eb9db9bafa3cfc4c6828204dd93c7559734c669dcfcd13cec806d9bfab54ebbc",
-          "size": 1999379,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/vim-v9.1.0016-1ubuntu7/vim-9.1.0016-1ubuntu7-arm64.kpk",
+          "sha256": "3c92eea38758afe20bd1bd74c14697b796818baa54dfda6bff69105534d17d19",
+          "size": 2203123,
           "date_added": "2026-10-04"
         }
       ]
     },
     "wget": {
-      "current": "1.21.4-1ubuntu4",
+      "current": "1.21.2-2ubuntu1",
       "arch": "arm64",
-      "description": "retrieves files from the web",
-      "depends": [
-        "libc6",
-        "libidn2-0",
-        "libpcre2-8-0",
-        "libpsl5t64",
-        "libssl3t64",
-        "libuuid1",
-        "zlib1g"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "1.21.4-1ubuntu4",
+          "version": "1.21.2-2ubuntu1",
           "arch": "arm64",
-          "filename": "packages/wget/wget-1.21.4-1ubuntu4-arm64.kpk",
-          "sha256": "5d2a8fa1ede0a016b1f68026609f1339c6cce4f1978e52288cf48e103e5483dc",
-          "size": 369888,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/wget-v1.21.2-2ubuntu1/wget-1.21.2-2ubuntu1-arm64.kpk",
+          "sha256": "e8847c192c9ec6f53caa3ca9b02df19f3e87b5db76090cddc28216a05e288b7f",
+          "size": 403510,
           "date_added": "2026-10-04"
         },
         {
-          "version": "1.21.2-2ubuntu1",
+          "version": "1.21.4-1ubuntu4",
           "arch": "arm64",
-          "filename": "packages/wget/wget-1.21.2-2ubuntu1-arm64.kpk",
-          "sha256": "79ce5288a79094f56160f23d6ef64758c727446eee49d5f8f6f0a85809dcbc64",
-          "size": 403573,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/wget-v1.21.4-1ubuntu4/wget-1.21.4-1ubuntu4-arm64.kpk",
+          "sha256": "d4d305b29379cef370bd07d16f6efb1d3e8637b5fbea1687d875b936112c35b6",
+          "size": 369824,
           "date_added": "2026-10-04"
         }
       ]
@@ -4790,29 +4659,26 @@
       ]
     },
     "zip": {
-      "current": "3.0-13build1",
+      "current": "3.0-12build2",
       "arch": "arm64",
-      "description": "Archiver for .zip files",
-      "depends": [
-        "libbz2-1.0",
-        "libc6"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "3.0-13build1",
+          "version": "3.0-12build2",
           "arch": "arm64",
-          "filename": "packages/zip/zip-3.0-13build1-arm64.kpk",
-          "sha256": "2bf6500e91ed95dd49e55c0ba78f00cad10f6e1dfd73fa6e5081530af20a9c0c",
-          "size": 198783,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/zip-v3.0-12build2/zip-3.0-12build2-arm64.kpk",
+          "sha256": "7c63412ff77905d02740c67f53a73f5cf3b32d7b556df8790432def6afdf393c",
+          "size": 197387,
           "date_added": "2026-10-04"
         },
         {
-          "version": "3.0-12build2",
+          "version": "3.0-13build1",
           "arch": "arm64",
-          "filename": "packages/zip/zip-3.0-12build2-arm64.kpk",
-          "sha256": "bebd622a33a2aab1d1719a79f2af2bb3f8b8c2628ee322ad266e554e0f8c43ee",
-          "size": 197422,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/zip-v3.0-13build1/zip-3.0-13build1-arm64.kpk",
+          "sha256": "80bf42e0147d56bc5c0fa3d37d23b559458e41bb5661166a5fe3f71dda9c4f3c",
+          "size": 198737,
           "date_added": "2026-10-04"
         }
       ]
@@ -4838,33 +4704,51 @@
       ]
     },
     "zstd": {
-      "current": "1.5.5+dfsg2-2build1",
+      "current": "1.4.8+dfsg-3build1",
       "arch": "arm64",
-      "description": "fast lossless compression algorithm -- CLI tool",
-      "depends": [
-        "libc6",
-        "libgcc-s1",
-        "liblz4-1",
-        "liblzma5",
-        "libstdc++6",
-        "zlib1g"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
         {
-          "version": "1.5.5+dfsg2-2build1",
+          "version": "1.4.8+dfsg-3build1",
           "arch": "arm64",
-          "filename": "packages/zstd/zstd-1.5.5+dfsg2-2build1-arm64.kpk",
-          "sha256": "8c76b6100cb29329b302230594f93b8ee371ce9194f59782a204a8201e6d81d9",
-          "size": 685741,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/zstd-v1.4.8%2Bdfsg-3build1/zstd-1.4.8.dfsg-3build1-arm64.kpk",
+          "sha256": "5d02ad1ca7e1eb0df0fb931c33a327d61e067b40e7c461261a86381b865b04c4",
+          "size": 698257,
           "date_added": "2026-10-04"
         },
         {
-          "version": "1.4.8+dfsg-3build1",
+          "version": "1.5.5+dfsg2-2build1",
           "arch": "arm64",
-          "filename": "packages/zstd/zstd-1.4.8+dfsg-3build1-arm64.kpk",
-          "sha256": "ef1ca510d5787c913359c20f27a17169fabcb6b370b9fd6c8e754f27ce18f597",
-          "size": 698328,
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/zstd-v1.5.5%2Bdfsg2-2build1/zstd-1.5.5.dfsg2-2build1-arm64.kpk",
+          "sha256": "b568aae930880fe6e2cbc547c4ada938af35a4ea9a5b7d5b35ed10fe15412fca",
+          "size": 685661,
+          "date_added": "2026-10-04"
+        }
+      ]
+    },
+    "firefox": {
+      "current": "1:1snap1-0ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:1snap1-0ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/firefox-v1snap1-0ubuntu2/firefox-1snap1-0ubuntu2-arm64.kpk",
+          "sha256": "d7878cedbec7e484f6fa20ad7e30c05489725af742efb73854ec65b6642ecdf5",
+          "size": 71515,
+          "date_added": "2026-10-04"
+        },
+        {
+          "version": "1:1snap1-0ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/firefox-v1snap1-0ubuntu5/firefox-1snap1-0ubuntu5-arm64.kpk",
+          "sha256": "44eaf042e528150c9e8d2c55601ac5056659a389921e2e64f204a37dec5f0f36",
+          "size": 74851,
           "date_added": "2026-10-04"
         }
       ]
