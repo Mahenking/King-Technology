@@ -1,25 +1,37 @@
+# ============================================================
+# 👑 King OS — Engine Files (NOT for the public repo)
+# ============================================================
+# This repo is public and serves ONLY the package data
+# that KPM reads: index.json + packages/
+#
+# Engine files live locally (and in a private repo if needed).
+# ============================================================
+
+# Build engine
+king-repo-build.sh
+setup.sh
+
+# Inputs
+packages.txt
+sources.txt
+
+# Scraper code
+scraper/
+
+# Config
+config/
+
 # Backups
 *.bak
-*.before-rebuild
+
+# ============================================================
+# Backups and temp files
+# ============================================================
+*.bak
 *.prefix
-build.log
-build-full.log
-
-# Temp
-/tmp/
+*.old
 *.tmp
-
-# Python
-__pycache__/
-*.pyc
-
-# OS
-.DS_Store
-
-# BUT keep these:
-# packages/       ← .kpk files (large but essential)
-# index.json      ← repo metadata
-# sources.txt     ← resolved URLs
-!packages/
-!index.json
-!sources.txt
+*.log
+build.log
+sources.txt.bak
+packages.txt.bak
