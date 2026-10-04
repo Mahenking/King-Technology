@@ -1,0 +1,4 @@
+{
+  "depends": ["libbz2-1.0","libc6","libcrypt1","libdb5.3t64","libgdbm-compat4t64","libgdbm6t64","zlib1g","perl-modules-5.38"],
+  "description": "shared Perl library"
+}

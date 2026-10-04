@@ -1,0 +1,4 @@
+{
+  "depends": ["python3:any"],
+  "description": "built-package format for Python"
+}

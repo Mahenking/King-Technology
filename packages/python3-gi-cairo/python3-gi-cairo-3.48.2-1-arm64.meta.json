@@ -1,0 +1,4 @@
+{
+  "depends": ["python3-cairo","python3-gi","python3","python3","libc6","libcairo-gobject2","libcairo2","libglib2.0-0t64"],
+  "description": "Python 3 Cairo bindings for the GObject library"
+}

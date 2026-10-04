@@ -1,0 +1,4 @@
+{
+  "depends": ["python3.12-venv","python3"],
+  "description": "venv module for python3 (default python3 version)"
+}

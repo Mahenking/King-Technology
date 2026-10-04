@@ -1,0 +1,4 @@
+{
+  "depends": ["libbinutils","libc6","zlib1g"],
+  "description": "Compact C Type Format library (runtime, BFD dependency)"
+}

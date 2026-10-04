@@ -1,0 +1,4 @@
+{
+  "depends": ["binutils-common","libbinutils","libc6","libctf-nobfd0","libctf0","libgcc-s1","libgprofng0","libjansson4","libsframe1","libstdc++6","libzstd1","zlib1g"],
+  "description": "GNU binary utilities, for aarch64-linux-gnu target"
+}

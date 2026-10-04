@@ -1,0 +1,4 @@
+{
+  "depends": ["gedit-common","gedit-common","gir1.2-glib-2.0","gir1.2-gtk-3.0","gir1.2-gtksource-4","gir1.2-pango-1.0","gir1.2-peas-1.0","gsettings-desktop-schemas","iso-codes","python3-gi","python3-gi-cairo","python3:any","python3.10","libatk1.0-0","libc6","libcairo2","libgdk-pixbuf-2.0-0","libgirepository-1.0-1","libglib2.0-0","libgspell-1-2","libgtk-3-0","libgtksourceview-4-0","libpango-1.0-0","libpeas-1.0-0","libxml2"],
+  "description": "official text editor of the GNOME desktop environment"
+}

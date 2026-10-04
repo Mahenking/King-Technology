@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libcairo2","libgedit-amtk-5-0","libgedit-gtksourceview-300-0","libglib2.0-0t64","libgtk-3-0t64","libicu74","libpango-1.0-0","libtepl-common"],
+  "description": "Text editor library for GTK"
+}

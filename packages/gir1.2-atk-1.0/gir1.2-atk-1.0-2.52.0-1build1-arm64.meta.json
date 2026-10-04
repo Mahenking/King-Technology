@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-gobject-2.0","libatk1.0-0t64"],
+  "description": "ATK accessibility toolkit (GObject introspection)"
+}

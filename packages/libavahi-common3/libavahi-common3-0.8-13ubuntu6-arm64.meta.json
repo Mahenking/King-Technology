@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libavahi-common-data"],
+  "description": "Avahi common library"
+}

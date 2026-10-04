@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-13-base","libgcc-13-dev","libstdc++6","libc6-dev"],
+  "description": "GNU Standard C++ Library v3 (development files)"
+}

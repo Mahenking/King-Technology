@@ -1,0 +1,4 @@
+{
+  "depends": ["python3-pkg-resources","python3:any"],
+  "description": "Python3 Distutils Enhancements"
+}

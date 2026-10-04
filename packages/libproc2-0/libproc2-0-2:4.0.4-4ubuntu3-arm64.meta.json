@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libsystemd0"],
+  "description": "library for accessing process information from /proc"
+}

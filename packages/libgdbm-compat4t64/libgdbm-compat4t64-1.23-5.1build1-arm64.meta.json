@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgdbm6t64"],
+  "description": "GNU dbm database routines (legacy support runtime version) "
+}

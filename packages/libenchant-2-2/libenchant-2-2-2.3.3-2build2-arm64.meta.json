@@ -1,0 +1,4 @@
+{
+  "depends": ["hunspell-en-us"],
+  "description": "Wrapper library for various spell checker engines (runtime libs)"
+}

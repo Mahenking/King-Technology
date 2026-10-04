@@ -1,0 +1,4 @@
+{
+  "depends": ["libidn2-0","libc6","libunistring5"],
+  "description": "Library for Public Suffix List (shared libraries)"
+}

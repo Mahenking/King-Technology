@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-gtk-3.0","libgedit-amtk-5-0"],
+  "description": "Actions, Menus and Toolbars Kit for GTK+ - GObject introspection"
+}

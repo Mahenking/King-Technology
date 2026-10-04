@@ -1,0 +1,4 @@
+{
+  "depends": ["libpython3.12-stdlib","libc6","libexpat1","zlib1g"],
+  "description": "Shared Python runtime library (version 3.12)"
+}

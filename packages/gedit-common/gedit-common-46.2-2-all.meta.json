@@ -1,0 +1,4 @@
+{
+  "depends": ["python3:any","dconf-gsettings-backend"],
+  "description": "popular text editor for the GNOME desktop environment (support files)"
+}

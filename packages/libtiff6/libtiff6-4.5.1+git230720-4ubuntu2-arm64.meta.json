@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libdeflate0","libjbig0","libjpeg8","liblerc4","liblzma5","libwebp7","libzstd1","zlib1g"],
+  "description": "Tag Image File Format (TIFF) library"
+}

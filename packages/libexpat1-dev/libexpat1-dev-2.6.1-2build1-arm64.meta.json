@@ -1,0 +1,4 @@
+{
+  "depends": ["libexpat1","libc6-dev"],
+  "description": "XML parsing C library - development kit"
+}

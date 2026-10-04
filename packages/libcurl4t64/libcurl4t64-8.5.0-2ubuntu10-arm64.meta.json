@@ -1,0 +1,4 @@
+{
+  "depends": ["libbrotli1","libc6","libgssapi-krb5-2","libidn2-0","libldap2","libnghttp2-14","libpsl5t64","librtmp1","libssh-4","libssl3t64","libzstd1","zlib1g"],
+  "description": "easy-to-use client-side URL transfer library (OpenSSL flavour)"
+}

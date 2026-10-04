@@ -1,0 +1,4 @@
+{
+  "depends": ["pkgconf-bin"],
+  "description": "manage compile and link flags for libraries"
+}

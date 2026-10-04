@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "shared low-level terminfo library for terminal handling"
+}

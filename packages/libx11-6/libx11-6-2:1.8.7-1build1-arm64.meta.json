@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libxcb1","libx11-data"],
+  "description": "X11 client-side library"
+}

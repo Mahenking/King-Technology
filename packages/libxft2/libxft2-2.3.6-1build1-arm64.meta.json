@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libfontconfig1","libfreetype6","libx11-6","libxrender1"],
+  "description": "FreeType-based font drawing library for X"
+}

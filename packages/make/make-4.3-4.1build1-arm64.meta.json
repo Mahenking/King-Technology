@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "utility for directing compilation"
+}

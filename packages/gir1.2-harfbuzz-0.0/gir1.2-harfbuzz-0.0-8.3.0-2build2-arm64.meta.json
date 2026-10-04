@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-freetype2-2.0","gir1.2-gobject-2.0","libharfbuzz-gobject0","libharfbuzz0b"],
+  "description": "OpenType text shaping engine (GObject introspection data)"
+}

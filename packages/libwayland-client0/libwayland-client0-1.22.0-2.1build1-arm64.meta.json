@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libffi8"],
+  "description": "wayland compositor infrastructure - client library"
+}

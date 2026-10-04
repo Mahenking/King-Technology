@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-13-aarch64-linux-gnu","gcc-13-base","binutils"],
+  "description": "GNU C compiler"
+}

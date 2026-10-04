@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Network communication, cryptography and signaturing library"
+}

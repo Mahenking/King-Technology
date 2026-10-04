@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libpkgconf3"],
+  "description": "manage compile and link flags for libraries (binaries)"
+}

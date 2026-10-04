@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "C library for encoding, decoding and manipulating JSON data"
+}

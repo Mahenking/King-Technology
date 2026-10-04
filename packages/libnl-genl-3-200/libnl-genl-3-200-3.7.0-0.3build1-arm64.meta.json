@@ -1,0 +1,4 @@
+{
+  "depends": ["libnl-3-200","libc6"],
+  "description": "library for dealing with netlink sockets - generic netlink"
+}

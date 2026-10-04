@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgcc-s1","libglib2.0-0t64","libstdc++6","libxml2"],
+  "description": "FreeDesktop.org shared MIME database and spec"
+}

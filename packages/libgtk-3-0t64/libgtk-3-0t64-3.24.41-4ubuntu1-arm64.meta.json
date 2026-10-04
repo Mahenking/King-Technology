@@ -1,0 +1,4 @@
+{
+  "depends": ["adwaita-icon-theme","hicolor-icon-theme","shared-mime-info","libatk-bridge2.0-0t64","libatk1.0-0t64","libc6","libcairo-gobject2","libcairo2","libcolord2","libcups2t64","libepoxy0","libfontconfig1","libfribidi0","libgdk-pixbuf-2.0-0","libglib2.0-0t64","libharfbuzz0b","libpango-1.0-0","libpangocairo-1.0-0","libpangoft2-1.0-0","libwayland-client0","libwayland-cursor0","libwayland-egl1","libx11-6","libxcomposite1","libxcursor1","libxdamage1","libxext6","libxfixes3","libxi6","libxinerama1","libxkbcommon0","libxrandr2","libgtk-3-common"],
+  "description": "GTK graphical user interface library"
+}

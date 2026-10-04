@@ -1,0 +1,4 @@
+{
+  "depends": ["dconf-service","dconf-service","libdconf1","libc6","libglib2.0-0t64"],
+  "description": "simple configuration storage system - GSettings back-end"
+}

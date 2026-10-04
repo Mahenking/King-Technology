@@ -1,0 +1,4 @@
+{
+  "depends": ["python3.12","python3-pip-whl","python3-setuptools-whl"],
+  "description": "Interactive high-level object-oriented language (pyvenv binary, version 3.12)"
+}

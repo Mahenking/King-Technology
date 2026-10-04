@@ -1,0 +1,4 @@
+{
+  "depends": ["adwaita-icon-theme","hicolor-icon-theme","humanity-icon-theme"],
+  "description": "Ubuntu Mono Icon theme"
+}

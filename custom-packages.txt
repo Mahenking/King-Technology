@@ -1,0 +1,3 @@
+# Custom packages — not from Ubuntu repos
+# Format: name | version | url | arch | deps | description
+king-ide | 1.0.5 | https://github.com/Mahenking/KingOS-ARM_64-Edition/releases/download/v1.0.5/king-ide_1.0.5_arm64.deb | arm64 | | King IDE — Theia-based robotics IDE

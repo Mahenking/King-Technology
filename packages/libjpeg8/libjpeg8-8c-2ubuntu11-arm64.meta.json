@@ -1,0 +1,4 @@
+{
+  "depends": ["libjpeg-turbo8"],
+  "description": "Independent JPEG Group's JPEG runtime library (dependency package)"
+}

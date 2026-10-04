@@ -1,0 +1,4 @@
+{
+  "depends": ["xkb-data","libc6"],
+  "description": "library interface to the XKB compiler - shared library"
+}

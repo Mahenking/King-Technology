@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "library for dealing with netlink sockets"
+}

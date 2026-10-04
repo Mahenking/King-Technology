@@ -1,0 +1,4 @@
+{
+  "depends": ["libjs-jquery","libjs-underscore"],
+  "description": "JavaScript support for Sphinx documentation"
+}

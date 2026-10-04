@@ -1,0 +1,4 @@
+{
+  "depends": ["readline-common","libc6","libtinfo6"],
+  "description": "GNU readline and history libraries, run-time libraries"
+}

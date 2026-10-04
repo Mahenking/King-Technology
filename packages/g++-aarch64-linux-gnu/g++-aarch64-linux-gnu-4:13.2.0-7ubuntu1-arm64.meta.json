@@ -1,0 +1,4 @@
+{
+  "depends": ["cpp-aarch64-linux-gnu","gcc-aarch64-linux-gnu","g++-13-aarch64-linux-gnu"],
+  "description": "GNU C++ compiler for the arm64 architecture"
+}

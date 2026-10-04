@@ -1,0 +1,4 @@
+{
+  "depends": ["libglib2.0-0t64"],
+  "description": "Introspection data for GLib, GObject, Gio and GModule"
+}

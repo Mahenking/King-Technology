@@ -1,0 +1,4 @@
+{
+  "depends": ["zlib1g","libc6-dev"],
+  "description": "compression library - development"
+}

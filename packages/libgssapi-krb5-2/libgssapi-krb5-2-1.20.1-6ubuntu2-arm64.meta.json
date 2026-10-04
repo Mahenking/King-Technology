@@ -1,0 +1,4 @@
+{
+  "depends": ["libkrb5-3","libc6","libcom-err2","libk5crypto3","libkrb5support0"],
+  "description": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism"
+}

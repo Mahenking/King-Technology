@@ -1,0 +1,4 @@
+{
+  "depends": ["gir1.2-amtk-5","gir1.2-gtk-3.0","gir1.2-gtksource-300","libtepl-6-4"],
+  "description": "Text editor library for GTK - GObject introspection"
+}

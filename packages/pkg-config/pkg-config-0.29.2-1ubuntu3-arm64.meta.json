@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libglib2.0-0","libdpkg-perl"],
+  "description": "manage compile and link flags for libraries"
+}

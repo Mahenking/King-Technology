@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libx11-6","libxext6"],
+  "description": "X11 Xinerama extension library"
+}

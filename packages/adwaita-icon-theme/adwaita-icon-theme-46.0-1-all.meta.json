@@ -1,0 +1,4 @@
+{
+  "depends": ["gtk-update-icon-cache","hicolor-icon-theme","ubuntu-mono"],
+  "description": "default icon theme of GNOME"
+}

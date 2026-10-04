@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgmp10","libmpfr6"],
+  "description": "multiple precision complex floating-point library"
+}

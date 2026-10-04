@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libfontconfig1","libfreetype6","fontconfig-config"],
+  "description": "generic font configuration library - support binaries"
+}

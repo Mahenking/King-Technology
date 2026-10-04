@@ -1,0 +1,4 @@
+{
+  "depends": ["libthai-data","libc6","libdatrie1"],
+  "description": "Thai language support library"
+}

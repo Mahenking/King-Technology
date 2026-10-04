@@ -1,0 +1,25 @@
+# Backups
+*.bak
+*.before-rebuild
+*.prefix
+build.log
+build-full.log
+
+# Temp
+/tmp/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# BUT keep these:
+# packages/       ← .kpk files (large but essential)
+# index.json      ← repo metadata
+# sources.txt     ← resolved URLs
+!packages/
+!index.json
+!sources.txt

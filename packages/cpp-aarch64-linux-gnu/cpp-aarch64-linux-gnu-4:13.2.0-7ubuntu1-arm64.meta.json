@@ -1,0 +1,4 @@
+{
+  "depends": ["cpp-13-aarch64-linux-gnu"],
+  "description": "GNU C preprocessor (cpp) for the arm64 architecture"
+}

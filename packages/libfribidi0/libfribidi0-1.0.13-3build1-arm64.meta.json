@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6"],
+  "description": "Free Implementation of the Unicode BiDi algorithm"
+}

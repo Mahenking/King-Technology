@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libsystemd0"],
+  "description": "simple interprocess messaging system (library)"
+}

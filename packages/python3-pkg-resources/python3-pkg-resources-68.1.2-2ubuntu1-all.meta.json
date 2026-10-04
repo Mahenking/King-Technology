@@ -1,0 +1,4 @@
+{
+  "depends": ["python3:any"],
+  "description": "Package Discovery and Resource Access using pkg_resources"
+}

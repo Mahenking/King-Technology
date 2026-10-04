@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libfontconfig1","libfreetype6","libglib2.0-0t64","libharfbuzz0b","libpango-1.0-0"],
+  "description": "Layout and rendering of internationalized text"
+}

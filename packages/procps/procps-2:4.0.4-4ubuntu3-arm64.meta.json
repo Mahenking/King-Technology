@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libncursesw6","libproc2-0","libsystemd0","libtinfo6","init-system-helpers"],
+  "description": "/proc file system utilities"
+}

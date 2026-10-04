@@ -1,0 +1,4 @@
+{
+  "depends": ["libgcc-s1"],
+  "description": "GNU C Library: Shared libraries"
+}

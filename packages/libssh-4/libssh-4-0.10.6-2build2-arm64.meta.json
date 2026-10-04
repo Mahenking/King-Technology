@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libgssapi-krb5-2","libssl3t64","zlib1g"],
+  "description": "tiny C SSH library (OpenSSL flavor)"
+}

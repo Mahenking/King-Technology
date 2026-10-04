@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libcap2"],
+  "description": "libudev shared library"
+}

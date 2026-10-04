@@ -1,0 +1,4 @@
+{
+  "depends": ["gcc-13-base","gcc-13-aarch64-linux-gnu","libstdc++-13-dev","libc6","libgmp10","libisl23","libmpc3","libmpfr6","libzstd1","zlib1g"],
+  "description": "GNU C++ compiler for aarch64-linux-gnu architecture"
+}

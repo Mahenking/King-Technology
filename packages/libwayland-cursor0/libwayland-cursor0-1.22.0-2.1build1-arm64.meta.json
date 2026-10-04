@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libwayland-client0"],
+  "description": "wayland compositor infrastructure - cursor library"
+}

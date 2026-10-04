@@ -1,0 +1,4 @@
+{
+  "depends": ["libc6","libfreetype6","libglib2.0-0t64","libgraphite2-3"],
+  "description": "OpenType text shaping engine (shared library)"
+}
