@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-05T03:22:32.239978+00:00",
+  "generated": "2026-10-05T03:25:34.424042+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -1110,8 +1110,8 @@
           "version": "1.0.5",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.5/king-ide-1.0.5-arm64.kpk",
-          "sha256": "87eb7730146272d06b35bfbe95f5e9e2d2a26e6b4d93ce92daf7276746854755",
-          "size": 198607080,
+          "sha256": "ee372d8c1b21ddf8aad33dfbe84c1f1eb26fdfa8fd6d2d1d0deaf22777e829d8",
+          "size": 198607085,
           "date_added": "2026-10-05"
         }
       ]
