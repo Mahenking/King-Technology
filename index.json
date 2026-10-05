@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-05T03:06:49.648941+00:00",
+  "generated": "2026-10-05T03:22:32.239978+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -266,7 +266,7 @@
           "version": "8.5.0-2ubuntu10",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/curl-v8.5.0-2ubuntu10/curl-8.5.0-2ubuntu10-arm64.kpk",
-          "sha256": "9630bc6df4c47ba0cce466624c83bdcb833666d85a29e60a4a1a5c1b81e81597",
+          "sha256": "d602b1119ee56c210809764098ae6e48542f1413ce5fc4597e58e963f28fa5ee",
           "size": 245839,
           "date_added": "2026-10-05"
         },
@@ -274,8 +274,8 @@
           "version": "7.81.0-1",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/curl-v7.81.0-1/curl-7.81.0-1-arm64.kpk",
-          "sha256": "7c14cc769a4507eb8e77f09f436cdf4c88b082ddf9fdfc890e9563d7b39fbf82",
-          "size": 204221,
+          "sha256": "8f273eb7d34dfdebbe2ee05469918987c1f9d5fdc8a4146fb7ba16c8ea3eb3d9",
+          "size": 204225,
           "date_added": "2026-10-05"
         }
       ]
@@ -1110,8 +1110,8 @@
           "version": "1.0.5",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.5/king-ide-1.0.5-arm64.kpk",
-          "sha256": "1c1e690f2145ccd91ad15187430a4cf7c517d8aa6781d1ef952a8447e8e58254",
-          "size": 198607079,
+          "sha256": "87eb7730146272d06b35bfbe95f5e9e2d2a26e6b4d93ce92daf7276746854755",
+          "size": 198607080,
           "date_added": "2026-10-05"
         }
       ]
@@ -3893,16 +3893,16 @@
           "version": "6.2-1",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/nano-v6.2-1/nano-6.2-1-arm64.kpk",
-          "sha256": "17fa31943adaa5c871a3417a72d29bd263679e38390eff6e8286abecbf3a828a",
-          "size": 307402,
+          "sha256": "39c1edc9000bdc0943b6ac39e96d2ca41987b35c4c1c05f3b30628caae9f7130",
+          "size": 307404,
           "date_added": "2026-10-05"
         },
         {
           "version": "7.2-2build1",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/nano-v7.2-2build1/nano-7.2-2build1-arm64.kpk",
-          "sha256": "d71492102f918e85df9cfad4f5f4a5cf6c506cc43000e7e4e0413ef89ab686fe",
-          "size": 313411,
+          "sha256": "0785fa8c9f1846b92bb3271e891b8f4cb3d3c371bd3a7a60b3c471786409291f",
+          "size": 313419,
           "date_added": "2026-10-05"
         }
       ]
@@ -4764,8 +4764,8 @@
           "version": "0.10.0-1jammy.20260910.003535",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/ros-humble-ros-base-v0.10.0-1jammy.20260910.003535/ros-humble-ros-base-0.10.0-1jammy.20260910.003535-arm64.kpk",
-          "sha256": "5264dab35448107d73c48216d0467160e76bc03c7547debc60e41bb4509bfcf1",
-          "size": 5019,
+          "sha256": "64aa8b248522105f47df587ecd148faa7ebe436891d94b47ec3c7d168fc057d7",
+          "size": 5017,
           "date_added": "2026-10-05"
         }
       ]
