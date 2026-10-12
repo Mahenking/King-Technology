@@ -1,14 +1,22 @@
 {
   "version": "1.0",
-  "generated": "2026-10-12T16:26:53Z",
+  "generated": "2026-10-12T17:08:11.254896+00:00",
   "packages": {
     "kpm": {
-      "current": "1.1.0",
+      "current": "1.1.1",
       "arch": "arm64",
       "description": "",
       "depends": [],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.1.1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.1/kpm-1.1.1-arm64.kpk",
+          "sha256": "4e9cf9bd31bdd8c64da4c0859227fef45b81b73d965c8523e77d237b532a5a04",
+          "size": 23790,
+          "date_added": "2026-10-12"
+        },
         {
           "version": "1.1.0",
           "arch": "arm64",
