@@ -1,16 +1,22 @@
 {
   "version": "1.0",
-  "generated": "2026-10-12T18:01:55Z",
+  "generated": "2026-10-13T01:54:20.204767+00:00",
   "packages": {
     "kpm": {
-      "current": "1.1.1",
+      "current": "1.1.2",
       "arch": "arm64",
-      "description": "King Package Manager - CLI + daemon KPM is the robotics-first package manager for King OS. Features: install/remove/upgrade, dependency resolution, self-update, repo management, idle-aware staging, rollback, and more.",
-      "depends": [
-        "python3"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.1.2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.2/kpm-1.1.2-arm64.kpk",
+          "sha256": "8c99567fdc2ccb62386408bcbc8563fc509196a749ee5382941c6e2dc4c189b1",
+          "size": 24080,
+          "date_added": "2026-10-13"
+        },
         {
           "version": "1.1.1",
           "arch": "arm64",
