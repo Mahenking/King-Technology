@@ -1,12 +1,15 @@
 {
   "version": "1.0",
-  "generated": "2026-10-13T03:57:06.446955+00:00",
+  "generated": "2026-10-13T04:00:42Z",
   "packages": {
     "kpm": {
       "current": "1.1.3",
       "arch": "arm64",
-      "description": "",
-      "depends": [],
+      "description": "King Package Manager - CLI + daemon KPM is the robotics-first package manager for King OS. Features: install/remove/upgrade, dependency resolution, self-update, repo management, idle-aware staging, rollback, and more.",
+      "depends": [
+        "python3",
+        "zstd"
+      ],
       "explicit": false,
       "available_versions": [
         {
