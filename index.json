@@ -127919,12 +127919,20 @@
       ]
     },
     "king-ide": {
-      "current": "1.0.7",
+      "current": "1.0.8",
       "arch": "arm64",
       "description": "",
       "depends": [],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.0.8",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.8/king-ide-1.0.8-arm64.kpk",
+          "sha256": "ac44e4b66b3c7d501e6b3209266eab2cc7113e96eaab601087c9b6db58e55feb",
+          "size": 197988322,
+          "date_added": "2026-10-14"
+        },
         {
           "version": "1.0.7",
           "arch": "arm64",
@@ -127940,14 +127948,6 @@
           "sha256": "63884ff0be7d0def20a3046dfac8c614d492cd06db747728318cf1aa67c6419b",
           "size": 197964013,
           "date_added": "2026-10-14"
-        },
-        {
-          "version": "1.0.5",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.5/king-ide-1.0.5-arm64.kpk",
-          "sha256": "ee372d8c1b21ddf8aad33dfbe84c1f1eb26fdfa8fd6d2d1d0deaf22777e829d8",
-          "size": 198607085,
-          "date_added": "2026-10-05"
         }
       ]
     },
