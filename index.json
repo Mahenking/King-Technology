@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-13T15:52:36Z",
+  "generated": "2026-10-14T15:10:51.449737",
   "packages": {
     "ros-humble-zenoh-security-tools": {
       "current": "0.1.11-1jammy.20261007.101634",
@@ -127919,12 +127919,20 @@
       ]
     },
     "king-ide": {
-      "current": "1.0.6",
+      "current": "1.0.7",
       "arch": "arm64",
       "description": "",
       "depends": [],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.0.7",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.7/king-ide-1.0.7-arm64.kpk",
+          "sha256": "6e726733ff5792ce86dd70e740ec4df541ca6c05789204864b70457cc4089456",
+          "size": 198004965,
+          "date_added": "2026-10-14"
+        },
         {
           "version": "1.0.6",
           "arch": "arm64",
