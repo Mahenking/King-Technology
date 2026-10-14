@@ -127919,22 +127919,20 @@
       ]
     },
     "king-ide": {
-      "current": "1.0.5",
+      "current": "1.0.6",
       "arch": "arm64",
-      "description": "Robotics-first IDE for King OS King IDE is a robotics-first integrated development environment for embedded systems, MCU programming, ROS 2, and AI model conversion. Built with Theia, powered by King Technology.",
-      "depends": [
-        "libgtk-3-0",
-        "libnotify4",
-        "libnss3",
-        "libxss1",
-        "libxtst6",
-        "xdg-utils",
-        "libatspi2.0-0",
-        "libuuid1",
-        "libsecret-1-0"
-      ],
+      "description": "",
+      "depends": [],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.0.6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.6/king-ide-1.0.6-arm64.kpk",
+          "sha256": "986f23195ccd5a8d221c028aa62104b82ea583388178a9b551c9cb343971b4e9",
+          "size": 198246800,
+          "date_added": "2026-10-14"
+        },
         {
           "version": "1.0.5",
           "arch": "arm64",
