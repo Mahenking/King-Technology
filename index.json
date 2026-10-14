@@ -1,7 +1,549 @@
 {
   "version": "1.0",
-  "generated": "2026-10-14T16:52:34.697176+00:00",
+  "generated": "2026-10-14T16:56:24Z",
   "packages": {
+    "kpm": {
+      "current": "1.2.0",
+      "arch": "arm64",
+      "description": "King Package Manager - CLI + daemon KPM is the robotics-first package manager for King OS.",
+      "depends": [
+        "python3",
+        "zstd"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.2.0",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.2.0/kpm-1.2.0-arm64.kpk",
+          "sha256": "2699276810d056c93bb3f736d66c5ca32a13c16e466e7243e05cd8fb976a2704",
+          "size": 22361,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1.1.8",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.8/kpm-1.1.8-arm64.kpk",
+          "sha256": "e6fc2ee6a663166611942729cd0d39ab1042b92d3b636a1def8a96ce65ecd4a9",
+          "size": 25171,
+          "date_added": "2026-10-13"
+        },
+        {
+          "version": "1.1.7",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.7/kpm-1.1.7-arm64.kpk",
+          "sha256": "cab85f59a0a1549bdda571a6b806c77bdc57fa9886b3d43e8240ec693ba43264",
+          "size": 25045,
+          "date_added": "2026-10-13"
+        }
+      ]
+    },
+    "king-ide": {
+      "current": "1.0.9",
+      "arch": "arm64",
+      "description": "Robotics-first IDE for King OS King IDE is a robotics-first integrated development environment for embedded systems, MCU programming, ROS 2, and AI model conversion. Built with Theia, powered by King Technology.",
+      "depends": [
+        "libgtk-3-0",
+        "libnotify4",
+        "libnss3",
+        "libxss1",
+        "libxtst6",
+        "xdg-utils",
+        "libatspi2.0-0",
+        "libuuid1",
+        "libsecret-1-0"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0.9",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.9/king-ide-1.0.9-arm64.kpk",
+          "sha256": "7d239515d7cb0df6cac2cc841d1d694028b2a6466ffe98b8bf00b8771bece8f0",
+          "size": 198005829,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1.0.8",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.8/king-ide-1.0.8-arm64.kpk",
+          "sha256": "ac44e4b66b3c7d501e6b3209266eab2cc7113e96eaab601087c9b6db58e55feb",
+          "size": 197988322,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1.0.7",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.7/king-ide-1.0.7-arm64.kpk",
+          "sha256": "6e726733ff5792ce86dd70e740ec4df541ca6c05789204864b70457cc4089456",
+          "size": 198004965,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ubuntu": {
+      "current": "0.869+git20240321-0ubuntu1",
+      "arch": "all",
+      "description": "sans-serif font set from Ubuntu The Ubuntu Font Family is a set of contemporary sans-serif fonts developed between 2010-2011. Dalton Maag performed the font design work and implementation with funding from Canonical. The fonts have been the default fonts for Ubuntu since 2010.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.869+git20240321-0ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.869+git20240321-0ubuntu1/fonts-ubuntu-0.869.git20240321-0ubuntu1-all.kpk",
+          "sha256": "ff9c3ec8bbbbe6bc5d02ba0f3310064f92e11cf104abc5b857ef13f914b06474",
+          "size": 1642288,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.83-6ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.83-6ubuntu1/fonts-ubuntu-0.83-6ubuntu1-all.kpk",
+          "sha256": "3569c3630879932a224d1467f3a14749d8855896a2d82cbedb056f24549f9f2e",
+          "size": 2007145,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ubuntu-console": {
+      "current": "0.869+git20240321-0ubuntu1",
+      "arch": "all",
+      "description": "console version of the Ubuntu Mono font The Ubuntu Font Family is a set of contemporary sans-serif fonts developed between 2010-2011. Dalton Maag performed the font design work and implementation with funding from Canonical. The fonts have been the default fonts for Ubuntu since 2010. . This package contains the \"Ubuntu Mono\" font converted to a bitmap version for Linux console use. These fonts can be loaded from a virtual terminal by executing \"setfont /usr/share/consolefonts/UbuntuMono*.psf\" .",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.869+git20240321-0ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.869+git20240321-0ubuntu1/fonts-ubuntu-console-0.869.git20240321-0ubuntu1-all.kpk",
+          "sha256": "620f9a88493c9e763cce3c00d9c0903fc5ae8202ef2c19e38bd677b44dd23110",
+          "size": 20152,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.83-6ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.83-6ubuntu1/fonts-ubuntu-console-0.83-6ubuntu1-all.kpk",
+          "sha256": "6db4b3c9dd9169226a08c906480df2b6154d37577c22badefea778d9021fe233",
+          "size": 21283,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-symbola": {
+      "current": "2.60-1.1",
+      "arch": "all",
+      "description": "symbolic font providing emoji characters from Unicode 9.0 This package includes the Symbola font, which contains special symbols and emoji characters which are encoded in the Unicode Standard 9.0",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.60-1.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-symbola-v2.60-1.1/fonts-symbola-2.60-1.1-all.kpk",
+          "sha256": "3abeaac9c1592c16466b1af7600fb4f0d834b63c4f41a5b52b25cce99fd8aca7",
+          "size": 1504203,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-sil-abyssinica": {
+      "current": "2.201-1",
+      "arch": "all",
+      "description": "Ethiopic script font designed in a calligraphic style Abyssinica SIL has a single face - regular. . The goal for this product was to provide a single Unicode-based font that would contain a comprehensive inventory of glyphs needed for almost any Ethiopic-based writing system. In addition, there is provision for other Latin characters and symbols. This font makes use of state-of-the-art font technologies to support the need to position arbitrary combinations of *Ethiopic* base glyphs and combinin",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.201-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.201-1/fonts-sil-abyssinica-2.201-1-all.kpk",
+          "sha256": "eebc04a32aee5106c23dab6e0ce4ff6d34581f34b1a399832b4cbf0bdd28cd37",
+          "size": 1175414,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.100-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.100-3/fonts-sil-abyssinica-2.100-3-all.kpk",
+          "sha256": "7cdee60c49facf34dd5996e91409f9ac468fff5bc89e9a4c48a6dfa0fc380baa",
+          "size": 1084732,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-powerline": {
+      "current": "2.8.3-5",
+      "arch": "all",
+      "description": "prompt and statusline utility (symbols font) Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile. . This package contains the font which provides symbols used by Powerline. It also contains the fontconfig settings that makes these symbols available as part of other installed fonts.",
+      "depends": [
+        "fontconfig"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.8.3-5",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.3-5/fonts-powerline-2.8.3-5-all.kpk",
+          "sha256": "6be7decb7f10580ebf8634568f432e893ed393b3fb8a4a91ac7f5a725cbe5e5b",
+          "size": 5208,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.8.2-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.2-1/fonts-powerline-2.8.2-1-all.kpk",
+          "sha256": "5d4141fefbc77d4e5fc634495306dbb1deff4ff60f40aa2d6c8dca4b3a0ed2fc",
+          "size": 5065,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-ui-core": {
+      "current": "20201225-2",
+      "arch": "all",
+      "description": "\"No Tofu\" font families with large Unicode coverage (UI core) Noto is a collection of font families, each visually harmonized across scripts. . This package contains core weights for these Noto UI font families: . * Noto Looped Lao UI Bold * Noto Looped Lao UI Regular * Noto Looped Thai UI Bold * Noto Looped Thai UI Regular * Noto Naskh Arabic UI * Noto Sans Arabic UI * Noto Sans Bengali UI * Noto Sans Devanagari UI * Noto Sans Gujarati UI * Noto Sans Gurmukhi UI * Noto Sans Kannada UI * Noto Sa",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-2/fonts-noto-ui-core-20201225-2-all.kpk",
+          "sha256": "2db0d557e79ea32e6fa72c69ef70af9f0396984caf31ee605e0c2fbf4b6f4c39",
+          "size": 1892320,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-1build1/fonts-noto-ui-core-20201225-1build1-all.kpk",
+          "sha256": "17167f724090715e9dc08e7c381850518e46d92d2b407d0345a576de42824c27",
+          "size": 1892314,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-mono": {
+      "current": "20201225-2",
+      "arch": "all",
+      "description": "\"No Tofu\" monospaced font family with large Unicode coverage Noto is a collection of font families, each visually harmonized across scripts. . This package contains Noto Mono font family (formerly known as Droid Mono), and core weights for the Noto Sans Mono font family. Beware that Noto Mono has a much smaller repertoire than Noto Sans or Noto Serif. . The name \"Noto\" is short for \"No Tofu\", describing the aim of covering all living Unicode scripts. . Tofu (\u8c46\u8150) is Japanese jargon for unicode re",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-2/fonts-noto-mono-20201225-2-all.kpk",
+          "sha256": "96245a15c3fe5742792a00b7f6d74f52c8dddb4353aa67a301bdfd77b6fb1676",
+          "size": 505151,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-1build1/fonts-noto-mono-20201225-1build1-all.kpk",
+          "sha256": "5c4d3c130539d6c46080f263c1910f7724ca17c53390190cb717da337e81ec1e",
+          "size": 505147,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-extra": {
+      "current": "20201225-2",
+      "arch": "all",
+      "description": "\"No Tofu\" font families with large Unicode coverage (extra) Noto is a collection of font families, each visually harmonized across scripts. . This package contains extra weights for these Noto font families: . * Noto Kufi Arabic Black * Noto Kufi Arabic Extra Bold * Noto Kufi Arabic Extra Light * Noto Kufi Arabic Light * Noto Kufi Arabic Medium * Noto Kufi Arabic Semi Bold * Noto Kufi Arabic Thin * Noto Looped Lao Black * Noto Looped Lao Cond Blk * Noto Looped Lao Cond Bold * Noto Looped Lao Con",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-2/fonts-noto-extra-20201225-2-all.kpk",
+          "sha256": "b6ebc4ec64abad9b22513b4053b9435d478766b15ab602a22ee4bdebc3fb4c1f",
+          "size": 143053039,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-1build1/fonts-noto-extra-20201225-1build1-all.kpk",
+          "sha256": "eb90a778e615d168c0e8427065845d89c318ca2118187bb849a4230c780e7a4b",
+          "size": 143053028,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-core": {
+      "current": "20201225-2",
+      "arch": "all",
+      "description": "\"No Tofu\" font families with large Unicode coverage (core) Noto is a collection of font families, each visually harmonized across scripts. . This package contains core weights for these Noto font families: . * Noto Kufi Arabic * Noto Looped Lao Bold * Noto Looped Lao Regular * Noto Looped Thai Bold * Noto Looped Thai Regular * Noto Music * Noto Naskh Arabic * Noto Nastaliq Urdu * Noto Rashi Hebrew * Noto Sans * Noto Sans Adlam * Noto Sans Adlam Unjoined * Noto Sans AnatoHiero * Noto Sans Arabic ",
+      "depends": [
+        "fonts-noto-mono"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-2/fonts-noto-core-20201225-2-all.kpk",
+          "sha256": "da12c5f817bf041b3dce21ddfbcb88708af3cd9b337c4defc025cce0a4b23f7c",
+          "size": 17910666,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-1build1/fonts-noto-core-20201225-1build1-all.kpk",
+          "sha256": "6cfc6648de0e7630b8bdb747e08324acdb26ac01932223da0080bbb5571bc754",
+          "size": 17910711,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-color-emoji": {
+      "current": "2.042-1",
+      "arch": "all",
+      "description": "color emoji font from Google Noto is a collection of font families, each visually harmonized across scripts. . The name \"Noto\" is short for \"No Tofu\", describing the aim of covering all living Unicode scripts. . Tofu (\u8c46\u8150) is Japanese jargon for unicode replacement character \"\ufffd\" (U+FFFD) often displayed as replacement for unassigned or unknown characters. . This package contains the color emoji font used on \"stock\" Android devices such as the Google Pixel.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.042-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.042-1/fonts-noto-color-emoji-2.042-1-all.kpk",
+          "sha256": "4732e9171bbb338e4cc02766c055c1845f5975ef8de80de1642a2c841edbf13b",
+          "size": 9867788,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.034-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.034-1/fonts-noto-color-emoji-2.034-1-all.kpk",
+          "sha256": "5fb69a41a46401fd7e6b6e99fffa7d582357b72e6b1048d0f5ce73b8475f7319",
+          "size": 9592180,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-monoid": {
+      "current": "0.61-4",
+      "arch": "all",
+      "description": "open source coding font with bitmap-like sharpness (normal tracking) Monoid is customizable and optimized for coding with bitmap-like sharpness at 12px/9pt even on low res display. . Monoid is semi-condensed and distinguishable glyphs with short ascenders, descenders, big apertures and super sized operators, punctuation. . It comes with regular, bold, oblique and retina versions with >750 Latin, Greek, Cyrillic, ligature, alternate and Power-line glyphs. . This package contains the normal tracki",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.61-4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-4/fonts-monoid-0.61-4-all.kpk",
+          "sha256": "1289bffd9524bbed81b605babc6bdf4484d669158b28e9ccb059baa447cee2b8",
+          "size": 205899,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.61-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-3/fonts-monoid-0.61-3-all.kpk",
+          "sha256": "3a97dc8bf5b6cdcd5a8b1fdffaaac0965c84d6b0c537dcd087f9be4f10bf7afa",
+          "size": 205752,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-materialdesignicons-webfont": {
+      "current": "1.6.50-3",
+      "arch": "all",
+      "description": "font containing Material Design Icons Material Design Icons' growing icon collection allows designers and developers targeting various platforms to download icons in the format, color and size they need for any project. This font contains icons form this collection. . This package also provides Css, Scss and LESS files to use webfonts from this package.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.50-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-materialdesignicons-webfont-v1.6.50-3/fonts-materialdesignicons-webfont-1.6.50-3-all.kpk",
+          "sha256": "4e9b789879b948638a3c5ead1df2ea4544a213e5e143a1b2bd134b056739e5db",
+          "size": 645142,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-material-design-icons-iconfont": {
+      "current": "6.7.0+dfsg-1",
+      "arch": "all",
+      "description": "Material Design Icons DX Material Design icons are the official icon set from Google designed under the Material Design guidelines. . This package is a fork of the official upstream project and includes many fixes and improvements, such as missing icons. The package contains the Material Icons font in TrueType format, Embedded OpenType format and both versions of the Web Open Font Format. It also includes the Material Design icons Cascading Style Sheet.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "6.7.0+dfsg-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.7.0+dfsg-1/fonts-material-design-icons-iconfont-6.7.0.dfsg-1-all.kpk",
+          "sha256": "ddb73228ebd69d1b801a38e042f82827f3f6b3985aac47f2f03cac2720f6d77e",
+          "size": 657755,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "6.1.0+dfsg-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.1.0+dfsg-1/fonts-material-design-icons-iconfont-6.1.0.dfsg-1-all.kpk",
+          "sha256": "51c34237f2d5530cda8eb3d525487ac7ee12a98106305efc16649f6767a90030",
+          "size": 419811,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-liberation2": {
+      "current": "2.1.5-3",
+      "arch": "all",
+      "description": "transitional dummy package This package is a dummy package. It can be safely removed.",
+      "depends": [
+        "fonts-liberation"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.5-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-3/fonts-liberation2-2.1.5-3-all.kpk",
+          "sha256": "221b7bc9e296ff62210cd91cc8f40ef0e982649bea98a3a7322e8e6ffd774164",
+          "size": 3055,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.1.5-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-1/fonts-liberation2-2.1.5-1-all.kpk",
+          "sha256": "14cafa9e8000e8fa850b77379d01816f0a7f19e92a8b5a9bfd9d5340a9e5a38a",
+          "size": 2007999,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-liberation": {
+      "current": "2.1.5-3",
+      "arch": "all",
+      "description": "fonts with the same metrics as Times, Arial and Courier The Liberation font family is a set of serif, sans-serif and monospaced fonts with exactly the same metrics as the non-free Microsoft fonts Times New Roman, Arial and Courier New.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.5-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v2.1.5-3/fonts-liberation-2.1.5-3-all.kpk",
+          "sha256": "a235a382e71268c98a232e4ecdc47f34cea2a2cddd626b43a6f0cb4242794e73",
+          "size": 2008759,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1.07.4-11",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v1.07.4-11/fonts-liberation-1.07.4-11-all.kpk",
+          "sha256": "148520114e8bbbdf8dccb6f24a097f36a243aaba91fd7baf084aa5ca57584395",
+          "size": 1047536,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-jetbrains-mono": {
+      "current": "2.304+ds-4",
+      "arch": "all",
+      "description": "free and open-source typeface for developers JetBrains Mono. A typeface for developers. Features include: - Increased height for a better reading experience - Adapted to reading code - 139 code-specific ligatures - 145 languages - 7 weights with matching italics . This package contains the TrueType fonts.",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.304+ds-4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.304+ds-4/fonts-jetbrains-mono-2.304.ds-4-all.kpk",
+          "sha256": "9b5ac0d275c78def45bae803049860ab7ec1c8ed3febef0523b7f6d47752881d",
+          "size": 975418,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.242+ds-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.242+ds-2/fonts-jetbrains-mono-2.242.ds-2-all.kpk",
+          "sha256": "f87aae290a5cc001b375b65b5dc1bc3bcc2d5a5257cee2039fadadb242360d9e",
+          "size": 701937,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-dejavu": {
+      "current": "2.37-8",
+      "arch": "all",
+      "description": "metapackage to pull in fonts-dejavu-core, -mono and -extra DejaVu provides an expanded version of the Vera font family aiming for quality and broader Unicode coverage while retaining the original Vera style. DejaVu currently works towards conformance with the Multilingual European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu fonts provide serif, sans and monospaced variants. . Use this package if you want all DejaVu variants. . DejaVu fonts are intended for use on low-resolution ",
+      "depends": [
+        "fonts-dejavu-core",
+        "fonts-dejavu-mono",
+        "fonts-dejavu-extra"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.37-8",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-8/fonts-dejavu-2.37-8-all.kpk",
+          "sha256": "b14d1d0ed8969bd0445911ac3c0f2f4fa81332f218188ba4853b41167729fff7",
+          "size": 2332,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.37-2build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-2build1/fonts-dejavu-2.37-2build1-all.kpk",
+          "sha256": "2d93afccf6011e51801df1c71e625556c4a8b02eb94cb37037c81ccf2074bdaf",
+          "size": 2339,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-dejavu-extra": {
+      "current": "2.37-8",
+      "arch": "all",
+      "description": "Vera font family derivate with additional characters (extra variants) DejaVu provides an expanded version of the Vera font family aiming for quality and broader Unicode coverage while retaining the original Vera style. DejaVu currently works towards conformance with the Multilingual European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu fonts provide serif, sans and monospaced variants. . This package includes additional variants, such as oblique, italic, bold-oblique, bold-italic",
+      "depends": [
+        "fonts-dejavu-core"
+      ],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.37-8",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-8/fonts-dejavu-extra-2.37-8-all.kpk",
+          "sha256": "1a8e29dda6fa06faa2bd53da41a3e42644ff8aebfc75fcd71b06e56fe4400b15",
+          "size": 2919636,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.37-2build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-2build1/fonts-dejavu-extra-2.37-2build1-all.kpk",
+          "sha256": "02f5db3774a9dee5d00e1221924070d64b7306f784510b61633afa678285c1ea",
+          "size": 3341415,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ancient-scripts": {
+      "current": "2.60-1.1",
+      "arch": "all",
+      "description": "Unicode Fonts for Ancient Scripts These are free unicode fonts for Aegean Scripts, other ancient scripts in the greater Aegean vicinity, Egyptian Hieroglyphs, Sumero-Akkadian Cuneiform, and Musical Symbols in the Unicode Standard. . The fonts included are: . * Abydos * Aegean * Aegyptus * Akkadian * Alexander * Alfios * Anaktoria * Analecta * Anatolian * Aroania * Asea * Assyrian * Atavyros * Avdira * Cretan * Cypro * Gardiner * Maya * Musica * Nilus * Unidings",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.60-1.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ancient-scripts-v2.60-1.1/fonts-ancient-scripts-2.60-1.1-all.kpk",
+          "sha256": "920e9a35c79fb92c8bee174f9a760b106ab6d3a6d0f3f30c0e88b830f95bda72",
+          "size": 24194920,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
     "ros-humble-zenoh-security-tools": {
       "current": "0.1.11-1jammy.20261007.101634",
       "arch": "arm64",
@@ -35718,39 +36260,6 @@
           "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-grpcio-v1.30.2-3build6/python3-grpcio-1.30.2-3build6-arm64.kpk",
           "sha256": "acb09f4c265edcd9a8e22c0886e5f396bb3d01241c2192e0fca3db25c655aac0",
           "size": 1487895,
-          "date_added": "2026-10-13"
-        }
-      ]
-    },
-    "kpm": {
-      "current": "1.2.0",
-      "arch": "arm64",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "1.2.0",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.2.0/kpm-1.2.0-arm64.kpk",
-          "sha256": "2699276810d056c93bb3f736d66c5ca32a13c16e466e7243e05cd8fb976a2704",
-          "size": 22361,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "1.1.8",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.8/kpm-1.1.8-arm64.kpk",
-          "sha256": "e6fc2ee6a663166611942729cd0d39ab1042b92d3b636a1def8a96ce65ecd4a9",
-          "size": 25171,
-          "date_added": "2026-10-13"
-        },
-        {
-          "version": "1.1.7",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.1.7/kpm-1.1.7-arm64.kpk",
-          "sha256": "cab85f59a0a1549bdda571a6b806c77bdc57fa9886b3d43e8240ec693ba43264",
-          "size": 25045,
           "date_added": "2026-10-13"
         }
       ]
@@ -127918,39 +128427,6 @@
         }
       ]
     },
-    "king-ide": {
-      "current": "1.0.10",
-      "arch": "arm64",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "1.0.10",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.10/king-ide-1.0.10-arm64.kpk",
-          "sha256": "dc711d8010fd08013084f692668f0f5a628c25220d251b86301e8434157b8b23",
-          "size": 196822250,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "1.0.9",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.9/king-ide-1.0.9-arm64.kpk",
-          "sha256": "7d239515d7cb0df6cac2cc841d1d694028b2a6466ffe98b8bf00b8771bece8f0",
-          "size": 198005829,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "1.0.8",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.8/king-ide-1.0.8-arm64.kpk",
-          "sha256": "ac44e4b66b3c7d501e6b3209266eab2cc7113e96eaab601087c9b6db58e55feb",
-          "size": 197988322,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
     "htop": {
       "current": "3.3.0-4build1",
       "arch": "arm64",
@@ -128247,457 +128723,6 @@
           "sha256": "88c1341eda7ec2f7ea099914ec2e6ed6b86d0ba716b6b1891a31fdff84e852ed",
           "size": 8256123,
           "date_added": "2026-10-04"
-        }
-      ]
-    },
-    "fonts-jetbrains-mono": {
-      "current": "2.242+ds-2",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.242+ds-2",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.242%2Bds-2/fonts-jetbrains-mono-2.242.ds-2-all.kpk",
-          "sha256": "f87aae290a5cc001b375b65b5dc1bc3bcc2d5a5257cee2039fadadb242360d9e",
-          "size": 701937,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.304+ds-4",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.304%2Bds-4/fonts-jetbrains-mono-2.304.ds-4-all.kpk",
-          "sha256": "9b5ac0d275c78def45bae803049860ab7ec1c8ed3febef0523b7f6d47752881d",
-          "size": 975418,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-noto-ui-core": {
-      "current": "20201225-1build1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "20201225-1build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-1build1/fonts-noto-ui-core-20201225-1build1-all.kpk",
-          "sha256": "17167f724090715e9dc08e7c381850518e46d92d2b407d0345a576de42824c27",
-          "size": 1892314,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "20201225-2",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-2/fonts-noto-ui-core-20201225-2-all.kpk",
-          "sha256": "2db0d557e79ea32e6fa72c69ef70af9f0396984caf31ee605e0c2fbf4b6f4c39",
-          "size": 1892320,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-dejavu": {
-      "current": "2.37-2build1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.37-2build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-2build1/fonts-dejavu-2.37-2build1-all.kpk",
-          "sha256": "2d93afccf6011e51801df1c71e625556c4a8b02eb94cb37037c81ccf2074bdaf",
-          "size": 2339,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.37-8",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-8/fonts-dejavu-2.37-8-all.kpk",
-          "sha256": "b14d1d0ed8969bd0445911ac3c0f2f4fa81332f218188ba4853b41167729fff7",
-          "size": 2332,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-dejavu-extra": {
-      "current": "2.37-8",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.37-8",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-8/fonts-dejavu-extra-2.37-8-all.kpk",
-          "sha256": "1a8e29dda6fa06faa2bd53da41a3e42644ff8aebfc75fcd71b06e56fe4400b15",
-          "size": 2919636,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.37-2build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-2build1/fonts-dejavu-extra-2.37-2build1-all.kpk",
-          "sha256": "02f5db3774a9dee5d00e1221924070d64b7306f784510b61633afa678285c1ea",
-          "size": 3341415,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-materialdesignicons-webfont": {
-      "current": "1.6.50-3",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "1.6.50-3",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-materialdesignicons-webfont-v1.6.50-3/fonts-materialdesignicons-webfont-1.6.50-3-all.kpk",
-          "sha256": "4e9b789879b948638a3c5ead1df2ea4544a213e5e143a1b2bd134b056739e5db",
-          "size": 645142,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-ubuntu-console": {
-      "current": "0.869+git20240321-0ubuntu1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "0.869+git20240321-0ubuntu1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.869%2Bgit20240321-0ubuntu1/fonts-ubuntu-console-0.869.git20240321-0ubuntu1-all.kpk",
-          "sha256": "620f9a88493c9e763cce3c00d9c0903fc5ae8202ef2c19e38bd677b44dd23110",
-          "size": 20152,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "0.83-6ubuntu1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.83-6ubuntu1/fonts-ubuntu-console-0.83-6ubuntu1-all.kpk",
-          "sha256": "6db4b3c9dd9169226a08c906480df2b6154d37577c22badefea778d9021fe233",
-          "size": 21283,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-liberation2": {
-      "current": "2.1.5-1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.1.5-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-1/fonts-liberation2-2.1.5-1-all.kpk",
-          "sha256": "14cafa9e8000e8fa850b77379d01816f0a7f19e92a8b5a9bfd9d5340a9e5a38a",
-          "size": 2007999,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "1:2.1.5-3",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-3/fonts-liberation2-2.1.5-3-all.kpk",
-          "sha256": "221b7bc9e296ff62210cd91cc8f40ef0e982649bea98a3a7322e8e6ffd774164",
-          "size": 3055,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-noto-extra": {
-      "current": "20201225-1build1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "20201225-1build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-1build1/fonts-noto-extra-20201225-1build1-all.kpk",
-          "sha256": "eb90a778e615d168c0e8427065845d89c318ca2118187bb849a4230c780e7a4b",
-          "size": 143053028,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "20201225-2",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-2/fonts-noto-extra-20201225-2-all.kpk",
-          "sha256": "b6ebc4ec64abad9b22513b4053b9435d478766b15ab602a22ee4bdebc3fb4c1f",
-          "size": 143053039,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-powerline": {
-      "current": "2.8.2-1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.8.2-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.2-1/fonts-powerline-2.8.2-1-all.kpk",
-          "sha256": "5d4141fefbc77d4e5fc634495306dbb1deff4ff60f40aa2d6c8dca4b3a0ed2fc",
-          "size": 5065,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.8.3-5",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.3-5/fonts-powerline-2.8.3-5-all.kpk",
-          "sha256": "6be7decb7f10580ebf8634568f432e893ed393b3fb8a4a91ac7f5a725cbe5e5b",
-          "size": 5208,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-sil-abyssinica": {
-      "current": "2.100-3",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.100-3",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.100-3/fonts-sil-abyssinica-2.100-3-all.kpk",
-          "sha256": "7cdee60c49facf34dd5996e91409f9ac468fff5bc89e9a4c48a6dfa0fc380baa",
-          "size": 1084732,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.201-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.201-1/fonts-sil-abyssinica-2.201-1-all.kpk",
-          "sha256": "eebc04a32aee5106c23dab6e0ce4ff6d34581f34b1a399832b4cbf0bdd28cd37",
-          "size": 1175414,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-ubuntu": {
-      "current": "0.83-6ubuntu1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "0.83-6ubuntu1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.83-6ubuntu1/fonts-ubuntu-0.83-6ubuntu1-all.kpk",
-          "sha256": "3569c3630879932a224d1467f3a14749d8855896a2d82cbedb056f24549f9f2e",
-          "size": 2007145,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "0.869+git20240321-0ubuntu1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.869%2Bgit20240321-0ubuntu1/fonts-ubuntu-0.869.git20240321-0ubuntu1-all.kpk",
-          "sha256": "ff9c3ec8bbbbe6bc5d02ba0f3310064f92e11cf104abc5b857ef13f914b06474",
-          "size": 1642288,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-noto-core": {
-      "current": "20201225-2",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "20201225-2",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-2/fonts-noto-core-20201225-2-all.kpk",
-          "sha256": "da12c5f817bf041b3dce21ddfbcb88708af3cd9b337c4defc025cce0a4b23f7c",
-          "size": 17910666,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "20201225-1build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-1build1/fonts-noto-core-20201225-1build1-all.kpk",
-          "sha256": "6cfc6648de0e7630b8bdb747e08324acdb26ac01932223da0080bbb5571bc754",
-          "size": 17910711,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-noto-mono": {
-      "current": "20201225-1build1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "20201225-1build1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-1build1/fonts-noto-mono-20201225-1build1-all.kpk",
-          "sha256": "5c4d3c130539d6c46080f263c1910f7724ca17c53390190cb717da337e81ec1e",
-          "size": 505147,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "20201225-2",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-2/fonts-noto-mono-20201225-2-all.kpk",
-          "sha256": "96245a15c3fe5742792a00b7f6d74f52c8dddb4353aa67a301bdfd77b6fb1676",
-          "size": 505151,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-liberation": {
-      "current": "1:2.1.5-3",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "1:2.1.5-3",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v2.1.5-3/fonts-liberation-2.1.5-3-all.kpk",
-          "sha256": "a235a382e71268c98a232e4ecdc47f34cea2a2cddd626b43a6f0cb4242794e73",
-          "size": 2008759,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "1:1.07.4-11",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v1.07.4-11/fonts-liberation-1.07.4-11-all.kpk",
-          "sha256": "148520114e8bbbdf8dccb6f24a097f36a243aaba91fd7baf084aa5ca57584395",
-          "size": 1047536,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-ancient-scripts": {
-      "current": "2.60-1.1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.60-1.1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ancient-scripts-v2.60-1.1/fonts-ancient-scripts-2.60-1.1-all.kpk",
-          "sha256": "920e9a35c79fb92c8bee174f9a760b106ab6d3a6d0f3f30c0e88b830f95bda72",
-          "size": 24194920,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-noto-color-emoji": {
-      "current": "2.034-1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.034-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.034-1/fonts-noto-color-emoji-2.034-1-all.kpk",
-          "sha256": "5fb69a41a46401fd7e6b6e99fffa7d582357b72e6b1048d0f5ce73b8475f7319",
-          "size": 9592180,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "2.042-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.042-1/fonts-noto-color-emoji-2.042-1-all.kpk",
-          "sha256": "4732e9171bbb338e4cc02766c055c1845f5975ef8de80de1642a2c841edbf13b",
-          "size": 9867788,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-monoid": {
-      "current": "0.61-3",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "0.61-3",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-3/fonts-monoid-0.61-3-all.kpk",
-          "sha256": "3a97dc8bf5b6cdcd5a8b1fdffaaac0965c84d6b0c537dcd087f9be4f10bf7afa",
-          "size": 205752,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "0.61-4",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-4/fonts-monoid-0.61-4-all.kpk",
-          "sha256": "1289bffd9524bbed81b605babc6bdf4484d669158b28e9ccb059baa447cee2b8",
-          "size": 205899,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-material-design-icons-iconfont": {
-      "current": "6.7.0+dfsg-1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "6.7.0+dfsg-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.7.0%2Bdfsg-1/fonts-material-design-icons-iconfont-6.7.0.dfsg-1-all.kpk",
-          "sha256": "ddb73228ebd69d1b801a38e042f82827f3f6b3985aac47f2f03cac2720f6d77e",
-          "size": 657755,
-          "date_added": "2026-10-14"
-        },
-        {
-          "version": "6.1.0+dfsg-1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.1.0%2Bdfsg-1/fonts-material-design-icons-iconfont-6.1.0.dfsg-1-all.kpk",
-          "sha256": "51c34237f2d5530cda8eb3d525487ac7ee12a98106305efc16649f6767a90030",
-          "size": 419811,
-          "date_added": "2026-10-14"
-        }
-      ]
-    },
-    "fonts-symbola": {
-      "current": "2.60-1.1",
-      "arch": "all",
-      "description": "",
-      "depends": [],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "2.60-1.1",
-          "arch": "all",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-symbola-v2.60-1.1/fonts-symbola-2.60-1.1-all.kpk",
-          "sha256": "3abeaac9c1592c16466b1af7600fb4f0d834b63c4f41a5b52b25cce99fd8aca7",
-          "size": 1504203,
-          "date_added": "2026-10-14"
         }
       ]
     }
