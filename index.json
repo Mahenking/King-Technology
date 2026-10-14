@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-14T15:10:51.449737",
+  "generated": "2026-10-14T16:52:34.697176+00:00",
   "packages": {
     "ros-humble-zenoh-security-tools": {
       "current": "0.1.11-1jammy.20261007.101634",
@@ -128247,6 +128247,457 @@
           "sha256": "88c1341eda7ec2f7ea099914ec2e6ed6b86d0ba716b6b1891a31fdff84e852ed",
           "size": 8256123,
           "date_added": "2026-10-04"
+        }
+      ]
+    },
+    "fonts-jetbrains-mono": {
+      "current": "2.242+ds-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.242+ds-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.242%2Bds-2/fonts-jetbrains-mono-2.242.ds-2-all.kpk",
+          "sha256": "f87aae290a5cc001b375b65b5dc1bc3bcc2d5a5257cee2039fadadb242360d9e",
+          "size": 701937,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.304+ds-4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-jetbrains-mono-v2.304%2Bds-4/fonts-jetbrains-mono-2.304.ds-4-all.kpk",
+          "sha256": "9b5ac0d275c78def45bae803049860ab7ec1c8ed3febef0523b7f6d47752881d",
+          "size": 975418,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-ui-core": {
+      "current": "20201225-1build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-1build1/fonts-noto-ui-core-20201225-1build1-all.kpk",
+          "sha256": "17167f724090715e9dc08e7c381850518e46d92d2b407d0345a576de42824c27",
+          "size": 1892314,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-ui-core-v20201225-2/fonts-noto-ui-core-20201225-2-all.kpk",
+          "sha256": "2db0d557e79ea32e6fa72c69ef70af9f0396984caf31ee605e0c2fbf4b6f4c39",
+          "size": 1892320,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-dejavu": {
+      "current": "2.37-2build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.37-2build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-2build1/fonts-dejavu-2.37-2build1-all.kpk",
+          "sha256": "2d93afccf6011e51801df1c71e625556c4a8b02eb94cb37037c81ccf2074bdaf",
+          "size": 2339,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.37-8",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-v2.37-8/fonts-dejavu-2.37-8-all.kpk",
+          "sha256": "b14d1d0ed8969bd0445911ac3c0f2f4fa81332f218188ba4853b41167729fff7",
+          "size": 2332,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-dejavu-extra": {
+      "current": "2.37-8",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.37-8",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-8/fonts-dejavu-extra-2.37-8-all.kpk",
+          "sha256": "1a8e29dda6fa06faa2bd53da41a3e42644ff8aebfc75fcd71b06e56fe4400b15",
+          "size": 2919636,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.37-2build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-dejavu-extra-v2.37-2build1/fonts-dejavu-extra-2.37-2build1-all.kpk",
+          "sha256": "02f5db3774a9dee5d00e1221924070d64b7306f784510b61633afa678285c1ea",
+          "size": 3341415,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-materialdesignicons-webfont": {
+      "current": "1.6.50-3",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.50-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-materialdesignicons-webfont-v1.6.50-3/fonts-materialdesignicons-webfont-1.6.50-3-all.kpk",
+          "sha256": "4e9b789879b948638a3c5ead1df2ea4544a213e5e143a1b2bd134b056739e5db",
+          "size": 645142,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ubuntu-console": {
+      "current": "0.869+git20240321-0ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.869+git20240321-0ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.869%2Bgit20240321-0ubuntu1/fonts-ubuntu-console-0.869.git20240321-0ubuntu1-all.kpk",
+          "sha256": "620f9a88493c9e763cce3c00d9c0903fc5ae8202ef2c19e38bd677b44dd23110",
+          "size": 20152,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.83-6ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-console-v0.83-6ubuntu1/fonts-ubuntu-console-0.83-6ubuntu1-all.kpk",
+          "sha256": "6db4b3c9dd9169226a08c906480df2b6154d37577c22badefea778d9021fe233",
+          "size": 21283,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-liberation2": {
+      "current": "2.1.5-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.5-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-1/fonts-liberation2-2.1.5-1-all.kpk",
+          "sha256": "14cafa9e8000e8fa850b77379d01816f0a7f19e92a8b5a9bfd9d5340a9e5a38a",
+          "size": 2007999,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1:2.1.5-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation2-v2.1.5-3/fonts-liberation2-2.1.5-3-all.kpk",
+          "sha256": "221b7bc9e296ff62210cd91cc8f40ef0e982649bea98a3a7322e8e6ffd774164",
+          "size": 3055,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-extra": {
+      "current": "20201225-1build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-1build1/fonts-noto-extra-20201225-1build1-all.kpk",
+          "sha256": "eb90a778e615d168c0e8427065845d89c318ca2118187bb849a4230c780e7a4b",
+          "size": 143053028,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-extra-v20201225-2/fonts-noto-extra-20201225-2-all.kpk",
+          "sha256": "b6ebc4ec64abad9b22513b4053b9435d478766b15ab602a22ee4bdebc3fb4c1f",
+          "size": 143053039,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-powerline": {
+      "current": "2.8.2-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.8.2-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.2-1/fonts-powerline-2.8.2-1-all.kpk",
+          "sha256": "5d4141fefbc77d4e5fc634495306dbb1deff4ff60f40aa2d6c8dca4b3a0ed2fc",
+          "size": 5065,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.8.3-5",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-powerline-v2.8.3-5/fonts-powerline-2.8.3-5-all.kpk",
+          "sha256": "6be7decb7f10580ebf8634568f432e893ed393b3fb8a4a91ac7f5a725cbe5e5b",
+          "size": 5208,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-sil-abyssinica": {
+      "current": "2.100-3",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.100-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.100-3/fonts-sil-abyssinica-2.100-3-all.kpk",
+          "sha256": "7cdee60c49facf34dd5996e91409f9ac468fff5bc89e9a4c48a6dfa0fc380baa",
+          "size": 1084732,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.201-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-sil-abyssinica-v2.201-1/fonts-sil-abyssinica-2.201-1-all.kpk",
+          "sha256": "eebc04a32aee5106c23dab6e0ce4ff6d34581f34b1a399832b4cbf0bdd28cd37",
+          "size": 1175414,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ubuntu": {
+      "current": "0.83-6ubuntu1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.83-6ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.83-6ubuntu1/fonts-ubuntu-0.83-6ubuntu1-all.kpk",
+          "sha256": "3569c3630879932a224d1467f3a14749d8855896a2d82cbedb056f24549f9f2e",
+          "size": 2007145,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.869+git20240321-0ubuntu1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ubuntu-v0.869%2Bgit20240321-0ubuntu1/fonts-ubuntu-0.869.git20240321-0ubuntu1-all.kpk",
+          "sha256": "ff9c3ec8bbbbe6bc5d02ba0f3310064f92e11cf104abc5b857ef13f914b06474",
+          "size": 1642288,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-core": {
+      "current": "20201225-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-2/fonts-noto-core-20201225-2-all.kpk",
+          "sha256": "da12c5f817bf041b3dce21ddfbcb88708af3cd9b337c4defc025cce0a4b23f7c",
+          "size": 17910666,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-core-v20201225-1build1/fonts-noto-core-20201225-1build1-all.kpk",
+          "sha256": "6cfc6648de0e7630b8bdb747e08324acdb26ac01932223da0080bbb5571bc754",
+          "size": 17910711,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-mono": {
+      "current": "20201225-1build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20201225-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-1build1/fonts-noto-mono-20201225-1build1-all.kpk",
+          "sha256": "5c4d3c130539d6c46080f263c1910f7724ca17c53390190cb717da337e81ec1e",
+          "size": 505147,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "20201225-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-mono-v20201225-2/fonts-noto-mono-20201225-2-all.kpk",
+          "sha256": "96245a15c3fe5742792a00b7f6d74f52c8dddb4353aa67a301bdfd77b6fb1676",
+          "size": 505151,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-liberation": {
+      "current": "1:2.1.5-3",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:2.1.5-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v2.1.5-3/fonts-liberation-2.1.5-3-all.kpk",
+          "sha256": "a235a382e71268c98a232e4ecdc47f34cea2a2cddd626b43a6f0cb4242794e73",
+          "size": 2008759,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "1:1.07.4-11",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-liberation-v1.07.4-11/fonts-liberation-1.07.4-11-all.kpk",
+          "sha256": "148520114e8bbbdf8dccb6f24a097f36a243aaba91fd7baf084aa5ca57584395",
+          "size": 1047536,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-ancient-scripts": {
+      "current": "2.60-1.1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.60-1.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-ancient-scripts-v2.60-1.1/fonts-ancient-scripts-2.60-1.1-all.kpk",
+          "sha256": "920e9a35c79fb92c8bee174f9a760b106ab6d3a6d0f3f30c0e88b830f95bda72",
+          "size": 24194920,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-noto-color-emoji": {
+      "current": "2.034-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.034-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.034-1/fonts-noto-color-emoji-2.034-1-all.kpk",
+          "sha256": "5fb69a41a46401fd7e6b6e99fffa7d582357b72e6b1048d0f5ce73b8475f7319",
+          "size": 9592180,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "2.042-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-noto-color-emoji-v2.042-1/fonts-noto-color-emoji-2.042-1-all.kpk",
+          "sha256": "4732e9171bbb338e4cc02766c055c1845f5975ef8de80de1642a2c841edbf13b",
+          "size": 9867788,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-monoid": {
+      "current": "0.61-3",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.61-3",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-3/fonts-monoid-0.61-3-all.kpk",
+          "sha256": "3a97dc8bf5b6cdcd5a8b1fdffaaac0965c84d6b0c537dcd087f9be4f10bf7afa",
+          "size": 205752,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "0.61-4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-monoid-v0.61-4/fonts-monoid-0.61-4-all.kpk",
+          "sha256": "1289bffd9524bbed81b605babc6bdf4484d669158b28e9ccb059baa447cee2b8",
+          "size": 205899,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-material-design-icons-iconfont": {
+      "current": "6.7.0+dfsg-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "6.7.0+dfsg-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.7.0%2Bdfsg-1/fonts-material-design-icons-iconfont-6.7.0.dfsg-1-all.kpk",
+          "sha256": "ddb73228ebd69d1b801a38e042f82827f3f6b3985aac47f2f03cac2720f6d77e",
+          "size": 657755,
+          "date_added": "2026-10-14"
+        },
+        {
+          "version": "6.1.0+dfsg-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-material-design-icons-iconfont-v6.1.0%2Bdfsg-1/fonts-material-design-icons-iconfont-6.1.0.dfsg-1-all.kpk",
+          "sha256": "51c34237f2d5530cda8eb3d525487ac7ee12a98106305efc16649f6767a90030",
+          "size": 419811,
+          "date_added": "2026-10-14"
+        }
+      ]
+    },
+    "fonts-symbola": {
+      "current": "2.60-1.1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.60-1.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/fonts-symbola-v2.60-1.1/fonts-symbola-2.60-1.1-all.kpk",
+          "sha256": "3abeaac9c1592c16466b1af7600fb4f0d834b63c4f41a5b52b25cce99fd8aca7",
+          "size": 1504203,
+          "date_added": "2026-10-14"
         }
       ]
     }
