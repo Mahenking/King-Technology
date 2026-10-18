@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-18T01:35:42.528937+00:00",
+  "generated": "2026-10-18T04:42:16.864919+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "41.0-1ubuntu1",
@@ -1144,7 +1144,7 @@
     "king-ide": {
       "current": "1.0.11",
       "arch": "arm64",
-      "description": "King IDE \u2014 Theia-based robotics IDE for King OS",
+      "description": "King IDE \u2014 Theia-based robotics IDE",
       "depends": [
         "libgtk-3-0",
         "libnotify4",
@@ -1156,14 +1156,15 @@
         "libuuid1",
         "libsecret-1-0"
       ],
-      "explicit": false,
+      "explicit": true,
+      "custom": true,
       "available_versions": [
         {
           "version": "1.0.11",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.11/king-ide-1.0.11-arm64.kpk",
-          "sha256": "be04a7628008c96a1f2d8debcc91d94fb07884ef0a319b45c8ed2e1934bdb7fe",
-          "size": 197841128,
+          "sha256": "04e9804858bcf3d643f6846ee7eb0e011076ffcee1d5b30d692c04d6320aabd4",
+          "size": 322663386,
           "date_added": "2026-10-18"
         },
         {
@@ -84645,6 +84646,2664 @@
           "sha256": "f67dd1dd2bbeffa764b52be8a7a3f3c9acda5c296a8a7752f5b7faf27bb2dedc",
           "size": 634545,
           "date_added": "2026-10-08"
+        }
+      ]
+    },
+    "gstreamer1.0-plugins-bad": {
+      "current": "1.20.1-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-plugins-bad-v1.20.1-1ubuntu2/gstreamer1.0-plugins-bad-1.20.1-1ubuntu2-arm64.kpk",
+          "sha256": "8172b473c4a94672577f481c708fc0016785b02002f9929941355756e36e8dc4",
+          "size": 3032331,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.24.2-1ubuntu4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-plugins-bad-v1.24.2-1ubuntu4/gstreamer1.0-plugins-bad-1.24.2-1ubuntu4-arm64.kpk",
+          "sha256": "80d0da899a9ebfc8ccad6df6c6d1605fea2d7de3db2626b3b52e4a7d4fc687d7",
+          "size": 3583458,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libavtp0": {
+      "current": "0.2.0-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.2.0-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libavtp0-v0.2.0-1build1/libavtp0-0.2.0-1build1-arm64.kpk",
+          "sha256": "c67d3cf10bfd3880e767117b01a41af280ce10cdeafbccb02fdacd9028284726",
+          "size": 6526,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "iftop": {
+      "current": "1.0~pre4-7",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0~pre4-7",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iftop-v1.0-pre4-7/iftop-1.0-pre4-7-arm64.kpk",
+          "sha256": "399e3295cf419604c44821d4709355b64a1f6af2e8e5236b932602e2ebcd5f43",
+          "size": 48896,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.0~pre4-9build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iftop-v1.0-pre4-9build2/iftop-1.0-pre4-9build2-arm64.kpk",
+          "sha256": "8964befcebddfbb4fb00333a2df38004603eae038ba327856ddb1d6ceebfabb7",
+          "size": 43429,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libfreeaptx0": {
+      "current": "0.1.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.1.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfreeaptx0-v0.1.1-1/libfreeaptx0-0.1.1-1-arm64.kpk",
+          "sha256": "edd86f6be685d85407af858ae6a7d2f6c8394a962735f70b8596336661dc7a5e",
+          "size": 12964,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.1.1-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfreeaptx0-v0.1.1-2build1/libfreeaptx0-0.1.1-2build1-arm64.kpk",
+          "sha256": "1fc3c23066eb0ce1ce47416f61c60116baf27dc6bb0f71bed4657c30791f3db4",
+          "size": 13753,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-intelhex": {
+      "current": "2.3.0-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.3.0-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-intelhex-v2.3.0-2/python3-intelhex-2.3.0-2-all.kpk",
+          "sha256": "713a8410dc910cb7e8ab7cc6ef303ee719bcfefb63c1d0dce9d16895ceb6bec8",
+          "size": 57503,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.3.0-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-intelhex-v2.3.0-1/python3-intelhex-2.3.0-1-all.kpk",
+          "sha256": "5769d0f8f56870c5e07a609ff8921041a228bbfbab713881daa36afa01982727",
+          "size": 57357,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "traceroute": {
+      "current": "1:2.1.0-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:2.1.0-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/traceroute-v2.1.0-2/traceroute-2.1.0-2-arm64.kpk",
+          "sha256": "c902f18013a372d928ecd95d213f837c42fee5117d2146e721eb530a7ce51bb9",
+          "size": 50911,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:2.1.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/traceroute-v2.1.5-1/traceroute-2.1.5-1-arm64.kpk",
+          "sha256": "8e6a2e702f7c2d99125a0c8a93f39a45ce5c6a849fa0b88582162f711315c181",
+          "size": 59413,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libvo-aacenc0": {
+      "current": "0.1.3-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.1.3-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libvo-aacenc0-v0.1.3-2build1/libvo-aacenc0-0.1.3-2build1-arm64.kpk",
+          "sha256": "cedabb80036925cebef84d0002daf1895c1ea763995ec1304d0693067d992cd7",
+          "size": 78939,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.1.3-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libvo-aacenc0-v0.1.3-2/libvo-aacenc0-0.1.3-2-arm64.kpk",
+          "sha256": "3a9b1e66aaab40695bda5321a7ca037106db622dadf3330d3e4de3d50d3b72b4",
+          "size": 83808,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libtraceevent1": {
+      "current": "1:1.8.2-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:1.8.2-1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtraceevent1-v1.8.2-1ubuntu2/libtraceevent1-1.8.2-1ubuntu2-arm64.kpk",
+          "sha256": "bbdc799a839ba0512799e08149fa309833625ec94e0acdbbe565e74710bf1b4e",
+          "size": 61626,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:1.3.3-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtraceevent1-v1.3.3-1/libtraceevent1-1.3.3-1-arm64.kpk",
+          "sha256": "e011c1769183db97bbd82430bc9a65b542880ae125fe6ecd44c54ebe67b98508",
+          "size": 55734,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmodplug1": {
+      "current": "1:0.8.9.0-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:0.8.9.0-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmodplug1-v0.8.9.0-3build1/libmodplug1-0.8.9.0-3build1-arm64.kpk",
+          "sha256": "4086c9d3456550219a415e4acd76abe752d6ccfe28a33d9b6c70e40b25523c53",
+          "size": 182290,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:0.8.9.0-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmodplug1-v0.8.9.0-3/libmodplug1-0.8.9.0-3-arm64.kpk",
+          "sha256": "719a8d01436e7ab131e04ef3248af6d9a5dce5de629a889582a687115808dc05",
+          "size": 180993,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libfluidsynth3": {
+      "current": "2.3.4-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.3.4-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfluidsynth3-v2.3.4-1build3/libfluidsynth3-2.3.4-1build3-arm64.kpk",
+          "sha256": "80b6999799797e8c7e375e7c049df8b4d42b2f72d29186ea3f99307586805843",
+          "size": 281966,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.2.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfluidsynth3-v2.2.5-1/libfluidsynth3-2.2.5-1-arm64.kpk",
+          "sha256": "f95707830d6cc72c83f113f7568be0c55ad5b8eeedef76aadf187c8c534f531b",
+          "size": 266414,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdebuginfod1t64": {
+      "current": "0.190-1.1build4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.190-1.1build4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdebuginfod1t64-v0.190-1.1build4/libdebuginfod1t64-0.190-1.1build4-arm64.kpk",
+          "sha256": "d047749f3f7bf45241b4ce3504a27f0fcd918f8a21d5da8e91539cd534796b19",
+          "size": 17802,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "ltrace": {
+      "current": "0.7.3-6.4ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.7.3-6.4ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/ltrace-v0.7.3-6.4ubuntu3/ltrace-0.7.3-6.4ubuntu3-arm64.kpk",
+          "sha256": "dd1a12f4da76bd4d3cded5b8fc128c203bd07a95152978695c06fab8de996a70",
+          "size": 158664,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.7.3-6.1ubuntu6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/ltrace-v0.7.3-6.1ubuntu6/ltrace-0.7.3-6.1ubuntu6-arm64.kpk",
+          "sha256": "e8c84d83e42077e6c95f5bb29a132e20a0622460e01677b9c990558b283a968f",
+          "size": 153280,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "valgrind": {
+      "current": "1:3.22.0-0ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:3.22.0-0ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/valgrind-v3.22.0-0ubuntu3/valgrind-3.22.0-0ubuntu3-arm64.kpk",
+          "sha256": "64b91ed4302c9fca0651006573759ac38e6f8499cd503266b5ff5d6e0b4a3168",
+          "size": 17070643,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "lsof": {
+      "current": "4.95.0-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.95.0-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/lsof-v4.95.0-1build3/lsof-4.95.0-1build3-arm64.kpk",
+          "sha256": "2d5f47ab8707d109610b376de447d502c7b444670de9bb5a5569b10e96e88416",
+          "size": 261664,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "4.93.2+dfsg-1.1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/lsof-v4.93.2%2Bdfsg-1.1build2/lsof-4.93.2.dfsg-1.1build2-arm64.kpk",
+          "sha256": "d0d253bf0eb4d61978188043f4707e5d46f69c910874728ed5602d0b43da404d",
+          "size": 265230,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libgupnp-igd-1.6-0": {
+      "current": "1.6.0-3build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.0-3build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libgupnp-igd-1.6-0-v1.6.0-3build3/libgupnp-igd-1.6-0-1.6.0-3build3-arm64.kpk",
+          "sha256": "e8d36f30565dea243a50ad9f93d7c5312c898629ea5f968ee8829b7bf45a33cf",
+          "size": 17912,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-rosdep2": {
+      "current": "0.21.0-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.21.0-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-rosdep2-v0.21.0-2/python3-rosdep2-0.21.0-2-all.kpk",
+          "sha256": "da807568f84d386b4a8163ac66da6f4443b48c58d7bf216d600adabc5aa1dcf2",
+          "size": 69022,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "gstreamer1.0-libav": {
+      "current": "1.20.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-libav-v1.20.1-1/gstreamer1.0-libav-1.20.1-1-arm64.kpk",
+          "sha256": "0060c2f568b179f588bca6c1bafb7738aab07a702aa85e428726a4298bcaee8e",
+          "size": 107084,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.24.1-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-libav-v1.24.1-1build1/gstreamer1.0-libav-1.24.1-1build1-arm64.kpk",
+          "sha256": "c815f149d7be38596ed75b6c2542ed2048ceac0873535d01ddc1900525061738",
+          "size": 115280,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "gdb": {
+      "current": "12.0.90-0ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "12.0.90-0ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gdb-v12.0.90-0ubuntu1/gdb-12.0.90-0ubuntu1-arm64.kpk",
+          "sha256": "c409c85454161c4c59a8280dad86df187f1488fee9e3809616759da0b6f981d7",
+          "size": 5620048,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "15.0.50.20240403-0ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gdb-v15.0.50.20240403-0ubuntu1/gdb-15.0.50.20240403-0ubuntu1-arm64.kpk",
+          "sha256": "4fabb2037b1943d9f1a4d72ab3c7f6562f8a774a6594f5b00ea9db0dc79a3c23",
+          "size": 5962838,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdvdnav4": {
+      "current": "6.1.1-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "6.1.1-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdvdnav4-v6.1.1-3build1/libdvdnav4-6.1.1-3build1-arm64.kpk",
+          "sha256": "213dcdf89fdf77b99c6c49f91898b1ab3f782c7bde0a133ffd883f2e48cd33ce",
+          "size": 42196,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "6.1.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdvdnav4-v6.1.1-1/libdvdnav4-6.1.1-1-arm64.kpk",
+          "sha256": "ea3d2b41aedaba43313fc0337a64da01cd1d310bf100d1c0d646ce4f50e279f7",
+          "size": 41896,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libgupnp-1.6-0": {
+      "current": "1.6.6-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.6-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libgupnp-1.6-0-v1.6.6-1build3/libgupnp-1.6-0-1.6.6-1build3-arm64.kpk",
+          "sha256": "d962dec30ef7a7dbde3e7e4bf551c28923d55f39dfce087d5fa751e31514758e",
+          "size": 108886,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libopenh264-7": {
+      "current": "2.4.1+dfsg-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.4.1+dfsg-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libopenh264-7-v2.4.1%2Bdfsg-1/libopenh264-7-2.4.1.dfsg-1-arm64.kpk",
+          "sha256": "c9ceb2516e71583deaf160dd491a06a312076a3382497c5d902939edd9ca4456",
+          "size": 450601,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "avrdude": {
+      "current": "7.1+dfsg-3build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "7.1+dfsg-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avrdude-v7.1%2Bdfsg-3build2/avrdude-7.1.dfsg-3build2-arm64.kpk",
+          "sha256": "312427953b5704eea8639daf0f0b510fc627c970182b10e5d54b8226ce967234",
+          "size": 487284,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "6.3-20171130+svn1429-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avrdude-v6.3-20171130%2Bsvn1429-2/avrdude-6.3-20171130.svn1429-2-arm64.kpk",
+          "sha256": "f2affe8f678427bd1eb31dda71b3b37962a4f47dfbaf0a4d5a4b6e73fba85659",
+          "size": 375684,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "strace": {
+      "current": "5.16-0ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "5.16-0ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/strace-v5.16-0ubuntu3/strace-5.16-0ubuntu3-arm64.kpk",
+          "sha256": "aa66aacf4f5dff507737bd31c938677497f9959dfe34339fa362b59abdfb1f23",
+          "size": 521933,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "6.8-0ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/strace-v6.8-0ubuntu2/strace-6.8-0ubuntu2-arm64.kpk",
+          "sha256": "f6c4d90fd67a762d628fdd1c3621bad48d03d79d71615e38d4ecd0a20f11174f",
+          "size": 553486,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "bind9-host": {
+      "current": "1:9.18.24-0ubuntu5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:9.18.24-0ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-host-v9.18.24-0ubuntu5/bind9-host-9.18.24-0ubuntu5-arm64.kpk",
+          "sha256": "7a3b8d299047bce3ed7cd77fb2a18eae87b9f3b37fe3c071ca53a32dd555c73b",
+          "size": 58553,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:9.18.1-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-host-v9.18.1-1ubuntu1/bind9-host-9.18.1-1ubuntu1-arm64.kpk",
+          "sha256": "111a411edaf1260c50543825e2cc3e30a0d745cbd4e49ea3584e62242fbdfc03",
+          "size": 48840,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libldacbt-enc2": {
+      "current": "2.0.2.3+git20200429+ed310a0-4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.0.2.3+git20200429+ed310a0-4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libldacbt-enc2-v2.0.2.3%2Bgit20200429%2Bed310a0-4/libldacbt-enc2-2.0.2.3.git20200429.ed310a0-4-arm64.kpk",
+          "sha256": "5fdf19c578c10e06f40a0491459f0ff07a9335b432d5820d6248f29d9e188419",
+          "size": 28699,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.0.2.3+git20200429+ed310a0-4ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libldacbt-enc2-v2.0.2.3%2Bgit20200429%2Bed310a0-4ubuntu2/libldacbt-enc2-2.0.2.3.git20200429.ed310a0-4ubuntu2-arm64.kpk",
+          "sha256": "753eb9bb909ff6afc5980847813d9114b500150a631201fae40c919eeed4d626",
+          "size": 28781,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "liblmdb0": {
+      "current": "0.9.24-1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.9.24-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblmdb0-v0.9.24-1build2/liblmdb0-0.9.24-1build2-arm64.kpk",
+          "sha256": "998b5449c12732dad3608a4873515199aea9dd557e699e60cd097b32c4ce6cc7",
+          "size": 55071,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.9.31-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblmdb0-v0.9.31-1build1/liblmdb0-0.9.31-1build1-arm64.kpk",
+          "sha256": "f98ea29b7ab51dc08d1e83ae01eec4d3442306e674bc12dee29f44d954341fbd",
+          "size": 54351,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "evtest": {
+      "current": "1:1.34-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:1.34-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/evtest-v1.34-1/evtest-1.34-1-arm64.kpk",
+          "sha256": "5033ea53dfb49c8ab3fbd0216529644255773e68d5297ac5ce0b5fbc7f86658f",
+          "size": 20904,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:1.35-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/evtest-v1.35-1/evtest-1.35-1-arm64.kpk",
+          "sha256": "094b1cad02a9fca400942d0e3bb7b74a01bb46fc401767a4ed98eee92fd0e968",
+          "size": 20807,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "gstreamer1.0-x": {
+      "current": "1.20.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-x-v1.20.1-1/gstreamer1.0-x-1.20.1-1-arm64.kpk",
+          "sha256": "5cca364e49d80b7fe2f5cbe3a58713acc8fd32bc222b3d023ecd9454b73abcde",
+          "size": 95790,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.24.2-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/gstreamer1.0-x-v1.24.2-1/gstreamer1.0-x-1.24.2-1-arm64.kpk",
+          "sha256": "b25d503e70751237ff1e37bb86e9aa3c359bbe3177d52e6b272e9cc6c261a25e",
+          "size": 101072,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libsource-highlight4t64": {
+      "current": "3.1.9-4.3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.1.9-4.3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsource-highlight4t64-v3.1.9-4.3build1/libsource-highlight4t64-3.1.9-4.3build1-arm64.kpk",
+          "sha256": "f24dae82f829c4575b9aaf42719553c7327987a76741bf9a828f9669880c3790",
+          "size": 287646,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "wavemon": {
+      "current": "0.9.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.9.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/wavemon-v0.9.1-1/wavemon-0.9.1-1-arm64.kpk",
+          "sha256": "ab004b510195749225600dadb6346a948808eb9942339ca448a7cda852758e58",
+          "size": 60156,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libsrtp2-1": {
+      "current": "2.5.0-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.5.0-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsrtp2-1-v2.5.0-3build1/libsrtp2-1-2.5.0-3build1-arm64.kpk",
+          "sha256": "2ad39fa2fb598bc80733752fd864b610b1ff07ae7dc3204634077c4e58561ce3",
+          "size": 48040,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.4.2-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsrtp2-1-v2.4.2-2/libsrtp2-1-2.4.2-2-arm64.kpk",
+          "sha256": "dd63d708b857fafb703c18ba68a2077c69fb84b37527b2a5935dc84e1862b317",
+          "size": 45967,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libyajl2": {
+      "current": "2.1.0-5build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.1.0-5build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libyajl2-v2.1.0-5build1/libyajl2-2.1.0-5build1-arm64.kpk",
+          "sha256": "e4bdfd19398e6a01b63d9fb37f299495abea85423a58605396772deb9a2b5116",
+          "size": 21410,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.1.0-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libyajl2-v2.1.0-3build2/libyajl2-2.1.0-3build2-arm64.kpk",
+          "sha256": "d2a69ea8f253ced81f74b73d5e7303d39e7f24e0cb937203fdfaed3cf9fb1f8b",
+          "size": 22157,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libjson-glib-1.0-common": {
+      "current": "1.6.6-1build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.6-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjson-glib-1.0-common-v1.6.6-1build1/libjson-glib-1.0-common-1.6.6-1build1-all.kpk",
+          "sha256": "22ed7c8ef0260db11972c2c3503bf0b5878c673012a16eada1e5571cfd1a9307",
+          "size": 3801,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.8.0-2build2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjson-glib-1.0-common-v1.8.0-2build2/libjson-glib-1.0-common-1.8.0-2build2-all.kpk",
+          "sha256": "73193c9a7180bc203e4bc2b9997c88d5b2ead12fe0dcafb5a7f8d2155844fef4",
+          "size": 3587,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libxkbfile1": {
+      "current": "1:1.1.0-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:1.1.0-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libxkbfile1-v1.1.0-1build3/libxkbfile1-1.1.0-1build3-arm64.kpk",
+          "sha256": "543909c2da6454636e47a04b3117ea8d3d7cb8833554cc718c39a83f62daecb0",
+          "size": 81601,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:1.1.0-1build4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libxkbfile1-v1.1.0-1build4/libxkbfile1-1.1.0-1build4-arm64.kpk",
+          "sha256": "8064b317eb75c628886869ba738ec49707602aed56164e933485e3aafab0e478",
+          "size": 80315,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmjpegutils-2.1-0t64": {
+      "current": "1:2.1.0+debian-8.1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:2.1.0+debian-8.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmjpegutils-2.1-0t64-v2.1.0%2Bdebian-8.1build1/libmjpegutils-2.1-0t64-2.1.0.debian-8.1build1-arm64.kpk",
+          "sha256": "b434fa7f9a9745eec4b9d959fa8815017de65e05b7bb0737a6de03016e443c6e",
+          "size": 28780,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "iw": {
+      "current": "5.16-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "5.16-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iw-v5.16-1build1/iw-5.16-1build1-arm64.kpk",
+          "sha256": "a4b14c433b62f98b2e542f1c495df65e8e4452bdf3f7063edc61e9cffafce2ad",
+          "size": 128589,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "6.7-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iw-v6.7-1build1/iw-6.7-1build1-arm64.kpk",
+          "sha256": "c742aa5d189c7ac8293828723ca7c08ba467de2933e960bab702b28c52803835",
+          "size": 137630,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "bind9-dnsutils": {
+      "current": "1:9.18.24-0ubuntu5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:9.18.24-0ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-dnsutils-v9.18.24-0ubuntu5/bind9-dnsutils-9.18.24-0ubuntu5-arm64.kpk",
+          "sha256": "d52a9d51aad3ef18933db88bdcf98672238ec2d95b91f4c481b6a290696e3a52",
+          "size": 179100,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:9.18.1-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-dnsutils-v9.18.1-1ubuntu1/bind9-dnsutils-9.18.1-1ubuntu1-arm64.kpk",
+          "sha256": "fe118aec984511ec0bdd68c7f9587d7744d52d3cc89722876a94a19c5d7cad6f",
+          "size": 171193,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libvo-amrwbenc0": {
+      "current": "0.1.3-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.1.3-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libvo-amrwbenc0-v0.1.3-2/libvo-amrwbenc0-0.1.3-2-arm64.kpk",
+          "sha256": "25b349715a6a1791dd682ab6e1a1e1bceab31ba0fea2240cb10e9a35d6672d09",
+          "size": 80522,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.1.3-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libvo-amrwbenc0-v0.1.3-2build1/libvo-amrwbenc0-0.1.3-2build1-arm64.kpk",
+          "sha256": "ad8803a498f58e134bfb7e6d4ab8e8643f42d983cec3e7a53d52d6af9e032771",
+          "size": 79713,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmplex2-2.1-0t64": {
+      "current": "1:2.1.0+debian-8.1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:2.1.0+debian-8.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmplex2-2.1-0t64-v2.1.0%2Bdebian-8.1build1/libmplex2-2.1-0t64-2.1.0.debian-8.1build1-arm64.kpk",
+          "sha256": "91a87320b2a25b7b265ed12afa9dc271f675fd3ba3fcd1e8d8b8fdb222186dd9",
+          "size": 53271,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libhidapi-hidraw0": {
+      "current": "0.11.2-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.11.2-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libhidapi-hidraw0-v0.11.2-1/libhidapi-hidraw0-0.11.2-1-arm64.kpk",
+          "sha256": "00c45cd3e37f27055e4f16c4c7be88e9cfd542fe8c44f5dc85674528682fec20",
+          "size": 13543,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.14.0-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libhidapi-hidraw0-v0.14.0-1build1/libhidapi-hidraw0-0.14.0-1build1-arm64.kpk",
+          "sha256": "077181da0624d20c4e298ef72cb6288c37aa0914071c2ad07cc2fb22c3cb98e4",
+          "size": 13780,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "sysstat": {
+      "current": "12.5.2-2build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "12.5.2-2build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/sysstat-v12.5.2-2build2/sysstat-12.5.2-2build2-arm64.kpk",
+          "sha256": "f94e099065ae96797f890cace8dc9de88c2dc2019dccd632055d98603ee639be",
+          "size": 521841,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "12.6.1-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/sysstat-v12.6.1-2/sysstat-12.6.1-2-arm64.kpk",
+          "sha256": "ac6a6a4a7fffeb63915f407d81bf067e0ef37899944a03b58aef8364e9833ae0",
+          "size": 526804,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libjson-glib-1.0-0": {
+      "current": "1.8.0-2build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.8.0-2build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjson-glib-1.0-0-v1.8.0-2build2/libjson-glib-1.0-0-1.8.0-2build2-arm64.kpk",
+          "sha256": "331e7526481c3ce42c03ac4825c48a04a3e761524a3ee59af98b801e43f9bcbb",
+          "size": 75547,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.6.6-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjson-glib-1.0-0-v1.6.6-1build1/libjson-glib-1.0-0-1.6.6-1build1-arm64.kpk",
+          "sha256": "9fa7f4b1fba393dba33ade8f6ce98e94dc7df14d82a86b2800be82e806673a0a",
+          "size": 74700,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdaemon0": {
+      "current": "0.14-7.1ubuntu4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.14-7.1ubuntu4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdaemon0-v0.14-7.1ubuntu4/libdaemon0-0.14-7.1ubuntu4-arm64.kpk",
+          "sha256": "d699e42b5aa72563905187d47dedae271f078b42d37f870e3ac0a98600fc2edc",
+          "size": 14021,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.14-7.1ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdaemon0-v0.14-7.1ubuntu3/libdaemon0-0.14-7.1ubuntu3-arm64.kpk",
+          "sha256": "b20474bc66cd82e5d78bcbbc871ecaf921a2329b8cf153e5b5a3bc55036d8276",
+          "size": 14679,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "avahi-utils": {
+      "current": "0.8-13ubuntu6",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.8-13ubuntu6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avahi-utils-v0.8-13ubuntu6/avahi-utils-0.8-13ubuntu6-arm64.kpk",
+          "sha256": "7b78918493e2638771b4acc486606af669f88a198f41ac537b1331949ecf3753",
+          "size": 28911,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.8-5ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avahi-utils-v0.8-5ubuntu5/avahi-utils-0.8-5ubuntu5-arm64.kpk",
+          "sha256": "d03c75bf4763b83d2310c50768c055dcabd4350b55c551b53805ec123a17ebe6",
+          "size": 28823,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libc6-dbg": {
+      "current": "2.35-0ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.35-0ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libc6-dbg-v2.35-0ubuntu3/libc6-dbg-2.35-0ubuntu3-arm64.kpk",
+          "sha256": "9bde9b480188395744f240e2a4ea7e36354480b215e2dbcf2120c65035898ac2",
+          "size": 12013807,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.39-0ubuntu8",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libc6-dbg-v2.39-0ubuntu8/libc6-dbg-2.39-0ubuntu8-arm64.kpk",
+          "sha256": "25369198c7fcd0f21782212ab21c4b59211b9b3e8adb1d5bdcd69540594604b3",
+          "size": 6689037,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "usb-modeswitch": {
+      "current": "2.6.1-3ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.6.1-3ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/usb-modeswitch-v2.6.1-3ubuntu3/usb-modeswitch-2.6.1-3ubuntu3-arm64.kpk",
+          "sha256": "193a3b3677bd67bf056a60795b5dd221389299587ba3785a93059e7c6c45cb08",
+          "size": 48368,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.6.1-3ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/usb-modeswitch-v2.6.1-3ubuntu2/usb-modeswitch-2.6.1-3ubuntu2-arm64.kpk",
+          "sha256": "cf608d4cd694d3154a5980e29c6a5a74564344b791e44fcfd33d51da8f46b169",
+          "size": 49283,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libneon27t64": {
+      "current": "0.33.0-1.1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.33.0-1.1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libneon27t64-v0.33.0-1.1build3/libneon27t64-0.33.0-1.1build3-arm64.kpk",
+          "sha256": "2fcaab90fa82dc1ff9f2f060be21956ec9d36624a57d6434954af1c3524878b0",
+          "size": 116503,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "psmisc": {
+      "current": "23.7-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "23.7-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/psmisc-v23.7-1build1/psmisc-23.7-1build1-arm64.kpk",
+          "sha256": "f7fa7f7456acde7cc4c81220b66f0081512c19fb6d4a6e2d25164addae309776",
+          "size": 183336,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "23.4-2build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/psmisc-v23.4-2build3/psmisc-23.4-2build3-arm64.kpk",
+          "sha256": "2158f108a478f43d09149393f8d837840ea762a228b9e1cab3adeac5e9da353d",
+          "size": 123748,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "avahi-daemon": {
+      "current": "0.8-5ubuntu5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.8-5ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avahi-daemon-v0.8-5ubuntu5/avahi-daemon-0.8-5ubuntu5-arm64.kpk",
+          "sha256": "71215c8de0b2cc8a54011fb983437f373076299eef7fc7a0d59e8c3b6fb99cdf",
+          "size": 76527,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.8-13ubuntu6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/avahi-daemon-v0.8-13ubuntu6/avahi-daemon-0.8-13ubuntu6-arm64.kpk",
+          "sha256": "c316247e40f3d7838c579d804dd1373a6b7014bb29d3e528f421fb5d5c46689f",
+          "size": 75698,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "trace-cmd": {
+      "current": "2.9.6-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.9.6-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/trace-cmd-v2.9.6-2/trace-cmd-2.9.6-2-arm64.kpk",
+          "sha256": "aaac45c5b7b7152f6dab49a13e508aa684392e518eab81e9d133e1a622beff0c",
+          "size": 255517,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "3.2-1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/trace-cmd-v3.2-1ubuntu2/trace-cmd-3.2-1ubuntu2-arm64.kpk",
+          "sha256": "b7df14bcf84e6f961fba9bf095d30bf4d29c059d184bc4330f07ef836e7719bd",
+          "size": 379827,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-bitstring": {
+      "current": "4.1.4-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.1.4-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-bitstring-v4.1.4-1/python3-bitstring-4.1.4-1-all.kpk",
+          "sha256": "00b1f43ef6764bb47d7236da7d4b95a03ed7453c1f847170af3eeec5f2989148",
+          "size": 54814,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "3.1.7-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-bitstring-v3.1.7-2/python3-bitstring-3.1.7-2-all.kpk",
+          "sha256": "b63915f94f8ccde8b8ff8fd6e3a500d2aa2d9db8b08e0e7cfddf11f702903114",
+          "size": 38796,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libraptor2-0": {
+      "current": "2.0.15-0ubuntu4",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.0.15-0ubuntu4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libraptor2-0-v2.0.15-0ubuntu4/libraptor2-0-2.0.15-0ubuntu4-arm64.kpk",
+          "sha256": "ae76cd4a619b529992e1a49462a3990b9f4626209f6d1038be52de6e403daba1",
+          "size": 195366,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.0.16-3build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libraptor2-0-v2.0.16-3build3/libraptor2-0-2.0.16-3build3-arm64.kpk",
+          "sha256": "e50bb8717ed2235fd09f92a8f144604c2d49d5cb2cb6a8b5f070db507834a497",
+          "size": 191368,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libspa-0.2-modules": {
+      "current": "1.0.5-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libspa-0.2-modules-v1.0.5-1/libspa-0.2-modules-1.0.5-1-arm64.kpk",
+          "sha256": "87db077a5f982e357d3abf68541365cdc1a8993ca2a1ecec9fc9829e11864f6f",
+          "size": 695095,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.3.48-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libspa-0.2-modules-v0.3.48-1ubuntu1/libspa-0.2-modules-0.3.48-1ubuntu1-arm64.kpk",
+          "sha256": "a36df5c078d1e069cadc669e2fb8a4033ffa3936d5aa847cf33062c0c1e5c40a",
+          "size": 599538,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libinstpatch-1.0-2": {
+      "current": "1.1.6-1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.1.6-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libinstpatch-1.0-2-v1.1.6-1build2/libinstpatch-1.0-2-1.1.6-1build2-arm64.kpk",
+          "sha256": "873b1dd94027c19c15287de0b26b0f3136c337aceb8d124583dd077217953e87",
+          "size": 297231,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.1.6-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libinstpatch-1.0-2-v1.1.6-1/libinstpatch-1.0-2-1.1.6-1-arm64.kpk",
+          "sha256": "18383ab85538f8338c17a4782de7703764e5aea79a419ca1a6dcb596ceb2e3a3",
+          "size": 305182,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "btop": {
+      "current": "1.2.3-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.2.3-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/btop-v1.2.3-2/btop-1.2.3-2-arm64.kpk",
+          "sha256": "8a35994534c742a2bd7ce73681627a7bbee77c3409e26dfb517376709a975c5f",
+          "size": 507999,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.3.0-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/btop-v1.3.0-1/btop-1.3.0-1-arm64.kpk",
+          "sha256": "603a66b30603ea46417e2073cba686296a440af52bc95aed34228c6710f6e8da",
+          "size": 556718,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libltc11": {
+      "current": "1.3.2-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.3.2-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libltc11-v1.3.2-1build1/libltc11-1.3.2-1build1-arm64.kpk",
+          "sha256": "b5eebcdbd360e2a7d83dbb6cc2bbc4e98d865d1852d4dccb58bb3f0424b06575",
+          "size": 13820,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.3.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libltc11-v1.3.1-1/libltc11-1.3.1-1-arm64.kpk",
+          "sha256": "dc375e9b371f7906c8cbf2b73557a3d7ac7aee19ea20d12850be58f153065425",
+          "size": 12780,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdirectfb-1.7-7t64": {
+      "current": "1.7.7-11.1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.7.7-11.1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdirectfb-1.7-7t64-v1.7.7-11.1ubuntu2/libdirectfb-1.7-7t64-1.7.7-11.1ubuntu2-arm64.kpk",
+          "sha256": "c697376e943dadca2ed822eed1cd7a0b296432892fee4e840d63dfd95c1b2a46",
+          "size": 1211260,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "mtr-tiny": {
+      "current": "0.95-1.1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.95-1.1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/mtr-tiny-v0.95-1.1build2/mtr-tiny-0.95-1.1build2-arm64.kpk",
+          "sha256": "c9b656d3a17d0226883a7049b9cea14943ec9d03691840409fccec4f72e240e2",
+          "size": 60589,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.95-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/mtr-tiny-v0.95-1/mtr-tiny-0.95-1-arm64.kpk",
+          "sha256": "34c2bc154ae698f01a305b13bf419be46c6a2284b73dea39786f5ba1fd2ae1ef",
+          "size": 59456,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "dfu-util": {
+      "current": "0.9-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.9-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/dfu-util-v0.9-1/dfu-util-0.9-1-arm64.kpk",
+          "sha256": "73359795d2bb12390c9689bca559c1b78f6051955d07a6c86ade0e4c231a4c2f",
+          "size": 37277,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.11-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/dfu-util-v0.11-1/dfu-util-0.11-1-arm64.kpk",
+          "sha256": "17e3c7f2dea8a80055de4453c600366e5b84ea2d726b9a46e7de3f8e13d293a1",
+          "size": 45360,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libpopt0": {
+      "current": "1.19+dfsg-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.19+dfsg-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libpopt0-v1.19%2Bdfsg-1build1/libpopt0-1.19.dfsg-1build1-arm64.kpk",
+          "sha256": "163f5460494f1ab9b4230b4fbc9542e3cc3263f106a1dc4097a5286a89e3e19c",
+          "size": 31311,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.18-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libpopt0-v1.18-3build1/libpopt0-1.18-3build1-arm64.kpk",
+          "sha256": "0ab89a537355310b1814666622aabe384f5e1668a27b90733fa0f43468099ca7",
+          "size": 30684,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "tcpdump": {
+      "current": "4.99.1-3build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.99.1-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tcpdump-v4.99.1-3build2/tcpdump-4.99.1-3build2-arm64.kpk",
+          "sha256": "9f6468d8ab5accbef2e7d384c99ea23026e5154628ae68377c3f21f96182d1c7",
+          "size": 579105,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "4.99.4-3ubuntu4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tcpdump-v4.99.4-3ubuntu4/tcpdump-4.99.4-3ubuntu4-arm64.kpk",
+          "sha256": "496b78419b8cf97c2458e68077a80666d90eef69721e57500479fccb299ba57d",
+          "size": 558766,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-reedsolo": {
+      "current": "1.7.0-1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.7.0-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-reedsolo-v1.7.0-1build2/python3-reedsolo-1.7.0-1build2-arm64.kpk",
+          "sha256": "42280b2f5f2c1b5d32b7f0a36737ff4e5c7fed632c1bc57981a462b954fcab25",
+          "size": 230409,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "liblrdf0": {
+      "current": "0.6.1-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.6.1-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblrdf0-v0.6.1-2/liblrdf0-0.6.1-2-arm64.kpk",
+          "sha256": "4894c6583aa735bfd5cc8005bed1ab5b5dadc56cd4837eaeac0114b30d79bfdf",
+          "size": 21809,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.6.1-4build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblrdf0-v0.6.1-4build1/liblrdf0-0.6.1-4build1-arm64.kpk",
+          "sha256": "5b62d26daf309186895480fefc127e9c0cb7752a0d9ee0fa9d5bd7db0ea1f05f",
+          "size": 20032,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libgssdp-1.6-0": {
+      "current": "1.6.3-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.6.3-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libgssdp-1.6-0-v1.6.3-1build3/libgssdp-1.6-0-1.6.3-1build3-arm64.kpk",
+          "sha256": "fc5d3bbfb8d0e8ef7d66406fd628b581ac5887ae07c81b7393e296b5b037a295",
+          "size": 44981,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "file": {
+      "current": "1:5.41-3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:5.41-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/file-v5.41-3/file-5.41-3-arm64.kpk",
+          "sha256": "c8c074534ab89a7992cad1d0665c3a332dd8eebc6a0d012500ecb1bf90c6edde",
+          "size": 22666,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:5.45-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/file-v5.45-3build1/file-5.45-3build1-arm64.kpk",
+          "sha256": "bf18d3702fe0cee3a407aacef4a6cfafda21aefe187c9ab182c40aa10f11ea34",
+          "size": 23480,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libjim0.82t64": {
+      "current": "0.82-4.1build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.82-4.1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjim0.82t64-v0.82-4.1build2/libjim0.82t64-0.82-4.1build2-arm64.kpk",
+          "sha256": "089dfcc7abd365561169c607b175f47ebee9f0af5745095264b45aad1568950b",
+          "size": 177431,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libtraceevent1-plugin": {
+      "current": "1:1.8.2-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:1.8.2-1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtraceevent1-plugin-v1.8.2-1ubuntu2/libtraceevent1-plugin-1.8.2-1ubuntu2-arm64.kpk",
+          "sha256": "234a33a284035ce0b2793a22fa7a7666ed0ceaebe45fd61a7dcbb3a9c0954300",
+          "size": 21986,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:1.3.3-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtraceevent1-plugin-v1.3.3-1/libtraceevent1-plugin-1.3.3-1-arm64.kpk",
+          "sha256": "eb199463a9db71f6f176459584711ec1032c5b8ace8b6f1a905bf7a267145e37",
+          "size": 19944,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libsoundtouch1": {
+      "current": "2.3.1+ds1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.3.1+ds1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsoundtouch1-v2.3.1%2Bds1-1/libsoundtouch1-2.3.1.ds1-1-arm64.kpk",
+          "sha256": "709bf3e971dc27f5abc7ad10e50c719005886c0e9502b7ef950d4de693f0b53a",
+          "size": 38641,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.3.2+ds1-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsoundtouch1-v2.3.2%2Bds1-1build1/libsoundtouch1-2.3.2.ds1-1build1-arm64.kpk",
+          "sha256": "873039ad935365aaa8bcd71fc735362ed5b78f15a35c896517957807f0137be8",
+          "size": 63033,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libspandsp2t64": {
+      "current": "0.0.6+dfsg-2.1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.0.6+dfsg-2.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libspandsp2t64-v0.0.6%2Bdfsg-2.1build1/libspandsp2t64-0.0.6.dfsg-2.1build1-arm64.kpk",
+          "sha256": "6e8c5c2c099b46fbcb3b136fee94ab08e43dbdd938150d157e9e578eebe64e9a",
+          "size": 378635,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "ethtool": {
+      "current": "1:6.7-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:6.7-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/ethtool-v6.7-1build1/ethtool-6.7-1build1-arm64.kpk",
+          "sha256": "8a5b50cad24c738d4a4b2f66097e14b20e1caccf6fbd3c8a63d4ea7ce7f5edc6",
+          "size": 266950,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:5.16-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/ethtool-v5.16-1/ethtool-5.16-1-arm64.kpk",
+          "sha256": "e2d1787a99fdd5321fa81de45334fa49bbf2a616e57f87601637a4606817fd96",
+          "size": 235941,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmaxminddb0": {
+      "current": "1.9.1-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.9.1-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmaxminddb0-v1.9.1-1build1/libmaxminddb0-1.9.1-1build1-arm64.kpk",
+          "sha256": "ae81e5a154d59da841c10854b712badd77115110a21a37ed488a2b9c25d38268",
+          "size": 27004,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.5.2-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmaxminddb0-v1.5.2-1build2/libmaxminddb0-1.5.2-1build2-arm64.kpk",
+          "sha256": "55ab45b6cec69c75a0a3db5a6e164d4786ed816ce9421722f56099bfa06ecbad",
+          "size": 26681,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libsource-highlight-common": {
+      "current": "3.1.9-4.3build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.1.9-4.3build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsource-highlight-common-v3.1.9-4.3build1/libsource-highlight-common-3.1.9-4.3build1-all.kpk",
+          "sha256": "d8cb4a6109e32a88d249ffcfd5feb759c5d771a17580f9d2d721d7dbf80dd714",
+          "size": 69047,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "3.1.9-4.1build2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsource-highlight-common-v3.1.9-4.1build2/libsource-highlight-common-3.1.9-4.1build2-all.kpk",
+          "sha256": "13f5b57cb22a3357b9f6912491bdd8fab3991714d894c86edb448b7ccba78dd8",
+          "size": 69076,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "iotop-c": {
+      "current": "1.21-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.21-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iotop-c-v1.21-1/iotop-c-1.21-1-arm64.kpk",
+          "sha256": "b93e2356f926dbf77e9c5614ee5f1831a2e9ee42e272ce6f7b5b18f5adeb36fd",
+          "size": 42677,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.26-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/iotop-c-v1.26-1/iotop-c-1.26-1-arm64.kpk",
+          "sha256": "7405e77f0ebaf15e3370b32dfbe41f9de395582e77be2e1b3b2690a15b57e0b8",
+          "size": 55931,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libwebrtc-audio-processing1": {
+      "current": "0.3.1-0ubuntu5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.3.1-0ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libwebrtc-audio-processing1-v0.3.1-0ubuntu5/libwebrtc-audio-processing1-0.3.1-0ubuntu5-arm64.kpk",
+          "sha256": "5c6f53fd3ac2f8375f48a09a36917463fee1ef9f64b0b74a788cfc59c61b1d22",
+          "size": 326541,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.3.1-0ubuntu6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libwebrtc-audio-processing1-v0.3.1-0ubuntu6/libwebrtc-audio-processing1-0.3.1-0ubuntu6-arm64.kpk",
+          "sha256": "1fe9b5e603fd6a6b49b22125a54c67776ef19ba86e6f9b6301392e0ce1d608f8",
+          "size": 330439,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "rsync": {
+      "current": "3.2.3-8ubuntu3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "3.2.3-8ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/rsync-v3.2.3-8ubuntu3/rsync-3.2.3-8ubuntu3-arm64.kpk",
+          "sha256": "6f93941a76f44b8b93f823bb61c9635c8e371ff6189a0a22ed0696b3ac4a8f35",
+          "size": 432983,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "3.2.7-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/rsync-v3.2.7-1ubuntu1/rsync-3.2.7-1ubuntu1-arm64.kpk",
+          "sha256": "876934a5761a31364a59cf5d9e2cb59d93af8534c5ed85a62ff0abde879b2278",
+          "size": 471696,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-pyudev": {
+      "current": "0.22.0-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.22.0-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-pyudev-v0.22.0-2/python3-pyudev-0.22.0-2-all.kpk",
+          "sha256": "79e6b0241c8a3eea554148da00e28aa3f5c73750a515f2f674ef80b36fe8f5bb",
+          "size": 38252,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.24.0-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-pyudev-v0.24.0-1/python3-pyudev-0.24.0-1-all.kpk",
+          "sha256": "5d55ef83f88c11fb725838d11ad9bc9e6148bfd13343910b96fc0c5184cffffa",
+          "size": 37397,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "mmc-utils": {
+      "current": "0+git20191004.73d6c59-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0+git20191004.73d6c59-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/mmc-utils-v0%2Bgit20191004.73d6c59-2/mmc-utils-0.git20191004.73d6c59-2-arm64.kpk",
+          "sha256": "6339ac96cd958f0832012fba5ba99adf77dc2021a16075d74a0b4754e425ed46",
+          "size": 44359,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0+git20220624.d7b343fd-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/mmc-utils-v0%2Bgit20220624.d7b343fd-1ubuntu1/mmc-utils-0.git20220624.d7b343fd-1ubuntu1-arm64.kpk",
+          "sha256": "15ca38b449eeca0cb31b6a6224bb75cde227ab1ad3e9e1fe3e23c9c95ba88fd3",
+          "size": 47811,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "esptool": {
+      "current": "2.8+dfsg-1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.8+dfsg-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/esptool-v2.8%2Bdfsg-1/esptool-2.8.dfsg-1-all.kpk",
+          "sha256": "cc96cf74a7deaa19802cc81fb1659104006ab64dd0d513d6272fd1f06c41cad4",
+          "size": 66106,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "4.7.0+dfsg-0.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/esptool-v4.7.0%2Bdfsg-0.1/esptool-4.7.0.dfsg-0.1-all.kpk",
+          "sha256": "9ae28c0220c5f685b708c78eca313ceca4e82a88bc5bd200e22402c3616000eb",
+          "size": 192254,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-bitarray": {
+      "current": "2.9.2-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.9.2-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-bitarray-v2.9.2-1build1/python3-bitarray-2.9.2-1build1-arm64.kpk",
+          "sha256": "fbcde8ccb17bc99904b39a8fb6df4ff0a488c3ab6ff810d36aa872451f5dfad0",
+          "size": 181673,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.6.3-2build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-bitarray-v1.6.3-2build2/python3-bitarray-1.6.3-2build2-arm64.kpk",
+          "sha256": "77aa4a71a4b7297c6765074d9ea4b1ac1f18b67c1554571412ae7c58189b736b",
+          "size": 98480,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libftdi1": {
+      "current": "0.20-4ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.20-4ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libftdi1-v0.20-4ubuntu1/libftdi1-0.20-4ubuntu1-arm64.kpk",
+          "sha256": "499663a18d7fa735eff75c2778f7e489161e42c3f67a3003c27d2d524257faa9",
+          "size": 16097,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.20-4ubuntu3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libftdi1-v0.20-4ubuntu3/libftdi1-0.20-4ubuntu3-arm64.kpk",
+          "sha256": "d8f19a249c80d9510251a0593fe621e788349d014acf77289c9c6622c377b3f6",
+          "size": 16335,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdca0": {
+      "current": "0.0.7-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.0.7-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdca0-v0.0.7-2build1/libdca0-0.0.7-2build1-arm64.kpk",
+          "sha256": "923cdc5d2ab0a89fc9b6388e25463a6c4846aa14c0d30ea045c8ca629907cb4b",
+          "size": 100369,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.0.7-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdca0-v0.0.7-2/libdca0-0.0.7-2-arm64.kpk",
+          "sha256": "e923922ae57d1913c5b1e855805363a53e88c9f0eb525760cfe12b35a2e8512a",
+          "size": 103312,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "bluez-tools": {
+      "current": "2.0~20170911.0.7cb788c-4build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.0~20170911.0.7cb788c-4build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bluez-tools-v2.0-20170911.0.7cb788c-4build2/bluez-tools-2.0-20170911.0.7cb788c-4build2-arm64.kpk",
+          "sha256": "ea6c520092a2e29ab3e8a9fb5a5912306331ef076a759908019cf47d39218412",
+          "size": 88097,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.0~20170911.0.7cb788c-4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bluez-tools-v2.0-20170911.0.7cb788c-4/bluez-tools-2.0-20170911.0.7cb788c-4-arm64.kpk",
+          "sha256": "21f79b9240f2b791101192163d811c3032cc497cc44e4b26ceaf3af145c9d0b4",
+          "size": 189088,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libxxhash0": {
+      "current": "0.8.2-2build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.8.2-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libxxhash0-v0.8.2-2build1/libxxhash0-0.8.2-2build1-arm64.kpk",
+          "sha256": "1ea6f99a42c3bbd677ef264fa2048c8fa90df218498afd131b58ebf2662d112a",
+          "size": 24142,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.8.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libxxhash0-v0.8.1-1/libxxhash0-0.8.1-1-arm64.kpk",
+          "sha256": "655d9a9a32f581e235916f761c373519501ef68abac53285e9891ecebfbb07b6",
+          "size": 22365,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libjaylink0": {
+      "current": "0.3.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.3.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjaylink0-v0.3.1-1/libjaylink0-0.3.1-1-arm64.kpk",
+          "sha256": "e1951b67ccd86ed2377880c08ec3c1f02646f3d62dfd64b83a2056ebf4a0d2a6",
+          "size": 27355,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.2.0-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjaylink0-v0.2.0-1/libjaylink0-0.2.0-1-arm64.kpk",
+          "sha256": "6463dc31d3af72a190522534fc75cb882df3eb5041d559478ef9eda29254d1ae",
+          "size": 27180,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libnice10": {
+      "current": "0.1.18-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.1.18-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libnice10-v0.1.18-2/libnice10-0.1.18-2-arm64.kpk",
+          "sha256": "7b1f9df88e180265ede5f88ec24ec05712527a6858eda63833d1e439d1fa4bc2",
+          "size": 172802,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.1.21-2build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libnice10-v0.1.21-2build3/libnice10-0.1.21-2build3-arm64.kpk",
+          "sha256": "7708df2c53aacba055a1ac366de9a242dc9c614f078e47abffe30aa82a55370b",
+          "size": 180523,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "openocd": {
+      "current": "0.11.0-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.11.0-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openocd-v0.11.0-1/openocd-0.11.0-1-arm64.kpk",
+          "sha256": "5f3da5cbe18403704277d24b1a954f2b90463d6bde45ce184996844b35618908",
+          "size": 3217890,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.12.0-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openocd-v0.12.0-1build2/openocd-0.12.0-1build2-arm64.kpk",
+          "sha256": "4bf5bb47fbaeccfa45dcc26d5a0ecebd2e7ad7cda292056b5adbc73681a2e41a",
+          "size": 3466985,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-ecdsa": {
+      "current": "0.18.0-5",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.18.0-5",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-ecdsa-v0.18.0-5/python3-ecdsa-0.18.0-5-all.kpk",
+          "sha256": "0cb9091295d7c0e8a926f747ad653f95634700b260a1b097ee8ebd553546b936",
+          "size": 138155,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.18.0~b1-1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-ecdsa-v0.18.0-b1-1/python3-ecdsa-0.18.0-b1-1-all.kpk",
+          "sha256": "84bf25b672306a8dd5433c5d0ea1ee842cd93b591f34d356d3630f066182c9ff",
+          "size": 136057,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmpcdec6": {
+      "current": "2:0.1~r495-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2:0.1~r495-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmpcdec6-v0.1-r495-2/libmpcdec6-0.1-r495-2-arm64.kpk",
+          "sha256": "09d69fb9fe21e6018ee1b95954dd308e91c6a703fb2b9b35f98004de826d31e6",
+          "size": 39069,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2:0.1~r495-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmpcdec6-v0.1-r495-2build1/libmpcdec6-0.1-r495-2build1-arm64.kpk",
+          "sha256": "40d94ff9496c2be11842f7390c671a7d774bb7bcd9225c73bab5fdd86833d42c",
+          "size": 36001,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libgstreamer-plugins-bad1.0-0": {
+      "current": "1.20.1-1ubuntu2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.20.1-1ubuntu2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libgstreamer-plugins-bad1.0-0-v1.20.1-1ubuntu2/libgstreamer-plugins-bad1.0-0-1.20.1-1ubuntu2-arm64.kpk",
+          "sha256": "bb524790d8e5e6de2216cc2297add70b8ce9dc2370eab79b44692927616bfdc6",
+          "size": 553430,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.24.2-1ubuntu4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libgstreamer-plugins-bad1.0-0-v1.24.2-1ubuntu4/libgstreamer-plugins-bad1.0-0-1.24.2-1ubuntu4-arm64.kpk",
+          "sha256": "8110375c2b3021edaf5c3d89b915bcf0185be8c2cea7d3942b3937f9441eaa56",
+          "size": 947233,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libtracefs1": {
+      "current": "1.8.0-1ubuntu1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.8.0-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtracefs1-v1.8.0-1ubuntu1/libtracefs1-1.8.0-1ubuntu1-arm64.kpk",
+          "sha256": "81631c2fca51488933066ff95c1be2026fc0255bd800aa82f983ff28bceef3bc",
+          "size": 76459,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.2.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libtracefs1-v1.2.5-1/libtracefs1-1.2.5-1-arm64.kpk",
+          "sha256": "b469d5640fe9de02ebcfe9a30e4fb1ef47f554bc07053de22d1fc752e6598976",
+          "size": 20738,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libzxing3": {
+      "current": "2.2.1-3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.2.1-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libzxing3-v2.2.1-3/libzxing3-2.2.1-3-arm64.kpk",
+          "sha256": "11b3003c17830eed0ab04f8474634a311f4fa47af6d5473040a2a4ab0f4c0644",
+          "size": 647345,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libsbc1": {
+      "current": "2.0-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.0-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsbc1-v2.0-1build1/libsbc1-2.0-1build1-arm64.kpk",
+          "sha256": "eae124a27934a057526fbf1ac226709e9c584a4a98bd4a5a884ab5aff4390619",
+          "size": 33066,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.5-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libsbc1-v1.5-3build2/libsbc1-1.5-3build2-arm64.kpk",
+          "sha256": "8e1a91c5fb6b75aae415deaa8de37f72aaf304007f5b38e479702c1f82bcc627",
+          "size": 34725,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "liblc3-1": {
+      "current": "1.0.4-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0.4-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblc3-1-v1.0.4-3build1/liblc3-1-1.0.4-3build1-arm64.kpk",
+          "sha256": "78471021b88a660d625fc1e6835663dfc6828832118bca8bd0aeb26dd734c04b",
+          "size": 78954,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libhidapi-libusb0": {
+      "current": "0.11.2-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.11.2-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libhidapi-libusb0-v0.11.2-1/libhidapi-libusb0-0.11.2-1-arm64.kpk",
+          "sha256": "4b5633864cc8f4d222b29cf1b3dcd1693ea2d4beed65ff14905b45b9e7aa69ff",
+          "size": 17961,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.14.0-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libhidapi-libusb0-v0.14.0-1build1/libhidapi-libusb0-0.14.0-1build1-arm64.kpk",
+          "sha256": "0a67c21105b6dfce43b200cac0f44a71a1afe01c0e4f8401c07b9bf47562be90",
+          "size": 18784,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "bind9-libs": {
+      "current": "1:9.18.24-0ubuntu5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:9.18.24-0ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-libs-v9.18.24-0ubuntu5/bind9-libs-9.18.24-0ubuntu5-arm64.kpk",
+          "sha256": "0f817ca4178d9a7eddfd35c05eead51e0f0b752a78c7e23f4e16798e79bc8c92",
+          "size": 1463712,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:9.18.1-1ubuntu1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/bind9-libs-v9.18.1-1ubuntu1/bind9-libs-9.18.1-1ubuntu1-arm64.kpk",
+          "sha256": "df11e7d9143287a183a87165d9289b97954b72d89e0c14839bfcbabb4456cc8c",
+          "size": 1427456,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "nload": {
+      "current": "0.7.4-2build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.7.4-2build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nload-v0.7.4-2build3/nload-0.7.4-2build3-arm64.kpk",
+          "sha256": "ef894d828c3b52820730801bf1be0a60d760e78edefab1982a8a1a4d7b0c9bc9",
+          "size": 64696,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libdebuginfod-common": {
+      "current": "0.186-1build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.186-1build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdebuginfod-common-v0.186-1build1/libdebuginfod-common-0.186-1build1-all.kpk",
+          "sha256": "f842685652fc4d88893d66291715861375092acea02a22593f56e85833ba7336",
+          "size": 5296,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.190-1.1build4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libdebuginfod-common-v0.190-1.1build4/libdebuginfod-common-0.190-1.1build4-all.kpk",
+          "sha256": "b7d7f6e4bde980e83ec0f137dfb72ed4e374687c1dfa31c54a9a2d22cff2b3a7",
+          "size": 10384,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libjudydebian1": {
+      "current": "1.0.5-5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0.5-5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjudydebian1-v1.0.5-5/libjudydebian1-1.0.5-5-arm64.kpk",
+          "sha256": "e5929a659d984fdb43b62b6c84e0696a6848c1223482a4317a5e82f06be4144e",
+          "size": 113555,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.0.5-5.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libjudydebian1-v1.0.5-5.1build1/libjudydebian1-1.0.5-5.1build1-arm64.kpk",
+          "sha256": "68dd82cedacf8695b8dcc82b268686da5def3fddd8eabecb10b5f4999ee7c2f1",
+          "size": 123073,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libwildmidi2": {
+      "current": "0.4.3-1build3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.4.3-1build3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libwildmidi2-v0.4.3-1build3/libwildmidi2-0.4.3-1build3-arm64.kpk",
+          "sha256": "2653782f4112f79b51b8c9f56b9eceda25c554fa8e91422a091281728bb5c24f",
+          "size": 79057,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.4.3-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libwildmidi2-v0.4.3-1/libwildmidi2-0.4.3-1-arm64.kpk",
+          "sha256": "e2b53eba95d10b57a111aff3fca2e829eea364fa4d65f409d5601c6f319ee9d2",
+          "size": 75684,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "python3-rosdistro": {
+      "current": "0.8.3-2",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.8.3-2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-rosdistro-v0.8.3-2/python3-rosdistro-0.8.3-2-all.kpk",
+          "sha256": "6f56b95cf574f5d44edf146138f05534eda469aa922c8a0bdcc3ff426a196a3d",
+          "size": 41832,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.1.0-100",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-rosdistro-v1.1.0-100/python3-rosdistro-1.1.0-100-all.kpk",
+          "sha256": "7a0beddcc14acdf8a71dfab2f516103c5b1943c708f3609be488d8493f8c3cc8",
+          "size": 2921,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libqrencode4": {
+      "current": "4.1.1-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.1.1-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libqrencode4-v4.1.1-1/libqrencode4-4.1.1-1-arm64.kpk",
+          "sha256": "5a8a5df12e55e5c116a1bdbe202f7aa4c2156b1b8922423ae8501c637971234c",
+          "size": 27891,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "4.1.1-1build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libqrencode4-v4.1.1-1build2/libqrencode4-4.1.1-1build2-arm64.kpk",
+          "sha256": "d1957c168fb01145892bdfb063cc4c0a8bf5c674c77ab4020716afc7e36993d4",
+          "size": 27597,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "usb-modeswitch-data": {
+      "current": "20191128-6",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "20191128-6",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/usb-modeswitch-data-v20191128-6/usb-modeswitch-data-20191128-6-all.kpk",
+          "sha256": "ac746649af5e293fffcf6cdfe060d08fe5970fae5983b5b2f1b6720f6123d13d",
+          "size": 31112,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "20191128-4",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/usb-modeswitch-data-v20191128-4/usb-modeswitch-data-20191128-4-all.kpk",
+          "sha256": "e317cfcfd1848cfd3ef40ca7b05d06279f23303adb8cc5db0a20739cbe84abe4",
+          "size": 33044,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "arp-scan": {
+      "current": "1.9.7-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.9.7-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/arp-scan-v1.9.7-2/arp-scan-1.9.7-2-arm64.kpk",
+          "sha256": "25995548dfeb1afd5150181fd698e4d49cde4858ece03cbc2ca0853bb8153280",
+          "size": 408776,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1.10.0-2build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/arp-scan-v1.10.0-2build2/arp-scan-1.10.0-2build2-arm64.kpk",
+          "sha256": "d31a2b0f60c899bb55e981df30077e2d65bc4c21b68b0a583ca8de787bce970e",
+          "size": 574598,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "tcl8.6": {
+      "current": "8.6.14+dfsg-1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "8.6.14+dfsg-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tcl8.6-v8.6.14%2Bdfsg-1build1/tcl8.6-8.6.14.dfsg-1build1-arm64.kpk",
+          "sha256": "74c23844e82d9d2d64a509b28da33d5f0afb1f0adeb24e0115852f50ee84e114",
+          "size": 14645,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "8.6.12+dfsg-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/tcl8.6-v8.6.12%2Bdfsg-1build1/tcl8.6-8.6.12.dfsg-1build1-arm64.kpk",
+          "sha256": "4e45fdc8bade9b1bfcb778787d243ae9ba2f76606ea6a07bda0232eb2eedb396",
+          "size": 14699,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "timgm6mb-soundfont": {
+      "current": "1.3-5",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.3-5",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/timgm6mb-soundfont-v1.3-5/timgm6mb-soundfont-1.3-5-all.kpk",
+          "sha256": "4e295487cf2966dd0b905b0f2c377d11b8c4f8b6ae7de0477245dc9c0fe2463f",
+          "size": 5634549,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libfaad2": {
+      "current": "2.10.0-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.10.0-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfaad2-v2.10.0-2/libfaad2-2.10.0-2-arm64.kpk",
+          "sha256": "4fcd7356ea7e8efe360450464effa62f8da28134c06c415d3f4b579f20589d37",
+          "size": 225125,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "2.11.1-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libfaad2-v2.11.1-1build1/libfaad2-2.11.1-1build1-arm64.kpk",
+          "sha256": "1b64d1b9abc5d1aa87000797cd1552783bf59a4b93d4c0be8580938a3338a9fa",
+          "size": 239889,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmagic-mgc": {
+      "current": "1:5.45-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:5.45-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmagic-mgc-v5.45-3build1/libmagic-mgc-5.45-3build1-arm64.kpk",
+          "sha256": "240517ec2a8f26d78d6561c6eacb96747d8d39c6be1819e0436e875dfb10c24b",
+          "size": 358335,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "1:5.41-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmagic-mgc-v5.41-3/libmagic-mgc-5.41-3-arm64.kpk",
+          "sha256": "08dfefb2398979ef72c43762dca58b6947393e5393df9407b585ab5d2b85685b",
+          "size": 303706,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmpeg2encpp-2.1-0t64": {
+      "current": "1:2.1.0+debian-8.1build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:2.1.0+debian-8.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmpeg2encpp-2.1-0t64-v2.1.0%2Bdebian-8.1build1/libmpeg2encpp-2.1-0t64-2.1.0.debian-8.1build1-arm64.kpk",
+          "sha256": "948e14b66d4d3561b62c48fa73cb101adb6db5f23fb4ca0daeda2e754317e56f",
+          "size": 84130,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libpipewire-0.3-0t64": {
+      "current": "1.0.5-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.0.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libpipewire-0.3-0t64-v1.0.5-1/libpipewire-0.3-0t64-1.0.5-1-arm64.kpk",
+          "sha256": "ea96f07716c71272b627bfd0b38fb984c4ea68d9d9647fa27d85d64fd5077754",
+          "size": 289689,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libavahi-core7": {
+      "current": "0.8-13ubuntu6",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.8-13ubuntu6",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libavahi-core7-v0.8-13ubuntu6/libavahi-core7-0.8-13ubuntu6-arm64.kpk",
+          "sha256": "d7c6e07020d094503c1a64d725ec2298c738ccf5aa358dea7eea11dd013b095d",
+          "size": 100214,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.8-5ubuntu5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libavahi-core7-v0.8-5ubuntu5/libavahi-core7-0.8-5ubuntu5-arm64.kpk",
+          "sha256": "7a86a7fe5db3a11889ba6d9a0cae1d04a4b2d84f4cfc24654f3f9a5fcf030859",
+          "size": 99440,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "stm32flash": {
+      "current": "0.5+git20200914+2b0f078-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.5+git20200914+2b0f078-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/stm32flash-v0.5%2Bgit20200914%2B2b0f078-1/stm32flash-0.5.git20200914.2b0f078-1-arm64.kpk",
+          "sha256": "fb27d08f5ced8191c13a4603140c81a4e89096fa94e42079f8896758d0c3637c",
+          "size": 30629,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.7-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/stm32flash-v0.7-1/stm32flash-0.7-1-arm64.kpk",
+          "sha256": "17ca7f706f0f797b7aefe8b574d89e23a352b78fdcf2d74323945079eea0bc0d",
+          "size": 35526,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libcapstone4": {
+      "current": "4.0.2-5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "4.0.2-5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libcapstone4-v4.0.2-5/libcapstone4-4.0.2-5-arm64.kpk",
+          "sha256": "c43992d4f4c38b868394a224ec16b657d162faf6c1394af871b45f260f32ad78",
+          "size": 819927,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "4.0.2-5.1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libcapstone4-v4.0.2-5.1build1/libcapstone4-4.0.2-5.1build1-arm64.kpk",
+          "sha256": "078efaf782a658bba0f2e49071c656b15ea6018ad6b301e62837a4a0dd9af86e",
+          "size": 836144,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "libmagic1t64": {
+      "current": "1:5.45-3build1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:5.45-3build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libmagic1t64-v5.45-3build1/libmagic1t64-5.45-3build1-arm64.kpk",
+          "sha256": "d3d7d61f92c7f48802fd40e87cc7c1bf470dc7a7666f4693955f050c24c8a051",
+          "size": 98511,
+          "date_added": "2026-10-18"
+        }
+      ]
+    },
+    "stress-ng": {
+      "current": "0.13.12-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "0.13.12-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/stress-ng-v0.13.12-2/stress-ng-0.13.12-2-arm64.kpk",
+          "sha256": "5043ca85d1faab164178ccdff59f408b54f65115330919080f77a8978ecdb093",
+          "size": 800799,
+          "date_added": "2026-10-18"
+        },
+        {
+          "version": "0.17.06-1build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/stress-ng-v0.17.06-1build1/stress-ng-0.17.06-1build1-arm64.kpk",
+          "sha256": "7f76768c4bacdf26f2417ef31f4d3fd57fc461d95c48dc97b9803c4af69428b6",
+          "size": 1495298,
+          "date_added": "2026-10-18"
         }
       ]
     }
