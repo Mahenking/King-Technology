@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-08T19:52:34.405813+00:00",
+  "generated": "2026-10-18T01:35:42.528937+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "41.0-1ubuntu1",
@@ -1142,12 +1142,30 @@
       ]
     },
     "king-ide": {
-      "current": "1.0.5",
+      "current": "1.0.11",
       "arch": "arm64",
-      "description": "",
-      "depends": [],
+      "description": "King IDE \u2014 Theia-based robotics IDE for King OS",
+      "depends": [
+        "libgtk-3-0",
+        "libnotify4",
+        "libnss3",
+        "libxss1",
+        "libxtst6",
+        "xdg-utils",
+        "libatspi2.0-0",
+        "libuuid1",
+        "libsecret-1-0"
+      ],
       "explicit": false,
       "available_versions": [
+        {
+          "version": "1.0.11",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.11/king-ide-1.0.11-arm64.kpk",
+          "sha256": "be04a7628008c96a1f2d8debcc91d94fb07884ef0a319b45c8ed2e1934bdb7fe",
+          "size": 197841128,
+          "date_added": "2026-10-18"
+        },
         {
           "version": "1.0.5",
           "arch": "arm64",
