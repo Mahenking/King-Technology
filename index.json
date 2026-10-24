@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-24T16:34:58.107069+00:00",
+  "generated": "2026-10-24T18:45:58.385106+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "41.0-1ubuntu1",
@@ -88116,6 +88116,24 @@
           "url": "https://github.com/Mahenking/King-Technology/releases/download/arduino-cli-v1.0.4/arduino-cli-1.0.4-arm64.kpk",
           "sha256": "bb53b042f13007724e45176342e3c19be94a07fad9960128adb9da498033d93a",
           "size": 14903431,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "kpm": {
+      "current": "1.4.0",
+      "arch": "arm64",
+      "description": "King Package Manager",
+      "depends": [],
+      "explicit": true,
+      "custom": true,
+      "available_versions": [
+        {
+          "version": "1.4.0",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.4.0/kpm-1.4.0-arm64.kpk",
+          "sha256": "beda18ce8da3f158b80e0ddbd2f8f1f85e079b96758b2dace0e2d759822d7665",
+          "size": 25681,
           "date_added": "2026-10-24"
         }
       ]
