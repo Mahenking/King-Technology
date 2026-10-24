@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-24T11:26:40.178107+00:00",
+  "generated": "2026-10-24T14:34:43.626243+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "41.0-1ubuntu1",
@@ -87864,6 +87864,240 @@
           "url": "https://github.com/Mahenking/King-Technology/releases/download/python3-threadpoolctl-v3.1.0-1/python3-threadpoolctl-3.1.0-1-all.kpk",
           "sha256": "56df922b8e94e3bc5b7d40dc6ac6a519cb6e0c9386c0b7e2cbe2d6b34396dd9b",
           "size": 22348,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "liblua5.4-0": {
+      "current": "5.4.6-3build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "5.4.6-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblua5.4-0-v5.4.6-3build2/liblua5.4-0-5.4.6-3build2-arm64.kpk",
+          "sha256": "246f7aa8e380e084417ef1013350746f4aea2732bb30d2fd49cb46c80034d8b9",
+          "size": 185655,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "5.4.4-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblua5.4-0-v5.4.4-1/liblua5.4-0-5.4.4-1-arm64.kpk",
+          "sha256": "ecb7d93d32be5b42396eabb01de61b183c411d46baea3545a2b0de2566a60b1b",
+          "size": 172545,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "openssh-sftp-server": {
+      "current": "1:9.6p1-3ubuntu13",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:9.6p1-3ubuntu13",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openssh-sftp-server-v9.6p1-3ubuntu13/openssh-sftp-server-9.6p1-3ubuntu13-arm64.kpk",
+          "sha256": "7bcc31544b3d208fb88db20d82c453abdaaade3e4b0cf1867e5d47c0c2f658f0",
+          "size": 41673,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "1:8.9p1-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openssh-sftp-server-v8.9p1-3/openssh-sftp-server-8.9p1-3-arm64.kpk",
+          "sha256": "8a574b26583702fa92ed89438ba4c36ee4a1fc6c457d7d747102268752f233ab",
+          "size": 41171,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "openssh-server": {
+      "current": "1:8.9p1-3",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1:8.9p1-3",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openssh-server-v8.9p1-3/openssh-server-8.9p1-3-arm64.kpk",
+          "sha256": "71f319b0b289566db669e98ba6c32c438b98d5c297b0556d7ab96c83a2baa51c",
+          "size": 467002,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "1:9.6p1-3ubuntu13",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/openssh-server-v9.6p1-3ubuntu13/openssh-server-9.6p1-3ubuntu13-arm64.kpk",
+          "sha256": "0efba07409d713dfd96c3146beee66b07feb8fa4a32dcd72fcb31ce4bb495be7",
+          "size": 588924,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "libcgroup1": {
+      "current": "2.0-2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.0-2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libcgroup1-v2.0-2/libcgroup1-2.0-2-arm64.kpk",
+          "sha256": "82a5ded921df73331c3f2018ef3a8f4f0c858a39944836a78c0e9a0317b768af",
+          "size": 56830,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "libpam-runtime": {
+      "current": "1.5.3-5ubuntu5",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.5.3-5ubuntu5",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libpam-runtime-v1.5.3-5ubuntu5/libpam-runtime-1.5.3-5ubuntu5-all.kpk",
+          "sha256": "06a70c725687fd9619bd5fd0d7d4da7cf8bdbea950c09b540034b25632ea4756",
+          "size": 27286,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "1.4.0-11ubuntu2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/libpam-runtime-v1.4.0-11ubuntu2/libpam-runtime-1.4.0-11ubuntu2-all.kpk",
+          "sha256": "1302f152d3c28c76fad225bb80b02bb94239e5bee0ed02e2d43a4b556fa3371a",
+          "size": 26102,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "nmap-common": {
+      "current": "7.91+dfsg1+really7.80+dfsg1-2build1",
+      "arch": "all",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "7.91+dfsg1+really7.80+dfsg1-2build1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nmap-common-v7.91%2Bdfsg1%2Breally7.80%2Bdfsg1-2build1/nmap-common-7.91.dfsg1.really7.80.dfsg1-2build1-all.kpk",
+          "sha256": "a59866ad505cbb72cc7a285948972c516ef10af9275611dc7272703fcfa5b970",
+          "size": 5066412,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "7.94+git20230807.3be01efb1+dfsg-3build2",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nmap-common-v7.94%2Bgit20230807.3be01efb1%2Bdfsg-3build2/nmap-common-7.94.git20230807.3be01efb1.dfsg-3build2-all.kpk",
+          "sha256": "d8ec4a50da1ce5339342293850fb758b0d46af4ab125d31ccfc4d8fe9385c5f1",
+          "size": 5404309,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "rt-tests": {
+      "current": "2.5-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.5-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/rt-tests-v2.5-1/rt-tests-2.5-1-arm64.kpk",
+          "sha256": "35f618341b144c2e3ca1fc790178c7e6fc4dce3dc554858f1e5f08489376a7ac",
+          "size": 156274,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "2.2-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/rt-tests-v2.2-1/rt-tests-2.2-1-arm64.kpk",
+          "sha256": "2074ae25aa2b2f12e40aeb92a9f50ef38ec6765beb9273c9ce3c64e8b24dc0f8",
+          "size": 148042,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "liblinear4": {
+      "current": "2.3.0+dfsg-5",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "2.3.0+dfsg-5",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblinear4-v2.3.0%2Bdfsg-5/liblinear4-2.3.0.dfsg-5-arm64.kpk",
+          "sha256": "987be4ef7a611b58057226188899e2ac9a3d25c993c50934a0d16db98f59c3dc",
+          "size": 43588,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "2.3.0+dfsg-5build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/liblinear4-v2.3.0%2Bdfsg-5build1/liblinear4-2.3.0.dfsg-5build1-arm64.kpk",
+          "sha256": "7a9fb2c8753795a30c068bb7755455e66f34c725966a40bff34c25e0382dcbf0",
+          "size": 43867,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "nmap": {
+      "current": "7.94+git20230807.3be01efb1+dfsg-3build2",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "7.94+git20230807.3be01efb1+dfsg-3build2",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nmap-v7.94%2Bgit20230807.3be01efb1%2Bdfsg-3build2/nmap-7.94.git20230807.3be01efb1.dfsg-3build2-arm64.kpk",
+          "sha256": "a88e91ff308e0b2b14b48501f1c328c6adad89ce27479c1d2dafcf6aa02c06fa",
+          "size": 1827110,
+          "date_added": "2026-10-24"
+        },
+        {
+          "version": "7.91+dfsg1+really7.80+dfsg1-2build1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/nmap-v7.91%2Bdfsg1%2Breally7.80%2Bdfsg1-2build1/nmap-7.91.dfsg1.really7.80.dfsg1-2build1-arm64.kpk",
+          "sha256": "416881260de311611f8bbb8e2e16906b630a98b711ff35b535724687d011c4e1",
+          "size": 1860907,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "sshpass": {
+      "current": "1.09-1",
+      "arch": "arm64",
+      "description": "",
+      "depends": [],
+      "explicit": false,
+      "available_versions": [
+        {
+          "version": "1.09-1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/sshpass-v1.09-1/sshpass-1.09-1-arm64.kpk",
+          "sha256": "a57f8de62876e828706d0162a8ab1d5b7f37918a62756d11c4a4bf8bebbd13d5",
+          "size": 12100,
           "date_added": "2026-10-24"
         }
       ]
