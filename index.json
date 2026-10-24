@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-10-24T14:34:43.626243+00:00",
+  "generated": "2026-10-24T16:34:58.107069+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "41.0-1ubuntu1",
@@ -88098,6 +88098,24 @@
           "url": "https://github.com/Mahenking/King-Technology/releases/download/sshpass-v1.09-1/sshpass-1.09-1-arm64.kpk",
           "sha256": "a57f8de62876e828706d0162a8ab1d5b7f37918a62756d11c4a4bf8bebbd13d5",
           "size": 12100,
+          "date_added": "2026-10-24"
+        }
+      ]
+    },
+    "arduino-cli": {
+      "current": "1.0.4",
+      "arch": "arm64",
+      "description": "Arduino CLI",
+      "depends": [],
+      "explicit": true,
+      "custom": true,
+      "available_versions": [
+        {
+          "version": "1.0.4",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/arduino-cli-v1.0.4/arduino-cli-1.0.4-arm64.kpk",
+          "sha256": "bb53b042f13007724e45176342e3c19be94a07fad9960128adb9da498033d93a",
+          "size": 14903431,
           "date_added": "2026-10-24"
         }
       ]
