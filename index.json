@@ -1144,28 +1144,17 @@
     "king-ide": {
       "current": "1.0.12",
       "arch": "arm64",
-      "description": "King IDE \u2014 Theia-based robotics IDE",
-      "depends": [
-        "libgtk-3-0",
-        "libnotify4",
-        "libnss3",
-        "libxss1",
-        "libxtst6",
-        "xdg-utils",
-        "libatspi2.0-0",
-        "libuuid1",
-        "libsecret-1-0"
-      ],
-      "explicit": true,
-      "custom": true,
+      "description": "",
+      "depends": [],
+      "explicit": false,
       "available_versions": [
         {
           "version": "1.0.12",
           "arch": "arm64",
           "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.12/king-ide-1.0.12-arm64.kpk",
-          "sha256": "5996c98ebab71901328db6f1fc0f71ec474b769dd53fcf1288b05371897c8019",
-          "size": 324903447,
-          "date_added": "2026-10-24"
+          "sha256": "c712778efe0071bd2438b9e32a3c2bfb1d641439234efd8afd02c47ad24e1cfa",
+          "size": 198681088,
+          "date_added": "2026-10-26"
         },
         {
           "version": "1.0.11",
