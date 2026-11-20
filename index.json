@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-11-20T13:44:28.407693+00:00",
+  "generated": "2026-11-20T13:45:01.592682+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -231250,6 +231250,32 @@
           "size": 107026526,
           "date_added": "2026-11-20",
           "description": "Firefox \u2014 official Mozilla build for King OS"
+        }
+      ],
+      "custom": true
+    },
+    "kingos-ros2-humble": {
+      "current": "1.0.0",
+      "arch": "all",
+      "description": "King OS integration for ROS 2 Humble",
+      "depends": [
+        "ros-humble-desktop"
+      ],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "1.0.0",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kingos-ros2-humble-v1.0.0/kingos-ros2-humble-1.0.0-all.kpk",
+          "sha256": "907ae4d56c1d1d01646fe082a74390d0d9635e40faadec30d877b30ff8928557",
+          "size": 876,
+          "date_added": "2026-11-20",
+          "depends": [
+            "ros-humble-desktop"
+          ],
+          "description": "King OS integration for ROS 2 Humble",
+          "provides": [],
+          "suite": ""
         }
       ],
       "custom": true
