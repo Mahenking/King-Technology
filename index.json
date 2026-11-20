@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-11-20T07:04:14.132345+00:00",
+  "generated": "2026-11-20T13:44:28.407693+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -9468,61 +9468,6 @@
           ],
           "provides": [],
           "description": "fast lossless compression algorithm -- CLI tool",
-          "suite": "jammy"
-        }
-      ]
-    },
-    "firefox": {
-      "current": "1:1snap1-0ubuntu5",
-      "arch": "arm64",
-      "description": "Transitional package - firefox -> firefox snap",
-      "depends": [
-        "debconf",
-        "snapd",
-        "debconf | debconf-2.0"
-      ],
-      "explicit": false,
-      "available_versions": [
-        {
-          "version": "1:1snap1-0ubuntu5",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/firefox-v1snap1-0ubuntu5/firefox-1snap1-0ubuntu5-arm64.kpk",
-          "sha256": "3163595177af9f34a629ea09c0868f8a11b273132d349ea02e3f5833bc0c41fc",
-          "size": 74853,
-          "date_added": "2026-10-05",
-          "depends": [
-            "debconf",
-            "snapd",
-            "debconf | debconf-2.0"
-          ],
-          "provides": [
-            "gnome-www-browser",
-            "iceweasel",
-            "www-browser",
-            "x-www-browser"
-          ],
-          "description": "Transitional package - firefox -> firefox snap",
-          "suite": "noble"
-        },
-        {
-          "version": "1:1snap1-0ubuntu2",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/firefox-v1snap1-0ubuntu2/firefox-1snap1-0ubuntu2-arm64.kpk",
-          "sha256": "c3fe96edb8a20ae81b7cb8bbe91ef9646633362b53a0d07a5e91181870ca85f8",
-          "size": 71514,
-          "date_added": "2026-10-05",
-          "depends": [
-            "debconf",
-            "snapd",
-            "debconf | debconf-2.0"
-          ],
-          "provides": [
-            "gnome-www-browser",
-            "iceweasel",
-            "www-browser",
-            "x-www-browser"
-          ],
-          "description": "Transitional package - firefox -> firefox snap",
           "suite": "jammy"
         }
       ]
@@ -209206,13 +209151,25 @@
       ]
     },
     "kpm": {
-      "current": "1.5.0",
-      "arch": "arm64",
+      "current": "1.5.1",
+      "arch": "all",
       "description": "King Package Manager",
       "depends": [],
       "explicit": true,
       "custom": true,
       "available_versions": [
+        {
+          "version": "1.5.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.5.1/kpm-1.5.1-all.kpk",
+          "sha256": "9d614c40212dedd4e5f4ad742438a3db3046c83834b61eeced45fd6ac5305456",
+          "size": 29660,
+          "date_added": "2026-11-20",
+          "depends": [],
+          "description": "King Package Manager",
+          "provides": [],
+          "suite": ""
+        },
         {
           "version": "1.5.0",
           "arch": "arm64",
@@ -209231,14 +209188,6 @@
           "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.4.1/kpm-1.4.1-arm64.kpk",
           "sha256": "c9f887d650781e5644f9b885ff7265a953f1286d8dcca047b7fe93e9ad631de9",
           "size": 25213,
-          "date_added": "2026-10-24"
-        },
-        {
-          "version": "1.4.0",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/kpm-v1.4.0/kpm-1.4.0-arm64.kpk",
-          "sha256": "beda18ce8da3f158b80e0ddbd2f8f1f85e079b96758b2dace0e2d759822d7665",
-          "size": 25681,
           "date_added": "2026-10-24"
         }
       ]
@@ -231285,6 +231234,25 @@
           "suite": "jammy"
         }
       ]
+    },
+    "firefox": {
+      "current": "160.0.1",
+      "arch": "arm64",
+      "description": "Firefox \u2014 official Mozilla build for King OS",
+      "depends": [],
+      "explicit": true,
+      "available_versions": [
+        {
+          "version": "160.0.1",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/firefox-v160.0.1/firefox-160.0.1-arm64.kpk",
+          "sha256": "4055fc2f2320f6c56b1eefc5bb1b3159eedd4e0647d9b781bc0828f4741f9230",
+          "size": 107026526,
+          "date_added": "2026-11-20",
+          "description": "Firefox \u2014 official Mozilla build for King OS"
+        }
+      ],
+      "custom": true
     }
   }
 }
