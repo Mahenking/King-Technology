@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-11-20T02:10:46.185975+00:00",
+  "generated": "2026-11-20T07:04:14.132345+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -2232,7 +2232,7 @@
       ]
     },
     "king-ide": {
-      "current": "1.0.12",
+      "current": "1.0.14",
       "arch": "arm64",
       "description": "Robotics-first IDE for King OS",
       "depends": [
@@ -2246,8 +2246,30 @@
         "libuuid1",
         "libsecret-1-0"
       ],
-      "explicit": false,
+      "explicit": true,
       "available_versions": [
+        {
+          "version": "1.0.14",
+          "arch": "arm64",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.14/king-ide-1.0.14-arm64.kpk",
+          "sha256": "0bcb0dd032ca56efd90e91230822a0e93b051e586707eaada5dff716305e7517",
+          "size": 171250368,
+          "date_added": "2026-11-20",
+          "depends": [
+            "libgtk-3-0",
+            "libnotify4",
+            "libnss3",
+            "libxss1",
+            "libxtst6",
+            "xdg-utils",
+            "libatspi2.0-0",
+            "libuuid1",
+            "libsecret-1-0"
+          ],
+          "description": "Robotics-first IDE for King OS",
+          "provides": [],
+          "suite": ""
+        },
         {
           "version": "1.0.12",
           "arch": "arm64",
@@ -2277,16 +2299,9 @@
           "sha256": "04e9804858bcf3d643f6846ee7eb0e011076ffcee1d5b30d692c04d6320aabd4",
           "size": 322663386,
           "date_added": "2026-10-18"
-        },
-        {
-          "version": "1.0.5",
-          "arch": "arm64",
-          "url": "https://github.com/Mahenking/King-Technology/releases/download/king-ide-v1.0.5/king-ide-1.0.5-arm64.kpk",
-          "sha256": "ee372d8c1b21ddf8aad33dfbe84c1f1eb26fdfa8fd6d2d1d0deaf22777e829d8",
-          "size": 198607085,
-          "date_added": "2026-10-05"
         }
-      ]
+      ],
+      "custom": true
     },
     "libarchive13t64": {
       "current": "3.7.2-2",
