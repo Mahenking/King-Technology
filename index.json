@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-11-20T13:45:01.592682+00:00",
+  "generated": "2026-11-20T14:13:00.516978+00:00",
   "packages": {
     "adwaita-icon-theme": {
       "current": "46.0-1",
@@ -231255,7 +231255,7 @@
       "custom": true
     },
     "kingos-ros2-humble": {
-      "current": "1.0.0",
+      "current": "1.0.1",
       "arch": "all",
       "description": "King OS integration for ROS 2 Humble",
       "depends": [
@@ -231263,6 +231263,20 @@
       ],
       "explicit": true,
       "available_versions": [
+        {
+          "version": "1.0.1",
+          "arch": "all",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/kingos-ros2-humble-v1.0.1/kingos-ros2-humble-1.0.1-all.kpk",
+          "sha256": "a8be2de11986712218d70a7d3d5abf717658c4d7df653f260fa85e66c48c9b23",
+          "size": 961,
+          "date_added": "2026-11-20",
+          "depends": [
+            "ros-humble-desktop"
+          ],
+          "description": "King OS integration for ROS 2 Humble",
+          "provides": [],
+          "suite": ""
+        },
         {
           "version": "1.0.0",
           "arch": "all",
