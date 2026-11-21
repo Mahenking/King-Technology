@@ -1,10 +1,10 @@
 {
   "format": 2,
-  "version": "2",
+  "version": "3",
   "channel": "aurora",
   "base_profile": "aurora-2.0",
-  "generated": 1795238878,
-  "valid_until": 1796448478,
+  "generated": 1795239253,
+  "valid_until": 1796448853,
   "packages": {
     "7zip": {
       "current": "21.07+dfsg-4",
