@@ -1,10 +1,10 @@
 {
   "format": 2,
-  "version": "3",
+  "version": "4",
   "channel": "aurora",
   "base_profile": "aurora-2.0",
-  "generated": 1795239253,
-  "valid_until": 1796448853,
+  "generated": 1795253423,
+  "valid_until": 1796463023,
   "packages": {
     "7zip": {
       "current": "21.07+dfsg-4",
@@ -11268,7 +11268,7 @@
         {
           "version": "3.0.4-2ubuntu2.5",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libapparmor1-3.0.4-2ubuntu2.5-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-e0/libapparmor1-3.0.4-2ubuntu2.5-arm64.kpk",
           "sha256": "839ea8c7564c82ee9debdadf9aa8cb8702141ca73a51e6ea9b64cba238de94a3",
           "size": 37932,
           "date_added": "2026-11-20",
@@ -19111,7 +19111,7 @@
         {
           "version": "0.11.5-1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libbsd0-0.11.5-1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-cf/libbsd0-0.11.5-1-arm64.kpk",
           "sha256": "780ccd7e8f843df7fde086781c0ae77e7a756986ad6889a0ec8a44ba15a4eda1",
           "size": 41556,
           "date_added": "2026-11-20",
@@ -22049,7 +22049,7 @@
         {
           "version": "1:4.4.27-1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libcrypt1-1_4.4.27-1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-59/libcrypt1-1_4.4.27-1-arm64.kpk",
           "sha256": "99175d1369095433f7c0333de624136f92ef7dd2fbe8c1f61fce10f5b34545ed",
           "size": 84154,
           "date_added": "2026-11-20",
@@ -45576,7 +45576,7 @@
         {
           "version": "1.0.5-5",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libjudydebian1-1.0.5-5-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-a9/libjudydebian1-1.0.5-5-arm64.kpk",
           "sha256": "1913737450299c818fd6dcf845885052cd9d2f594479c0fb300490b150c6d06f",
           "size": 94365,
           "date_added": "2026-11-20",
@@ -50040,7 +50040,7 @@
         {
           "version": "1.0.4-1build1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libmd0-1.0.4-1build1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-a1/libmd0-1.0.4-1build1-arm64.kpk",
           "sha256": "efb9c2d1523269bb4cd35c760d4f2735a20c277d34cffe01f579c1e7f0914b02",
           "size": 22815,
           "date_added": "2026-11-20",
@@ -70674,7 +70674,7 @@
         {
           "version": "1.0.19+dfsg-1build1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libsctp1-1.0.19+dfsg-1build1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-ec/libsctp1-1.0.19%2Bdfsg-1build1-arm64.kpk",
           "sha256": "fb0223bea4719b22bcf9dfc807859aaaf0df78c1cdbe6b9ced38d47f139e30f6",
           "size": 8601,
           "date_added": "2026-11-20",
@@ -83785,7 +83785,7 @@
         {
           "version": "0.8.1-1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/libxxhash0-0.8.1-1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-79/libxxhash0-0.8.1-1-arm64.kpk",
           "sha256": "86a1b506c42b07833a257a05ac4efb3ccb4e3dab5f35d4f5418d33029e0b53e1",
           "size": 19344,
           "date_added": "2026-11-20",
@@ -278457,7 +278457,7 @@
         {
           "version": "0.13.12-2ubuntu1",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/stress-ng-0.13.12-2ubuntu1-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-fc/stress-ng-0.13.12-2ubuntu1-arm64.kpk",
           "sha256": "03a9cb6228a25fd8e8e34a6ca253bebb2478393f9c354b9ebec1c4086cc51fbd",
           "size": 669866,
           "date_added": "2026-11-20",
@@ -281922,7 +281922,7 @@
         {
           "version": "1:1.2.11.dfsg-2ubuntu9.2",
           "arch": "arm64",
-          "url": "file:///mnt/kingos-yocto/krm6/repo/pool/zlib1g-1_1.2.11.dfsg-2ubuntu9.2-arm64.kpk",
+          "url": "https://github.com/Mahenking/King-Technology/releases/download/v2-pool-2f/zlib1g-1_1.2.11.dfsg-2ubuntu9.2-arm64.kpk",
           "sha256": "7573e027b05c5eb07084dfe1921d81a8f3845785ad51c812c930c6a4cb3e0071",
           "size": 55144,
           "date_added": "2026-11-20",
